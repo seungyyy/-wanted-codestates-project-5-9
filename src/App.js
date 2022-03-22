@@ -1,15 +1,16 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { getReviewListSuccess } from './state/reducers/registerReducer';
 import Header from './components/Header';
 import GlobalStyle from './GlobalStyle';
 import styled from 'styled-components';
+import Main from './pages/Main';
 
 
 function App() {
   const state = useSelector((state) => state);
   const dispatch = useDispatch();
-  
+
   const getData = () => {
     const add = state.register.data.unshift({
       id: 162918,
@@ -53,22 +54,24 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <Main>
+      <Container>
         <div className="wrapper">
           <Header />
+          <Main />
         </div>
-      </Main>
+      </Container>
     </>
   );
 }
 
-const Main = styled.main`
+const Container = styled.section`
   display: flex;
   justify-content: center;
   background-color: #f9f9f9;
   .wrapper {
     width: 500px;
     background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
   }
 `;
 

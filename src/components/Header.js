@@ -30,7 +30,7 @@ const Header = () => {
 }
 
 const MainHeader = styled.header`
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 20px -20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 20px -20px;
   .logo {
     padding: 1.3rem;
     width: 164px;

@@ -1,13 +1,24 @@
 import { recentData } from '../../asset/recentData';
 
-export const initialState = {
+const initialState = {
   loading: false,
   error: null,
   data: recentData,
+  loaded: false,
 };
 
 const NEW_REVIEW_REGISTER = 'NEW_REVIEW_REGISTER';
 const GET_REVIEW_REGISTER_FAILURE = 'GET_REVIEW_REGISTER_FAILURE';
+
+export const getReviewListSuccess = ({ data }) => ({
+  type: "GET_USERS_LIST_SUCCESS",
+  data,
+});
+
+export const getReviewListFailure = (data) => ({
+  type: "GET_USERS_LIST_FAILURE",
+  data,
+});
 
 export default function registerReducer(state = initialState, action) {
   switch (action.type) {
@@ -15,6 +26,7 @@ export default function registerReducer(state = initialState, action) {
       return {
         ...state,
         loading: false,
+        loaded: true,
         data: state + action.payload,
       };
     case GET_REVIEW_REGISTER_FAILURE:
@@ -22,6 +34,7 @@ export default function registerReducer(state = initialState, action) {
         ...state,
         loading: false,
         data: null,
+        loaded: true,
         error: action.payload,
       };
     default:

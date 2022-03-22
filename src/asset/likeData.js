@@ -13,12 +13,12 @@ export const likeData = [
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
     reviewSize: [
       {
-        txt: '작아요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '작아요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [
@@ -47,12 +47,12 @@ export const likeData = [
     memberSize: '몸무게 : 70 ~ 74kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm',
     reviewSize: [
       {
-        txt: '생각보다 커요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '생각보다 커요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [
@@ -298,12 +298,12 @@ export const likeData = [
     memberSize: '몸무게 : 65 ~ 69kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 175 ~ 179cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [
@@ -368,12 +368,12 @@ export const likeData = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -393,16 +393,16 @@ export const likeData = [
     memberSize: '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -423,16 +423,16 @@ export const likeData = [
       '몸무게 : 70 ~ 74kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : L',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '오버핏이에요',
-        title: '핏은 어떤가요?',
+        fitTxt: '오버핏이에요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [
@@ -500,12 +500,12 @@ export const likeData = [
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
-        txt: '작아요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '작아요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -525,16 +525,16 @@ export const likeData = [
     memberSize: '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm',
     reviewSize: [
       {
-        txt: '생각보다 커요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '생각보다 커요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -554,12 +554,12 @@ export const likeData = [
     memberSize: '몸무게 : 40 ~ 44kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [
@@ -660,12 +660,12 @@ export const likeData = [
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -685,16 +685,16 @@ export const likeData = [
       '몸무게 : 65 ~ 69kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 175 ~ 179cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : L',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [
@@ -733,12 +733,12 @@ export const likeData = [
     memberSize: '몸무게 : 40 ~ 44kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -757,12 +757,12 @@ export const likeData = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [
@@ -809,16 +809,16 @@ export const likeData = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -838,12 +838,12 @@ export const likeData = [
     memberSize: '',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -863,12 +863,12 @@ export const likeData = [
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm',
     reviewSize: [
       {
-        txt: '작아요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '작아요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -887,12 +887,12 @@ export const likeData = [
     memberSize: '몸무게 : 40 ~ 44kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 150 ~ 154cm',
     reviewSize: [
       {
-        txt: '작아요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '작아요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [
@@ -921,12 +921,12 @@ export const likeData = [
     memberSize: '',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -945,16 +945,16 @@ export const likeData = [
     memberSize: '몸무게 : 60 ~ 64kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '슬림해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '슬림해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -974,12 +974,12 @@ export const likeData = [
     memberSize: '몸무게 : 60 ~ 64kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -998,12 +998,12 @@ export const likeData = [
     memberSize: '몸무게 : 70 ~ 74kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
     reviewSize: [
       {
-        txt: '작아요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '작아요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1022,12 +1022,12 @@ export const likeData = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1048,16 +1048,16 @@ export const likeData = [
       '몸무게 : 85 ~ 89kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 185 ~ 189cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : XXL',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -1076,16 +1076,16 @@ export const likeData = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '발볼은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '발볼은 어떤가요?',
       },
     ],
     comments: [],
@@ -1105,16 +1105,16 @@ export const likeData = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '슬림해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '슬림해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -1133,16 +1133,16 @@ export const likeData = [
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '생각보다 커요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '생각보다 커요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -1162,12 +1162,12 @@ export const likeData = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1186,12 +1186,12 @@ export const likeData = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '작아요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '작아요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1211,12 +1211,12 @@ export const likeData = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '작아요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '작아요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1235,16 +1235,16 @@ export const likeData = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -1263,12 +1263,12 @@ export const likeData = [
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
     reviewSize: [
       {
-        txt: '작아요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '작아요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1289,16 +1289,16 @@ export const likeData = [
       '몸무게 : 70 ~ 74kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 175 ~ 179cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : M',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '밝아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '밝아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '슬림해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '슬림해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -1318,16 +1318,16 @@ export const likeData = [
     memberSize: '몸무게 : 60 ~ 64kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -1347,12 +1347,12 @@ export const likeData = [
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1372,16 +1372,16 @@ export const likeData = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -1401,16 +1401,16 @@ export const likeData = [
     memberSize: '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '오버핏이에요',
-        title: '핏은 어떤가요?',
+        fitTxt: '오버핏이에요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -1429,12 +1429,12 @@ export const likeData = [
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '작아요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '작아요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '어두워요',
-        title: '색상은 어떤가요?',
+        colorTxt: '어두워요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1454,12 +1454,12 @@ export const likeData = [
     memberSize: '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1479,16 +1479,16 @@ export const likeData = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '슬림해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '슬림해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -1507,12 +1507,12 @@ export const likeData = [
     memberSize: '키 : 165 ~ 169cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1531,16 +1531,16 @@ export const likeData = [
     memberSize: '몸무게 : 65 ~ 69kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '슬림해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '슬림해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -1560,12 +1560,12 @@ export const likeData = [
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '작아요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '작아요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1585,16 +1585,16 @@ export const likeData = [
     memberSize: '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 150 ~ 154cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -1613,12 +1613,12 @@ export const likeData = [
     memberSize: '몸무게 : 65 ~ 69kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 175 ~ 179cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1638,12 +1638,12 @@ export const likeData = [
     memberSize: '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1663,12 +1663,12 @@ export const likeData = [
     memberSize: '키 : 150 ~ 154cm',
     reviewSize: [
       {
-        txt: '작아요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '작아요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1688,12 +1688,12 @@ export const likeData = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1713,12 +1713,12 @@ export const likeData = [
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1737,12 +1737,12 @@ export const likeData = [
     memberSize: '',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1761,12 +1761,12 @@ export const likeData = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1786,12 +1786,12 @@ export const likeData = [
     memberSize: '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1810,12 +1810,12 @@ export const likeData = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1834,12 +1834,12 @@ export const likeData = [
     memberSize: '',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1858,12 +1858,12 @@ export const likeData = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1883,12 +1883,12 @@ export const likeData = [
     memberSize: '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1908,12 +1908,12 @@ export const likeData = [
     memberSize: '몸무게 : 60 ~ 64kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1933,12 +1933,12 @@ export const likeData = [
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -1957,16 +1957,16 @@ export const likeData = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 150 ~ 154cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -1986,12 +1986,12 @@ export const likeData = [
     memberSize: '몸무게 : 65 ~ 69kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -2011,16 +2011,16 @@ export const likeData = [
       '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : S',
     reviewSize: [
       {
-        txt: '생각보다 커요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '생각보다 커요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -2039,12 +2039,12 @@ export const likeData = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -2064,12 +2064,12 @@ export const likeData = [
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
-        txt: '작아요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '작아요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -2089,12 +2089,12 @@ export const likeData = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
     reviewSize: [
       {
-        txt: '생각보다 커요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '생각보다 커요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -2114,12 +2114,12 @@ export const likeData = [
     memberSize: '몸무게 : 90 ~ 94kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 180 ~ 184cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -2139,16 +2139,16 @@ export const likeData = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '오버핏이에요',
-        title: '핏은 어떤가요?',
+        fitTxt: '오버핏이에요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -2168,12 +2168,12 @@ export const likeData = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -2193,12 +2193,12 @@ export const likeData = [
     memberSize: '몸무게 : 40 ~ 44kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
     reviewSize: [
       {
-        txt: '작아요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '작아요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -2217,12 +2217,12 @@ export const likeData = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '어두워요',
-        title: '색상은 어떤가요?',
+        colorTxt: '어두워요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -2243,16 +2243,16 @@ export const likeData = [
       '몸무게 : 60 ~ 64kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 175 ~ 179cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : XL',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -2272,12 +2272,12 @@ export const likeData = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '밝아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '밝아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -2296,12 +2296,12 @@ export const likeData = [
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '밝아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '밝아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -2321,16 +2321,16 @@ export const likeData = [
       '몸무게 : 85 ~ 89kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 175 ~ 179cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : L',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],

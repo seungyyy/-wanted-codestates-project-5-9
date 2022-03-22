@@ -1,20 +1,49 @@
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
+import { getReviewListSuccess } from './state/reducers/registerReducer';
 
 
 function App() {
   const state = useSelector((state) => state);
- 
-  useEffect(() => { 
-    const add = state.register.data[0].comments.push({
-      id: 4395,
-      target_id: null,
-      depth: 0,
-      nickname: 'admin',
-      regdt: '2021-10-05T01:36:39.000Z',
-      dt: '23주',
-      contents: '금주의 베스트 리뷰로 선정되어 상품권 10,000원이 발급 되었습니다!',
+  const dispatch = useDispatch();
+  
+  const getData = () => {
+    const add = state.register.data.unshift({
+      id: 162918,
+      point: 4,
+      contents: '아주편하고 아주좋아요 ',
+      like: 0,
+      opt: 'CHESTNUT (15564) / 39(245)',
+      regdt: '2022-03-21 18:09:01',
+      cdt: 1647853741,
+      thumbnail: '293db7598fcf2e152407cd49024563be-t.jpg',
+      nickname: 'jo8983_',
+      memberSize: '평소 신발 사이즈 : 240',
+      reviewSize: [
+        {
+          txt: '정사이즈에요',
+          title: '사이즈는 어떤가요?',
+        },
+        {
+          txt: '화면과 같아요',
+          title: '색상은 어떤가요?',
+        },
+        {
+          txt: '적당해요',
+          title: '발볼은 어떤가요?',
+        },
+      ],
+      comments: [],
     });
+    try {
+      dispatch(getReviewListSuccess(add));
+    } catch (e) { 
+      console.log(e)
+    }
+  };
+
+  useEffect(() => { 
+    getData();
     console.log(state);
   },[])
 

@@ -1,6 +1,9 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { getReviewListSuccess } from './state/reducers/registerReducer';
+import Header from './components/Header';
+import GlobalStyle from './GlobalStyle';
+import styled from 'styled-components';
 
 
 function App() {
@@ -48,9 +51,25 @@ function App() {
   },[])
 
   return (
-    <div className="App">
-    </div>
+    <>
+      <GlobalStyle />
+      <Main>
+        <div className="wrapper">
+          <Header />
+        </div>
+      </Main>
+    </>
   );
 }
+
+const Main = styled.main`
+  display: flex;
+  justify-content: center;
+  background-color: #f9f9f9;
+  .wrapper {
+    width: 500px;
+    background-color: #fff;
+  }
+`;
 
 export default App;

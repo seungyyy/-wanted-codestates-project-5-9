@@ -9,46 +9,64 @@ export const POST_REVIEW = 'POST_REVIEW';
 export const INIT_REVIEW_DATA = 'INIT_REVIEW_DATA';
 export const ADD_REVIEW_DATA = 'ADD_REVIEW_DATA';
 
-export const getReviewDetail = (id) => ({
-  type: GET_REVIEW_DETAIL,
-  id,
-});
+export const getReviewDetail = (id) => {
+  return {
+    type: GET_REVIEW_DETAIL,
+    id,
+  }
+};
 
-export const getReviewDetaillFailure = (data) => ({
-  type: GET_REVIEW_DETAIL_FAILURE,
-  data,
-});
+export const getReviewDetaillFailure = (data) => {
+  return {
+    type: GET_REVIEW_DETAIL_FAILURE,
+    data,
+  }
+};
 
-export const postReview = (id, point, contents, opt, cdt, thumbnail) => ({
-  type: POST_REVIEW,
-  id,
-  point,
-  contents,
-  opt,
-  cdt,
-  thumbnail,
-});
+export const postReview = (id, point, contents, opt, cdt, thumbnail) => {
+  return {
+    type: POST_REVIEW,
+    id,
+    point,
+    contents,
+    opt,
+    cdt,
+    thumbnail,
+  };
+};
 
-export const getReviewSortRecent = () => ({
-  type: GET_REVIEW_SORT_RECENT,
-});
+export const getReviewSortRecent = () => {
+  return {
+    type: GET_REVIEW_SORT_RECENT,
+  }
+};
 
-export const getReviewSortLike = () => ({
-  type: GET_REVIEW_SORT_LIKE,
-});
+export const getReviewSortLike = () => {
+  return {
+    type: GET_REVIEW_SORT_LIKE,
+  }
+};
 
-export const getReviewSortBest = () => ({
-  type: GET_REVIEW_SORT_BEST,
-});
+export const getReviewSortBest = () => {
+  return { 
+    type: GET_REVIEW_SORT_BEST,
+  }
+};
 
-export const getReviewSortRandom = () => ({
-  type: GET_REVIEW_SORT_RANDOM,
-});
+export const getReviewSortRandom = () => {
+  return {
+    type: GET_REVIEW_SORT_RANDOM,
+  }
+};
 
-export const getReviewData = () => ({
-  type: GET_REVIEW_DATA,
-});
+export const getReviewData = () => {
+  return {
+    type: GET_REVIEW_DATA,
+  }
+};
 
-export const initReviewData = () => ({
-  type: INIT_REVIEW_DATA,
-});
+export const initReviewData = () => {
+  return {
+    type: INIT_REVIEW_DATA,
+  }
+};

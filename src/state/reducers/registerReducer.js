@@ -1,4 +1,4 @@
-import { data } from '../../asset/data';
+import { datas } from '../../asset/datas';
 import {
   GET_REVIEW_DETAIL,
   GET_REVIEW_DETAIL_FAILURE,
@@ -12,70 +12,101 @@ import {
 } from './actionType';
 
 const initialState = {
-  error: null,
-  data: data,
+  data: datas,
   length: 15,
 };
 
-export default function registerReducer(state = initialState, action) {
+export const registerReducer = (state = initialState, action) => {
   switch (action.type) {
-    case INIT_REVIEW_DATA:
+    case INIT_REVIEW_DATA: { 
       const data = state.data.slice(0, 15);
       return {
         ...state,
-        error: null,
-        data,
+        data: data,
         length: 15,
       };
-    case GET_REVIEW_DATA:
+    }
+    case GET_REVIEW_DATA: { 
       return {
         ...state,
-        length: state.length + 12,
+        length : state.length + 12,
       };
-    case GET_REVIEW_DETAIL_FAILURE:
+    }
+    case GET_REVIEW_DETAIL_FAILURE: { 
       return {
         ...state,
         error: action.payload,
       };
-    case GET_REVIEW_SORT_RECENT:
-      const sortRecent = [...state.data];
-      sortRecent.sort((a, b) => b.cdt - a.cdt);
-      return {
-        ...state,
-        error: null,
-        sortRecent,
-      };
-    case GET_REVIEW_SORT_LIKE:
-      const sortLike = [...state.data];
-      sortLike.sort((a, b) => b.like - a.like);
-      return {
-        ...state,
-        error: null,
-        sortLike,
-      };
-    case GET_REVIEW_SORT_BEST:
+    }
+    case GET_REVIEW_SORT_RECENT: { 
+      if (state.data.length === 69) {
+        state = initialState;
+        const sortRecent = [...state.data];
+        sortRecent.sort((a, b) => b.cdt - a.cdt);
+        return {
+          ...state,
+          data: sortRecent,
+        };
+      } else { 
+        const sortRecent = [...state.data];
+        sortRecent.sort((a, b) => b.cdt - a.cdt);
+        return {
+          ...state,
+          data: sortRecent,
+        };
+      }
+    }
+    case GET_REVIEW_SORT_LIKE: {
+      if (state.data.length === 69) {
+        state = initialState;
+        const sortLike = [...state.data];
+        sortLike.sort((a, b) => b.like - a.like);
+        return {
+          ...state,
+          data: sortLike,
+        };
+      } else {
+        const sortLike = [...state.data];
+        sortLike.sort((a, b) => b.like - a.like);
+        return {
+          ...state,
+          data: sortLike,
+        };
+      }
+    }  
+    case GET_REVIEW_SORT_BEST: { 
       const sortBest = [...state.data];
-      sortBest.filter((el) => el.open);
       return {
         ...state,
-        error: null,
-        sortBest,
+        data: sortBest.filter((el) => el.open === 'best'),
       };
-    case GET_REVIEW_SORT_RANDOM:
-      const sortRandom = [...state.data];
-      sortRandom.sort(() => Math.random() + sortRandom.length);
+    }
+    case GET_REVIEW_SORT_RANDOM: { 
+      if (state.data.length === 69) {
+        state = initialState;
+        const sortRandom = [...state.data];
+        sortRandom.sort(() => Math.random() - 0.5);
+        return {
+          ...state,
+          data: sortRandom,
+        };
+      } else {
+        const sortRandom = [...state.data];
+        sortRandom.sort(() => Math.random() - 0.5);
+        return {
+          ...state,
+          data: sortRandom,
+        };
+      }
+    }  
+    case POST_REVIEW: { 
       return {
         ...state,
-        error: null,
-        sortRandom,
-      };
-    case POST_REVIEW:
-      return {
-        ...state,
-        error: null,
         data: action.payload,
       };
-    default:
+    }
+    default: {
       return state;
+    }
   }
 };

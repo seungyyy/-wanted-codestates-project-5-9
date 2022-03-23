@@ -65,7 +65,7 @@ const Div = styled.div`
   margin-left: 1rem;
   border-radius: 25px;
   color: #4348a2;
-  background-color: #868ceb;
+  background-color: #e7e8f9;
   box-sizing: border-box;
   .choice-btn {
   }

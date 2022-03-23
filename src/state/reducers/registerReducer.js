@@ -55,7 +55,7 @@ export default function registerReducer(state = initialState, action) {
       };
     case GET_REVIEW_SORT_BEST:
       const sortBest = [...state.data];
-      sortBest.sort((a, b) => b.comments.length - a.comments.length);
+      sortBest.filter((el) => el.open);
       return {
         ...state,
         error: null,
@@ -67,7 +67,7 @@ export default function registerReducer(state = initialState, action) {
       return {
         ...state,
         error: null,
-        sortBest,
+        sortRandom,
       };
     case POST_REVIEW:
       return {

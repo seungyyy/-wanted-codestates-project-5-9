@@ -1347,6 +1347,7 @@ export const data = [
         colorTitle: '색상은 어떤가요?',
       },
     ],
+    comments: [],
   },
   {
     id: 162852,
@@ -4262,6 +4263,7 @@ export const data = [
         title: '핏은 어떤가요?',
       },
     ],
+    open: 'best',
     comments: [
       {
         id: 4440,
@@ -4311,6 +4313,7 @@ export const data = [
     regdt: '2022-02-21 14:01:04',
     cdt: 1645419664,
     nickname: 'naver_60179151',
+    open: 'best',
     memberSize:
       '몸무게 : 60 ~ 64kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : L',
     reviewSize: [
@@ -4349,6 +4352,7 @@ export const data = [
     regdt: '2022-02-21 01:27:45',
     cdt: 1645374465,
     nickname: 'aang6418',
+    open: 'best',
     memberSize:
       '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 235',
     reviewSize: [
@@ -4387,6 +4391,7 @@ export const data = [
     regdt: '2022-02-13 12:34:10',
     cdt: 1644723250,
     nickname: 'in527',
+    open: 'best',
     memberSize:
       '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 240',
     reviewSize: [
@@ -4425,6 +4430,7 @@ export const data = [
     regdt: '2022-02-07 09:46:22',
     cdt: 1644194782,
     nickname: 'yeagi1211',
+    open: 'best',
     memberSize:
       '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 245',
     reviewSize: [
@@ -4472,6 +4478,7 @@ export const data = [
     regdt: '2022-02-03 17:11:09',
     cdt: 1643875869,
     nickname: 'paradise332',
+    open: 'best',
     memberSize:
       '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 235',
     reviewSize: [
@@ -4512,6 +4519,7 @@ export const data = [
     regdt: '2022-02-02 22:38:24',
     cdt: 1643809104,
     nickname: 'angla93',
+    open: 'best',
     memberSize: '몸무게 : 65 ~ 69kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 180 ~ 184cm',
     reviewSize: [
       {
@@ -4546,6 +4554,7 @@ export const data = [
     regdt: '2022-01-20 00:01:36',
     cdt: 1642604496,
     nickname: 'kakao_1342910432',
+    open: 'best',
     memberSize:
       '몸무게 : 75 ~ 79kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 180 ~ 184cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 270',
     reviewSize: [
@@ -4621,6 +4630,7 @@ export const data = [
     regdt: '2022-01-15 17:39:02',
     cdt: 1642235942,
     nickname: 'beauty2012',
+    open: 'best',
     memberSize: '몸무게 : 35 ~ 39kg&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : M',
     reviewSize: [
       {
@@ -4668,6 +4678,7 @@ export const data = [
     regdt: '2022-01-06 07:34:52',
     cdt: 1641422092,
     nickname: 'naver_29145170',
+    open: 'best',
     memberSize:
       '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : L',
     reviewSize: [
@@ -4707,6 +4718,7 @@ export const data = [
     regdt: '2022-01-02 23:39:05',
     cdt: 1641134345,
     nickname: 'yd96209',
+    open: 'best',
     memberSize: '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
@@ -4745,6 +4757,7 @@ export const data = [
     regdt: '2021-12-30 20:04:19',
     cdt: 1640862259,
     nickname: 'yoony_929',
+    open: 'best',
     memberSize:
       '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : S',
     reviewSize: [
@@ -4784,6 +4797,7 @@ export const data = [
     regdt: '2021-12-30 10:47:13',
     cdt: 1640828833,
     nickname: 'jko940826',
+    open: 'best',
     memberSize:
       '몸무게 : 70 ~ 74kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 185 ~ 189cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : XXL',
     reviewSize: [
@@ -4823,6 +4837,7 @@ export const data = [
     regdt: '2021-12-20 22:36:21',
     cdt: 1640007381,
     nickname: 'ehijun',
+    open: 'best',
     memberSize:
       '몸무게 : 75 ~ 79kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 180 ~ 184cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : L',
     reviewSize: [
@@ -4863,6 +4878,7 @@ export const data = [
     regdt: '2021-12-15 14:16:05',
     cdt: 1639545365,
     nickname: 'ju._.2',
+    open: 'best',
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
@@ -4898,6 +4914,7 @@ export const data = [
     regdt: '2021-12-09 21:05:21',
     cdt: 1639051521,
     nickname: 'luciii',
+    open: 'best',
     memberSize:
       '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 230',
     reviewSize: [
@@ -4962,6 +4979,7 @@ export const data = [
     regdt: '2021-12-08 22:06:13',
     cdt: 1638968773,
     nickname: 'beauty2012',
+    open: 'best',
     memberSize: '몸무게 : 35 ~ 39kg&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : M',
     reviewSize: [
       {
@@ -5009,6 +5027,7 @@ export const data = [
     regdt: '2021-12-04 15:08:51',
     cdt: 1638598131,
     nickname: 'pakchic',
+    open: 'best',
     memberSize: '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
@@ -5044,6 +5063,7 @@ export const data = [
     regdt: '2021-12-01 10:28:55',
     cdt: 1638322135,
     nickname: 'choamlee',
+    open: 'best',
     memberSize:
       '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 245',
     reviewSize: [
@@ -5083,6 +5103,7 @@ export const data = [
     regdt: '2021-11-30 17:59:47',
     cdt: 1638262787,
     nickname: 'sottoyoung',
+    open: 'best',
     memberSize: '키 : 165 ~ 169cm',
     reviewSize: [
       {
@@ -5130,6 +5151,7 @@ export const data = [
     regdt: '2021-11-23 11:12:10',
     cdt: 1637633530,
     nickname: 'janet_3817',
+    open: 'best',
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
     reviewSize: [
       {
@@ -5164,6 +5186,7 @@ export const data = [
     regdt: '2021-11-22 08:23:11',
     cdt: 1637536991,
     nickname: 'hayleyisgood',
+    open: 'best',
     memberSize:
       '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : S',
     reviewSize: [
@@ -5203,6 +5226,7 @@ export const data = [
     regdt: '2021-11-22 02:10:01',
     cdt: 1637514601,
     nickname: 'nxxnxxg',
+    open: 'best',
     memberSize:
       '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : S',
     reviewSize: [
@@ -5251,6 +5275,7 @@ export const data = [
     regdt: '2021-11-17 01:23:27',
     cdt: 1637079807,
     nickname: 'ddol417',
+    open: 'best',
     memberSize:
       '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : S',
     reviewSize: [
@@ -5290,6 +5315,7 @@ export const data = [
     regdt: '2021-11-15 14:44:39',
     cdt: 1636955079,
     nickname: 'ukienni',
+    open: 'best',
     memberSize:
       '몸무게 : 80 ~ 84kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 180 ~ 184cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 275',
     reviewSize: [
@@ -5320,6 +5346,7 @@ export const data = [
     regdt: '2021-11-11 00:59:25',
     cdt: 1636559965,
     nickname: 'star0590',
+    open: 'best',
     memberSize: '평소 신발 사이즈 : 240',
     reviewSize: [
       {
@@ -5348,6 +5375,7 @@ export const data = [
     regdt: '2021-11-03 20:42:21',
     cdt: 1635939741,
     nickname: 'jimmycchu',
+    open: 'best',
     memberSize:
       '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 235',
     reviewSize: [
@@ -5377,6 +5405,7 @@ export const data = [
     regdt: '2021-11-03 18:39:23',
     cdt: 1635932363,
     nickname: 'kyolove',
+    open: 'best',
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
@@ -5401,6 +5430,7 @@ export const data = [
     regdt: '2021-11-02 10:56:49',
     cdt: 1635818209,
     nickname: 'a_zzang',
+    open: 'best',
     memberSize: '몸무게 : 40 ~ 44kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
     reviewSize: [
       {
@@ -5425,6 +5455,7 @@ export const data = [
     regdt: '2021-11-01 15:49:42',
     cdt: 1635749382,
     nickname: null,
+    open: 'best',
     memberSize:
       '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 240',
     reviewSize: [
@@ -5454,6 +5485,7 @@ export const data = [
     regdt: '2021-11-01 08:18:08',
     cdt: 1635722288,
     nickname: 'lemaire__',
+    open: 'best',
     memberSize: '몸무게 : 75 ~ 79kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 180 ~ 184cm',
     reviewSize: [
       {
@@ -5479,6 +5511,7 @@ export const data = [
     regdt: '2021-10-29 07:58:31',
     cdt: 1635461911,
     nickname: 'hwayaya',
+    open: 'best',
     memberSize:
       '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 240',
     reviewSize: [
@@ -5508,6 +5541,7 @@ export const data = [
     regdt: '2021-10-25 21:23:29',
     cdt: 1635164609,
     nickname: 'bbang_0_ho',
+    open: 'best',
     memberSize:
       '몸무게 : 75 ~ 79kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 175 ~ 179cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : XL',
     reviewSize: [
@@ -5537,6 +5571,7 @@ export const data = [
     regdt: '2021-10-23 18:20:28',
     cdt: 1634980828,
     nickname: 'y8nkim',
+    open: 'best',
     memberSize: '',
     reviewSize: [
       {
@@ -5561,6 +5596,7 @@ export const data = [
     regdt: '2021-10-19 20:24:11',
     cdt: 1634642651,
     nickname: 'qktpf0191',
+    open: 'best',
     memberSize:
       '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 240',
     reviewSize: [
@@ -5590,6 +5626,7 @@ export const data = [
     regdt: '2021-10-16 22:47:32',
     cdt: 1634392052,
     nickname: 'greatchul',
+    open: 'best',
     memberSize:
       '몸무게 : 90 ~ 94kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 175 ~ 179cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : XXL',
     reviewSize: [
@@ -5619,6 +5656,7 @@ export const data = [
     regdt: '2021-10-15 02:18:26',
     cdt: 1634231906,
     nickname: 'jungwoodari',
+    open: 'best',
     memberSize: '몸무게 : 70 ~ 74kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 180 ~ 184cm',
     reviewSize: [
       {
@@ -5643,6 +5681,7 @@ export const data = [
     regdt: '2021-10-13 13:07:14',
     cdt: 1634098034,
     nickname: 'lovu1012',
+    open: 'best',
     memberSize:
       '몸무게 : 65 ~ 69kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 175 ~ 179cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : L',
     reviewSize: [
@@ -5672,6 +5711,7 @@ export const data = [
     regdt: '2021-10-11 01:34:07',
     cdt: 1633883647,
     nickname: 'asd37373',
+    open: 'best',
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
@@ -5696,6 +5736,7 @@ export const data = [
     regdt: '2021-10-06 20:16:56',
     cdt: 1633519016,
     nickname: 'joosol8',
+    open: 'best',
     memberSize: '',
     reviewSize: [
       {
@@ -5724,6 +5765,7 @@ export const data = [
     regdt: '2021-10-05 16:44:40',
     cdt: 1633419880,
     nickname: 'hongjur',
+    open: 'best',
     memberSize:
       '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 235',
     reviewSize: [
@@ -5753,6 +5795,7 @@ export const data = [
     regdt: '2021-10-03 11:44:47',
     cdt: 1633229087,
     nickname: 'imborisister',
+    open: 'best',
     memberSize: '몸무게 : 40 ~ 44kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 150 ~ 154cm',
     reviewSize: [
       {
@@ -5777,6 +5820,7 @@ export const data = [
     regdt: '2021-09-28 14:29:23',
     cdt: 1632806963,
     nickname: 'spxlql123',
+    open: 'best',
     memberSize: '',
     reviewSize: [
       {
@@ -5801,6 +5845,7 @@ export const data = [
     regdt: '2021-09-27 15:57:54',
     cdt: 1632725874,
     nickname: 'ilikeyourdimpls',
+    open: 'best',
     memberSize: '몸무게 : 75 ~ 79kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 180 ~ 184cm',
     reviewSize: [
       {
@@ -5825,6 +5870,7 @@ export const data = [
     regdt: '2021-09-22 22:58:58',
     cdt: 1632319138,
     nickname: '혁이혁쓰의공주',
+    open: 'best',
     memberSize:
       '몸무게 : 70 ~ 74kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : L',
     reviewSize: [
@@ -5854,6 +5900,7 @@ export const data = [
     regdt: '2021-09-22 20:55:57',
     cdt: 1632311757,
     nickname: 'papalove78',
+    open: 'best',
     memberSize: '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
@@ -5878,6 +5925,7 @@ export const data = [
     regdt: '2021-09-16 20:20:11',
     cdt: 1631791211,
     nickname: 'hw0490_',
+    open: 'best',
     memberSize:
       '몸무게 : 65 ~ 69kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 180 ~ 184cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : L',
     reviewSize: [
@@ -5905,6 +5953,7 @@ export const data = [
     like: 188,
     opt: 'One Size',
     regdt: '2021-09-10 21:41:48',
+    open: 'best',
     cdt: 1631277708,
     nickname: 'jwanknows',
     memberSize: '몸무게 : 65 ~ 69kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 175 ~ 179cm',
@@ -5929,6 +5978,7 @@ export const data = [
     like: 239,
     opt: 'ONESIZE',
     regdt: '2021-09-09 13:45:29',
+    open: 'best',
     cdt: 1631162729,
     nickname: 'dalddu',
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
@@ -6014,6 +6064,7 @@ export const data = [
     regdt: '2021-08-30 06:59:09',
     cdt: 1630274349,
     nickname: 'coi602',
+    open: 'best',
     memberSize:
       '몸무게 : 40 ~ 44kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : S',
     reviewSize: [
@@ -6043,6 +6094,7 @@ export const data = [
     regdt: '2021-08-27 08:44:34',
     cdt: 1630021474,
     nickname: 'kakao_1250672865',
+    open: 'best',
     memberSize:
       '몸무게 : 60 ~ 64kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 하의 사이즈 : 29',
     reviewSize: [
@@ -6073,6 +6125,7 @@ export const data = [
     regdt: '2021-08-25 16:04:59',
     cdt: 1629875099,
     nickname: 'sarah_yun',
+    open: 'best',
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
@@ -6097,6 +6150,7 @@ export const data = [
     regdt: '2021-08-23 20:29:11',
     cdt: 1629718151,
     nickname: 'pognpogn_7998',
+    open: 'best',
     memberSize:
       '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : S',
     reviewSize: [
@@ -6124,6 +6178,7 @@ export const data = [
     like: 245,
     opt: '블랙 / U',
     regdt: '2021-08-21 17:24:55',
+    open: 'best',
     cdt: 1629534295,
     nickname: 'doden428',
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
@@ -6149,6 +6204,7 @@ export const data = [
     like: 233,
     opt: '41',
     regdt: '2021-08-16 22:34:07',
+    open: 'best',
     cdt: 1629120847,
     nickname: 'dbstjr16',
     memberSize:
@@ -6180,6 +6236,7 @@ export const data = [
     regdt: '2021-08-12 21:40:40',
     cdt: 1628772040,
     nickname: 'yoni982',
+    open: 'best',
     memberSize:
       '몸무게 : 40 ~ 44kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : XS',
     reviewSize: [
@@ -6209,6 +6266,7 @@ export const data = [
     regdt: '2021-08-11 22:33:57',
     cdt: 1628688837,
     nickname: 'rlalsgml92',
+    open: 'best',
     memberSize:
       '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 230',
     reviewSize: [
@@ -6239,6 +6297,7 @@ export const data = [
     regdt: '2021-08-09 23:54:32',
     cdt: 1628520872,
     nickname: 'y_xin',
+    open: 'best',
     memberSize: '몸무게 : 40 ~ 44kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
@@ -6263,6 +6322,7 @@ export const data = [
     regdt: '2021-08-08 19:29:01',
     cdt: 1628418541,
     nickname: 'hoo1vii',
+    open: 'best',
     memberSize:
       '몸무게 : 70 ~ 74kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 180 ~ 184cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : XL',
     reviewSize: [
@@ -6292,6 +6352,7 @@ export const data = [
     regdt: '2021-08-05 16:52:08',
     cdt: 1628149928,
     nickname: 'mimiri',
+    open: 'best',
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
@@ -6316,6 +6377,7 @@ export const data = [
     regdt: '2021-08-04 04:48:43',
     cdt: 1628020123,
     nickname: 'jinwon1612',
+    open: 'best',
     memberSize:
       '몸무게 : 70 ~ 74kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 260',
     reviewSize: [
@@ -6346,6 +6408,7 @@ export const data = [
     regdt: '2021-08-03 12:38:09',
     cdt: 1627961889,
     nickname: 'nazya_vly',
+    open: 'best',
     memberSize: '',
     reviewSize: [
       {
@@ -6371,6 +6434,7 @@ export const data = [
     regdt: '2021-07-29 23:02:39',
     cdt: 1627567359,
     nickname: 'fluer',
+    open: 'best',
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
@@ -6395,6 +6459,7 @@ export const data = [
     regdt: '2021-07-29 05:55:16',
     cdt: 1627505716,
     nickname: 'sks568',
+    open: 'best',
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm',
     reviewSize: [
       {
@@ -6419,6 +6484,7 @@ export const data = [
     regdt: '2021-07-27 22:10:18',
     cdt: 1627391418,
     nickname: 'flyinggirlv',
+    open: 'best',
     memberSize:
       '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : M',
     reviewSize: [
@@ -6448,6 +6514,7 @@ export const data = [
     regdt: '2021-07-25 14:42:47',
     cdt: 1627191767,
     nickname: 'michelle_06',
+    open: 'best',
     memberSize: '몸무게 : 60 ~ 64kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
@@ -6472,6 +6539,7 @@ export const data = [
     regdt: '2021-07-23 01:03:30',
     cdt: 1626969810,
     nickname: 'hsi1102',
+    open: 'best',
     memberSize:
       '몸무게 : 40 ~ 44kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : XS',
     reviewSize: [
@@ -6501,6 +6569,7 @@ export const data = [
     regdt: '2021-07-21 22:15:45',
     cdt: 1626873345,
     nickname: 'naver_57374063',
+    open: 'best',
     memberSize:
       '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : XS',
     reviewSize: [
@@ -6530,6 +6599,7 @@ export const data = [
     regdt: '2021-07-21 08:33:49',
     cdt: 1626824029,
     nickname: 'rlska2013',
+    open: 'best',
     memberSize:
       '몸무게 : 65 ~ 69kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 하의 사이즈 : 30',
     reviewSize: [
@@ -6559,6 +6629,7 @@ export const data = [
     regdt: '2021-07-21 01:42:02',
     cdt: 1626799322,
     nickname: 'hoon_ys',
+    open: 'best',
     memberSize:
       '몸무게 : 65 ~ 69kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 175 ~ 179cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : M',
     reviewSize: [

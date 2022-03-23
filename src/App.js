@@ -26,7 +26,7 @@ const Container = styled.section`
   .wrapper {
     width: 500px;
     background-color: #fff;
-    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.02) 0px 15px 10px -15px;
   }
 `;
 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import styled from 'styled-components';
 import {
@@ -7,15 +7,10 @@ import {
   getReviewSortBest,
   getReviewSortRandom,
 } from '../state/reducers/actionType';
-import PropTypes from 'prop-types';
 
 const Modal = (props) => {
   const dispatch = useDispatch();
   const state = useSelector((state) => state.register.data);
-  console.log(state)
-  // useEffect(() => {
-  //   dispatch(getReviewSortRecent());
-  // }, []);
 
   const sortList = [
     {
@@ -42,7 +37,11 @@ const Modal = (props) => {
 
   const handleClickChoice = (e) => {
     if (e.target.matches('.recent')) {
-      dispatch(getReviewSortRecent());
+      if (state.length === 69) {
+
+      } else { 
+        dispatch(getReviewSortRecent());
+      }
       console.log(dispatch(getReviewSortRecent()));
     } else if (e.target.matches('.random')) {
       dispatch(getReviewSortRandom())
@@ -89,11 +88,5 @@ const ModalContent = styled.ul`
     }
   }
 `;
-
-Modal.propTypes = {
-  setDataList: PropTypes.func,
-  data: PropTypes.array,
-};
-
 
 export default Modal;

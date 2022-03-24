@@ -8,7 +8,6 @@ import {
   GET_REVIEW_SORT_BEST,
   GET_REVIEW_SORT_RANDOM,
   POST_REVIEW,
-  INIT_REVIEW_DATA,
 } from './actionType';
 
 const initialState = {
@@ -18,18 +17,10 @@ const initialState = {
 
 export const registerReducer = (state = initialState, action) => {
   switch (action.type) {
-    case INIT_REVIEW_DATA: { 
-      const data = state.data.slice(0, 15);
-      return {
-        ...state,
-        data: data,
-        length: 15,
-      };
-    }
     case GET_REVIEW_DATA: { 
       return {
         ...state,
-        length : state.length + 12,
+        length : state.length + 15,
       };
     }
     case GET_REVIEW_DETAIL_FAILURE: { 

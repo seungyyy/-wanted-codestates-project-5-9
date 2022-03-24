@@ -6,7 +6,6 @@ export const GET_REVIEW_SORT_LIKE = 'GET_REVIEW_SORT_LIKE';
 export const GET_REVIEW_SORT_BEST = 'GET_REVIEW_SORT_BEST';
 export const GET_REVIEW_SORT_RANDOM = 'GET_REVIEW_SORT_RANDOM';
 export const POST_REVIEW = 'POST_REVIEW';
-export const INIT_REVIEW_DATA = 'INIT_REVIEW_DATA';
 export const ADD_REVIEW_DATA = 'ADD_REVIEW_DATA';
 
 export const getReviewDetail = (id) => {
@@ -62,11 +61,5 @@ export const getReviewSortRandom = () => {
 export const getReviewData = () => {
   return {
     type: GET_REVIEW_DATA,
-  }
-};
-
-export const initReviewData = () => {
-  return {
-    type: INIT_REVIEW_DATA,
   }
 };

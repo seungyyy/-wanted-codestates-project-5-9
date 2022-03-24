@@ -1,33 +1,5 @@
 export const datas = [
   {
-    id: 162918,
-    point: 4,
-    contents: '아주편하고 아주좋아요 ',
-    like: 0,
-    opt: 'CHESTNUT (15564) / 39(245)',
-    open: '',
-    regdt: '2022-03-21 18:09:01',
-    cdt: 1647853741,
-    thumbnail: '293db7598fcf2e152407cd49024563be-t.jpg',
-    nickname: 'jo8983_',
-    memberSize: '평소 신발 사이즈 : 240',
-    reviewSize: [
-      {
-        sizeTxt: '정사이즈에요',
-        sizeTitle: '사이즈는 어떤가요?',
-      },
-      {
-        colorTxt: '화면과 같아요',
-        colorTitle: '색상은 어떤가요?',
-      },
-      {
-        fooTxt: '적당해요',
-        footTitle: '발볼은 어떤가요?',
-      },
-    ],
-    comments: [],
-  },
-  {
     id: 162917,
     point: 5,
     contents: '빠른배송 너무좋습니다',
@@ -3196,32 +3168,6 @@ export const datas = [
     comments: [],
   },
   {
-    id: 103823,
-    point: 5,
-    contents:
-      '배송기간이 좀 걸리긴했지만 미리통화로 안내를해주셔서 인내심을가지고 기다릴수있었습니당 ^^  가방 넘 이쁘구 잘맬께용❤',
-    thumbnail: '67901adb5bd1d7e905a55fc9ba9c0100-t.jpg',
-    hashtags: ['데이트', '결혼식'],
-    like: 621,
-    opt: 'Black  / mini',
-    open: '',
-    regdt: '2021-12-15 14:16:05',
-    cdt: 1639545365,
-    nickname: 'ju._.2',
-    memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
-    reviewSize: [
-      {
-        sizeTxt: '정사이즈에요',
-        sizeTitle: '사이즈는 어떤가요?',
-      },
-      {
-        colorTxt: '화면과 같아요',
-        colorTitle: '색상은 어떤가요?',
-      },
-    ],
-    comments: [],
-  },
-  {
     id: 11090,
     point: 5,
     contents:
@@ -3361,41 +3307,6 @@ export const datas = [
       },
     ],
     comments: [],
-  },
-  {
-    id: 94271,
-    point: 5,
-    contents: '제가 생각했던 것 처럼 너무 예뻤고, 어디에나 잘 어울렸어요 ',
-    thumbnail: '4d52800fe81b637106556b58940cc80c-t.jpeg',
-    hashtags: ['데이트', '결혼식', '로맨틱'],
-    like: 598,
-    opt: '네이비 블루 실크 트윌 / 무료배송',
-    open: '',
-    regdt: '2021-11-30 17:59:47',
-    cdt: 1638262787,
-    nickname: 'sottoyoung',
-    memberSize: '키 : 165 ~ 169cm',
-    reviewSize: [
-      {
-        sizeTxt: '정사이즈에요',
-        sizeTitle: '사이즈는 어떤가요?',
-      },
-      {
-        colorTxt: '화면과 같아요',
-        colorTitle: '색상은 어떤가요?',
-      },
-    ],
-    comments: [
-      {
-        id: 3389,
-        target_id: null,
-        depth: 0,
-        nickname: 'admin',
-        regdt: '2021-12-01T02:49:57.000Z',
-        dt: '15주',
-        contents: '금주의 베스트 리뷰로 선정되어 상품권 10,000원이 발급 되었습니다!',
-      },
-    ],
   },
   {
     id: 12966,
@@ -4255,7 +4166,7 @@ export const datas = [
     thumbnail: '44cbea94e62dc80fbc4ecfed4b73e29a-t.jpeg',
     like: 107,
     opt: '34',
-    open: '',
+    open: 'best',
     regdt: '2022-02-22 04:28:59',
     cdt: 1645471739,
     nickname: 'errorr',
@@ -4275,7 +4186,6 @@ export const datas = [
         title: '핏은 어떤가요?',
       },
     ],
-    open: 'best',
     comments: [
       {
         id: 4440,

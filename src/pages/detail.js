@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import DetailReview from '../components/DetailReview';
+import DetailHeader from '../components/DetailHeader';
 
 const Detail = () => {
   return (
-    <div>Detail</div>
+    <>
+      <DetailHeader />
+      <DetailReview />
+    </>
   )
 }
 

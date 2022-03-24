@@ -1,6 +1,5 @@
 import { datas } from '../../asset/datas';
 import {
-  GET_REVIEW_DETAIL,
   GET_REVIEW_DETAIL_FAILURE,
   GET_REVIEW_DATA,
   GET_REVIEW_SORT_RECENT,

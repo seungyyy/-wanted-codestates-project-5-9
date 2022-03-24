@@ -1,18 +1,23 @@
-import Header from './components/Header';
 import GlobalStyle from './GlobalStyle';
 import styled from 'styled-components';
 import Main from './pages/Main';
-
+import Review from './pages/Review';
+import Detail from './pages/Detail';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
-
   return (
     <>
       <GlobalStyle />
       <Container>
         <div className="wrapper">
-          <Header />
-          <Main />
+          <BrowserRouter>
+            <Routes>
+              <Route path="/"  element={<Main />} />
+              <Route path="/detail" element={<Detail />} />
+              <Route path="/review" element={<Review />} />
+            </Routes>
+          </BrowserRouter>
         </div>
       </Container>
     </>

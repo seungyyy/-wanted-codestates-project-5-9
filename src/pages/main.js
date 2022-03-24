@@ -5,6 +5,7 @@ import List from '../components/List';
 import Grid from '../components/Grid';
 import ListMenu from '../components/ListMenu';
 import SortFilter from '../components/SortFilter';
+import Header from '../components/Header';
 
 
 const Main = () => {
@@ -25,6 +26,7 @@ const Main = () => {
 
   return (
     <>
+      <Header />
       <SortFilter />
       <ListMenu feature={handleChange} active={list} />
       {list === 'grid' ? <Grid /> : <List />}

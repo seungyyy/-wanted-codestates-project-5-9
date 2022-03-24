@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { useDispatch, useSelector } from 'react-redux';
 import { getReviewData } from '../state/reducers/actionType';
 import { TailSpin } from 'react-loader-spinner';
+import { useNavigate } from 'react-router';
 
 const defaultOption = {
   root: null,
@@ -14,6 +15,7 @@ const Grid = () => {
   const [isLoaded, setIsLoaded] = useState(true);
   const [ref, setRef] = useState(null);
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const { data, length } = useSelector((state) => ({
     length: state.register.length,
     data: state.register.data,
@@ -44,12 +46,19 @@ const Grid = () => {
     return () => observer && observer.disconnect();
   }, [ref, onIntersect]);
 
+  const handleClickMovePage = (id) => { 
+    navigate({
+      pathname: '/detail',
+      search: `?review=${id}`,
+    });
+  }
+
   return (
     <GridContainer>
       <ul className="grid-ul">
         {data.slice(0, length).map((item) => {
           return (
-            <li key={item.id} className="grid-list">
+            <li key={item.id} className="grid-list" onClick={() => handleClickMovePage(item.nickname)}>
               <img src={'https://i.balaan.io/review/' + item.thumbnail} alt="리뷰이미지" />
             </li>
           );
@@ -65,6 +74,7 @@ const Grid = () => {
 }
 
 const GridContainer = styled.article`
+  margin-top: 2px;
   .grid-ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

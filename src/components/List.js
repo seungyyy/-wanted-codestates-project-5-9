@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import styled from 'styled-components';
 import { useDispatch, useSelector } from 'react-redux';
-import { getReviewData } from '../state/reducers/actionType';
+import { getReviewData, toggleLikeData } from '../state/reducers/actionType';
 import { TailSpin } from 'react-loader-spinner';
 import Comments from './Comments';
 
@@ -14,6 +14,7 @@ const defaultOption = {
 const List = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [ref, setRef] = useState(null);
+  const [isLike, setIsLike] = useState(false);
 
   const dispatch = useDispatch();
   const { data, length } = useSelector((state) => ({
@@ -42,7 +43,13 @@ const List = () => {
       observer.observe(ref);
     }
     return () => observer && observer.disconnect();
-  },[ref, onIntersect])
+  }, [ref, onIntersect])
+  
+  const handleToggleLike = (id) => { 
+    dispatch(toggleLikeData(id));
+    setIsLike(!isLike);
+  }
+  
   return (
     <ListContainter>
       <ul className="list-ul">
@@ -57,30 +64,44 @@ const List = () => {
             <DetailContent>
               <ul className="detail-icon">
                 <li>
-                  <button>
-                    <img
-                      src="https://static.balaan.co.kr/mobile/img/icon/like_hand.png"
-                      alt="좋아요버튼"
-                      className="like-btn"
-                    />
+                  <button
+                    onClick={() => {
+                      handleToggleLike(item.id);
+                    }}
+                    className="like-btn"
+                  >
+                    {isLike === false && (
+                      <img
+                        src="https://static.balaan.co.kr/mobile/img/icon/like_hand.png"
+                        alt="좋아요버튼"
+                        className="like-img"
+                      />
+                    )}
+                    {isLike === true && (
+                      <img
+                        src="https://static.balaan.co.kr/mobile/img/review/like-hand-fill.png?v4"
+                        alt="좋아요버튼"
+                        className="like-img"
+                      />
+                    )}
                     <span className="like-btn-txt">{item.like}</span>
                   </button>
                 </li>
                 <li>
-                  <button>
+                  <button className="share-btn">
                     <img
                       src="https://static.balaan.co.kr/mobile/img/view/share.png?v=2"
                       alt="공유하기버튼"
-                      className="share-btn"
+                      className="share-img"
                     />
                   </button>
                 </li>
                 <li className="save-btn-list">
-                  <button>
+                  <button className="save-btn">
                     <img
                       src="https://static.balaan.co.kr/mobile/img/icon/ic-new-heart-normal.png"
                       alt="저장하기버튼"
-                      className="save-btn"
+                      className="save-img"
                     />
                   </button>
                 </li>
@@ -204,13 +225,18 @@ const DetailContent = styled.div`
   .detail-icon {
     display: flex;
     align-items: center;
+    .like-btn,
+    .save-btn,
+    .share-btn {
+      cursor: pointer;
+    }
     .save-btn-list {
       flex: none;
       margin-left: auto;
     }
-    .like-btn,
-    .share-btn,
-    .save-btn {
+    .like-img,
+    .share-img,
+    .save-img {
       width: 31px;
       object-fit: contain;
     }

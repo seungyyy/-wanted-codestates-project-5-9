@@ -41,10 +41,9 @@ const Comments = ({ data }) => {
   }
   
   const handleKeyPress = (e) => { 
-    if (e.keyCode === 13) { 
-      if (e.target.value.length > 0) { 
+    if (e.keyCode === 13 && e.target.value !== '') { 
         AddComment();
-      }
+        inputRef.current.value = '';
     }
   }
 
@@ -70,7 +69,7 @@ const Comments = ({ data }) => {
         </Ul>
       )}
       <div className="comment-inp">
-        <input type="text" placeholder="댓글을 입력해주세요." ref={inputRef} onKeyPress={handleKeyPress} />
+        <input type="text" placeholder="댓글을 입력해주세요." ref={inputRef} onKeyUp={handleKeyPress} />
         <button type="button" onClick={handleCommentSave}>
           게시
         </button>

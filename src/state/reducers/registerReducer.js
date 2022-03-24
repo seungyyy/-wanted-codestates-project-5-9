@@ -9,6 +9,7 @@ import {
   GET_REVIEW_SORT_RANDOM,
   POST_REVIEW,
   ADD_COMMIT_DATA,
+  TOGGLE_LIKE_DATA,
 } from './actionType';
 
 const initialState = {
@@ -121,6 +122,31 @@ export const registerReducer = (state = initialState, action) => {
       return {
         ...state,
         data: comment,
+      };
+    }
+    case TOGGLE_LIKE_DATA: { 
+      const likes = state.data.map((item) => { 
+        if (item.id === action.id) {
+          if (item.isLike === false) {
+            return {
+              ...item,
+              like: item.like + 1,
+              isLike: true,
+            };
+          } else {
+            return {
+              ...item,
+              like: item.like - 1,
+              isLike: false,
+            };
+          }
+        } else { 
+          return item;
+        }
+      })
+      return {
+        ...state,
+        data: likes,
       };
     }
     default: {

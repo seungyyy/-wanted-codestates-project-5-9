@@ -2,14 +2,21 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import Modal from './Modal';
 import { FaRedoAlt } from 'react-icons/fa';
+import { useDispatch } from 'react-redux';
+import { getReviewSortRecent } from '../state/reducers/actionType';
 
 const SortFilter = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [btnTxt, setBtnTxt] = useState('최신순');
+  const dispatch = useDispatch();
 
   const handleClickSortBtn = () => {
     setIsOpen(!isOpen);
   };
+
+  const handleChangeRefresh = () => { 
+    dispatch(getReviewSortRecent());
+  }
 
   return (
     <Container>
@@ -18,7 +25,7 @@ const SortFilter = () => {
       </Button>
       <span className="choiceBtn">전체</span>
       <span className="choiceBtn">{btnTxt}</span>
-      <div className="icon-container">
+      <div className="icon-container" onClick={handleChangeRefresh}>
         <FaRedoAlt size={20} color={'#DBDBDB'} />
       </div>
       {isOpen && <Modal open={setIsOpen} txt={setBtnTxt} name={btnTxt} />}

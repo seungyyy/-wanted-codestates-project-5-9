@@ -7,12 +7,24 @@ export const GET_REVIEW_SORT_BEST = 'GET_REVIEW_SORT_BEST';
 export const GET_REVIEW_SORT_RANDOM = 'GET_REVIEW_SORT_RANDOM';
 export const POST_REVIEW = 'POST_REVIEW';
 export const ADD_REVIEW_DATA = 'ADD_REVIEW_DATA';
+export const ADD_COMMIT_DATA = 'ADD_COMMIT_DATA';
 
 export const getReviewDetail = (id) => {
   return {
     type: GET_REVIEW_DETAIL,
     id,
   }
+};
+
+export const AddCommitData = (id, commentsId, nickname, regdt, contents) => {
+  return {
+    type: ADD_COMMIT_DATA,
+    id,
+    commentsId,
+    nickname,
+    regdt,
+    contents,
+  };
 };
 
 export const getReviewDetaillFailure = (data) => {

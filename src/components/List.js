@@ -153,7 +153,7 @@ const List = () => {
                 </li>
               )}
             </ReviewSize>
-            <Comments user={item.id} />
+            <Comments data={item.id} />
           </li>
         ))}
         {isLoading && (
@@ -247,6 +247,7 @@ const DetailContent = styled.div`
     letter-spacing: -1px;
     color: #020202;
     font-size: 18px;
+    line-height: 1.7;
   }
 `;
 
@@ -258,20 +259,26 @@ const ReviewSize = styled.ul`
   overflow: hidden;
   box-sizing: border-box;
   li {
-    padding: 5px 10px;
+    padding: 8px 10px;
     border: 1px solid #e5e5e5;
     box-sizing: border-box;
     border-radius: 20px;
     font-size: 16px;
     white-space: nowrap;
-    &:nth-child(2n){
+    &:nth-child(n) {
       margin-left: 10px;
+    }
+    &:first-child {
+      margin-left: 0;
+    }
+    .reviewSize-Tit {
+      font-size: 14px;
     }
     .reviewSize-Txt {
       margin-left: 10px;
-      color: #122f5c;
+      color: #4348a2;
     }
-  }  
+  }
 `;
 
 export default List;

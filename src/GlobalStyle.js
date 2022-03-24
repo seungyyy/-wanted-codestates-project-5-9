@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   font-family: 'Lato', sans-serif;
+  color: #222;
 }
 ol, ul, li {
   list-style: none;
@@ -49,6 +50,7 @@ button {
   background: inherit;
   border: none;
   font-family: 'Lato', sans-serif;
+  color: #222;
 }
 img {
   width: 100%;

@@ -4174,16 +4174,16 @@ export const datas = [
       '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : XS',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '슬림해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '슬림해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [
@@ -4206,7 +4206,7 @@ export const datas = [
         contents: '금주의 베스트 리뷰로 선정되어 상품권 10,000원이 발급 되었습니다!',
       },
       {
-        id: 4369,
+        id: 4336,
         target_id: null,
         depth: 0,
         nickname: 'happys2',
@@ -4240,16 +4240,16 @@ export const datas = [
       '몸무게 : 60 ~ 64kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : L',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [
@@ -4273,21 +4273,22 @@ export const datas = [
     opt: '40',
     cdt: 1644723450,
     nickname: 'aang6418',
+    regdt: '2022-02-21 01:27:45',
     open: 'best',
     memberSize:
       '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 235',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [
@@ -4312,20 +4313,21 @@ export const datas = [
     cdt: 1644723250,
     nickname: 'in527',
     open: 'best',
+    regdt: '2022-02-13 12:34:10',
     memberSize:
       '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 240',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '발볼은 어떤가요?',
+        fooTxt: '적당해요',
+        footTitle: '발볼은 어떤가요?',
       },
     ],
     comments: [
@@ -4350,20 +4352,21 @@ export const datas = [
     cdt: 1644194782,
     nickname: 'yeagi1211',
     open: 'best',
+    regdt: '2022-02-07 09:46:22',
     memberSize:
       '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 245',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '발볼은 어떤가요?',
+        fooTxt: '적당해요',
+        footTitle: '발볼은 어떤가요?',
       },
     ],
     comments: [
@@ -4396,21 +4399,22 @@ export const datas = [
     opt: '36.5',
     cdt: 1643875869,
     nickname: 'paradise332',
+    regdt: '2022-02-03 17:11:09',
     open: 'best',
     memberSize:
       '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 235',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '발볼은 어떤가요?',
+        fooTxt: '적당해요',
+        footTitle: '발볼은 어떤가요?',
       },
     ],
     comments: [
@@ -4436,16 +4440,17 @@ export const datas = [
     opt: '그레이멜란지(당일발송) / UNIQUE',
     cdt: 1643809104,
     nickname: 'angla93',
+    regdt: '2022-02-02 22:38:24',
     open: 'best',
     memberSize: '몸무게 : 65 ~ 69kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 180 ~ 184cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [
@@ -4470,21 +4475,22 @@ export const datas = [
     opt: '42',
     cdt: 1642604496,
     nickname: 'kakao_1342910432',
+    regdt: '2022-01-20 00:01:36',
     open: 'best',
     memberSize:
       '몸무게 : 75 ~ 79kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 180 ~ 184cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 270',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '발볼은 어떤가요?',
+        fooTxt: '적당해요',
+        footTitle: '발볼은 어떤가요?',
       },
     ],
     comments: [
@@ -4546,19 +4552,20 @@ export const datas = [
     cdt: 1642235942,
     nickname: 'beauty2012',
     open: 'best',
+    regdt: '2022-01-15 17:39:02',
     memberSize: '몸무게 : 35 ~ 39kg&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : M',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [
@@ -4592,21 +4599,22 @@ export const datas = [
     opt: '블랙 / s',
     cdt: 1641422092,
     nickname: 'naver_29145170',
+    regdt: '2022-01-06 07:34:52',
     open: 'best',
     memberSize:
       '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : L',
     reviewSize: [
       {
-        txt: '생각보다 커요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '생각보다 커요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '오버핏이에요',
-        title: '핏은 어떤가요?',
+        fitTxt: '오버핏이에요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [
@@ -4632,19 +4640,20 @@ export const datas = [
     cdt: 1641134345,
     nickname: 'yd96209',
     open: 'best',
+    regdt: '2022-01-02 23:39:05',
     memberSize: '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '오버핏이에요',
-        title: '핏은 어떤가요?',
+        fitTxt: '오버핏이에요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [
@@ -4669,21 +4678,22 @@ export const datas = [
     opt: 'S / 사이즈',
     cdt: 1640862259,
     nickname: 'yoony_929',
+    regdt: '2021-12-30 20:04:19',
     open: 'best',
     memberSize:
       '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : S',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [
@@ -4708,21 +4718,22 @@ export const datas = [
     opt: '50',
     cdt: 1640828833,
     nickname: 'jko940826',
+    regdt: '2021-12-30 10:47:13',
     open: 'best',
     memberSize:
       '몸무게 : 70 ~ 74kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 185 ~ 189cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : XXL',
     reviewSize: [
       {
-        txt: '생각보다 커요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '생각보다 커요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '오버핏이에요',
-        title: '핏은 어떤가요?',
+        fitTxt: '오버핏이에요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [
@@ -4747,21 +4758,22 @@ export const datas = [
     opt: '52',
     cdt: 1640007381,
     nickname: 'ehijun',
+    regdt: '2021-12-20 22:36:21',
     open: 'best',
     memberSize:
       '몸무게 : 75 ~ 79kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 180 ~ 184cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : L',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [
@@ -4787,16 +4799,17 @@ export const datas = [
     opt: 'Black  / mini',
     cdt: 1639545365,
     nickname: 'ju._.2',
+    regdt: '2021-12-15 14:16:05',
     open: 'best',
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [
@@ -4823,20 +4836,21 @@ export const datas = [
     cdt: 1639051521,
     nickname: 'luciii',
     open: 'best',
+    regdt: '2021-12-09 21:05:21',
     memberSize:
       '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 230',
     reviewSize: [
       {
-        txt: '작아요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '작아요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '좁아요',
-        title: '발볼은 어떤가요?',
+        fooTxt: '좁아요',
+        footTitle: '발볼은 어떤가요?',
       },
     ],
     comments: [
@@ -4887,19 +4901,20 @@ export const datas = [
     cdt: 1638968773,
     nickname: 'beauty2012',
     open: 'best',
+    regdt: '2021-12-08 22:06:13',
     memberSize: '몸무게 : 35 ~ 39kg&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : M',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '슬림해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '슬림해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [
@@ -4933,16 +4948,17 @@ export const datas = [
     opt: 'ONE SIZE',
     cdt: 1638598131,
     nickname: 'pakchic',
+    regdt: '2021-12-04 15:08:51',
     open: 'best',
     memberSize: '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [
@@ -4969,21 +4985,22 @@ export const datas = [
     regdt: '2021-12-01 10:28:55',
     cdt: 1638322135,
     nickname: 'choamlee',
+    regdt: '2021-12-01 10:28:55',
     open: 'best',
     memberSize:
       '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 245',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '발볼은 어떤가요?',
+        fooTxt: '적당해요',
+        footTitle: '발볼은 어떤가요?',
       },
     ],
     comments: [
@@ -5010,15 +5027,16 @@ export const datas = [
     cdt: 1638262787,
     nickname: 'sottoyoung',
     open: 'best',
+    regdt: '2021-11-30 17:59:47',
     memberSize: '키 : 165 ~ 169cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [
@@ -5061,12 +5079,12 @@ export const datas = [
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
     reviewSize: [
       {
-        txt: '작아요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '작아요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [
@@ -5097,16 +5115,16 @@ export const datas = [
       '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : S',
     reviewSize: [
       {
-        txt: '생각보다 커요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '생각보다 커요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '오버핏이에요',
-        title: '핏은 어떤가요?',
+        fitTxt: '오버핏이에요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [
@@ -5137,16 +5155,16 @@ export const datas = [
       '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : S',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '슬림해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '슬림해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [
@@ -5186,16 +5204,16 @@ export const datas = [
       '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : S',
     reviewSize: [
       {
-        txt: '생각보다 커요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '생각보다 커요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '밝아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '밝아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '오버핏이에요',
-        title: '핏은 어떤가요?',
+        fitTxt: '오버핏이에요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [
@@ -5226,16 +5244,16 @@ export const datas = [
       '몸무게 : 80 ~ 84kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 180 ~ 184cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 275',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '발볼은 어떤가요?',
+        fooTxt: '적당해요',
+        footTitle: '발볼은 어떤가요?',
       },
     ],
     comments: [],
@@ -5256,16 +5274,16 @@ export const datas = [
     memberSize: '평소 신발 사이즈 : 240',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '좁아요',
-        title: '발볼은 어떤가요?',
+        fooTxt: '좁아요',
+        footTitle: '발볼은 어떤가요?',
       },
     ],
     comments: [],
@@ -5286,16 +5304,16 @@ export const datas = [
       '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 235',
     reviewSize: [
       {
-        txt: '작아요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '작아요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '좁아요',
-        title: '발볼은 어떤가요?',
+        fooTxt: '좁아요',
+        footTitle: '발볼은 어떤가요?',
       },
     ],
     comments: [],
@@ -5315,12 +5333,12 @@ export const datas = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
-        txt: '생각보다 커요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '생각보다 커요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -5340,12 +5358,12 @@ export const datas = [
     memberSize: '몸무게 : 40 ~ 44kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -5366,16 +5384,16 @@ export const datas = [
       '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 240',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        txtsizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '발볼은 어떤가요?',
+        fooTxt: '적당해요',
+        footTitle: '발볼은 어떤가요?',
       },
     ],
     comments: [],
@@ -5395,12 +5413,12 @@ export const datas = [
     memberSize: '몸무게 : 75 ~ 79kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 180 ~ 184cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -5422,16 +5440,16 @@ export const datas = [
       '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 240',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '발볼은 어떤가요?',
+        fooTxt: '적당해요',
+        footTitle: '발볼은 어떤가요?',
       },
     ],
     comments: [],
@@ -5452,16 +5470,16 @@ export const datas = [
       '몸무게 : 75 ~ 79kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 175 ~ 179cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : XL',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '슬림해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '슬림해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -5481,12 +5499,12 @@ export const datas = [
     memberSize: '',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -5507,16 +5525,16 @@ export const datas = [
       '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 240',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '발볼은 어떤가요?',
+        fooTxt: '적당해요',
+        footTitle: '발볼은 어떤가요?',
       },
     ],
     comments: [],
@@ -5537,16 +5555,16 @@ export const datas = [
       '몸무게 : 90 ~ 94kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 175 ~ 179cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : XXL',
     reviewSize: [
       {
-        txt: '생각보다 커요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '생각보다 커요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '어두워요',
-        title: '색상은 어떤가요?',
+        colorTxt: '어두워요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '오버핏이에요',
-        title: '핏은 어떤가요?',
+        fitTxt: '오버핏이에요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -5566,12 +5584,12 @@ export const datas = [
     memberSize: '몸무게 : 70 ~ 74kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 180 ~ 184cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -5592,16 +5610,16 @@ export const datas = [
       '몸무게 : 65 ~ 69kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 175 ~ 179cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : L',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -5621,12 +5639,12 @@ export const datas = [
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -5646,16 +5664,16 @@ export const datas = [
     memberSize: '',
     reviewSize: [
       {
-        txt: '생각보다 커요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '생각보다 커요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '발볼은 어떤가요?',
+        fooTxt: '적당해요',
+        footTitle: '발볼은 어떤가요?',
       },
     ],
     comments: [],
@@ -5676,16 +5694,16 @@ export const datas = [
       '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 235',
     reviewSize: [
       {
-        txt: '생각보다 커요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '생각보다 커요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '발볼은 어떤가요?',
+        fooTxt: '적당해요',
+        footTitle: '발볼은 어떤가요?',
       },
     ],
     comments: [],
@@ -5705,12 +5723,12 @@ export const datas = [
     memberSize: '몸무게 : 40 ~ 44kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 150 ~ 154cm',
     reviewSize: [
       {
-        txt: '작아요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '작아요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [
@@ -5740,12 +5758,12 @@ export const datas = [
     memberSize: '',
     reviewSize: [
       {
-        txt: '작아요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '작아요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -5765,12 +5783,12 @@ export const datas = [
     memberSize: '몸무게 : 75 ~ 79kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 180 ~ 184cm',
     reviewSize: [
       {
-        txt: '작아요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '작아요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -5791,16 +5809,16 @@ export const datas = [
       '몸무게 : 70 ~ 74kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : L',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -5820,12 +5838,12 @@ export const datas = [
     memberSize: '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -5846,16 +5864,16 @@ export const datas = [
       '몸무게 : 65 ~ 69kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 180 ~ 184cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : L',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '밝아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '밝아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -5875,12 +5893,12 @@ export const datas = [
     memberSize: '몸무게 : 65 ~ 69kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 175 ~ 179cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -5987,16 +6005,16 @@ export const datas = [
       '몸무게 : 40 ~ 44kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : S',
     reviewSize: [
       {
-        txt: '생각보다 커요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '생각보다 커요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -6017,16 +6035,16 @@ export const datas = [
       '몸무게 : 60 ~ 64kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 하의 사이즈 : 29',
     reviewSize: [
       {
-        txt: '생각보다 커요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '생각보다 커요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '오버핏이에요',
-        title: '핏은 어떤가요?',
+        fitTxt: '오버핏이에요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -6047,12 +6065,12 @@ export const datas = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -6073,16 +6091,16 @@ export const datas = [
       '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : S',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '밝아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '밝아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '슬림해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '슬림해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -6102,12 +6120,12 @@ export const datas = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -6129,16 +6147,16 @@ export const datas = [
       '몸무게 : 60 ~ 64kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 180 ~ 184cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 255',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '밝아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '밝아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '발볼은 어떤가요?',
+        fooTxt: '적당해요',
+        footTitle: '발볼은 어떤가요?',
       },
     ],
     comments: [],
@@ -6159,16 +6177,16 @@ export const datas = [
       '몸무게 : 40 ~ 44kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : XS',
     reviewSize: [
       {
-        txt: '생각보다 커요',
-        title: '사이즈는 어떤가요?',
+        txsizeTxtt: '생각보다 커요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -6189,16 +6207,16 @@ export const datas = [
       '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 230',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '발볼은 어떤가요?',
+        fooTxt: '적당해요',
+        footTitle: '발볼은 어떤가요?',
       },
     ],
     comments: [],
@@ -6219,12 +6237,12 @@ export const datas = [
     memberSize: '몸무게 : 40 ~ 44kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -6245,16 +6263,16 @@ export const datas = [
       '몸무게 : 70 ~ 74kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 180 ~ 184cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : XL',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -6274,12 +6292,12 @@ export const datas = [
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -6300,16 +6318,16 @@ export const datas = [
       '몸무게 : 70 ~ 74kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 260',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '발볼은 어떤가요?',
+        fooTxt: '적당해요',
+        footTitle: '발볼은 어떤가요?',
       },
     ],
     comments: [],
@@ -6330,12 +6348,12 @@ export const datas = [
     memberSize: '',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -6356,12 +6374,12 @@ export const datas = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -6381,12 +6399,12 @@ export const datas = [
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm',
     reviewSize: [
       {
-        txt: '작아요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '작아요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -6407,16 +6425,16 @@ export const datas = [
       '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : M',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -6436,12 +6454,12 @@ export const datas = [
     memberSize: '몸무게 : 60 ~ 64kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
       {
-        txt: '생각보다 커요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '생각보다 커요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
     ],
     comments: [],
@@ -6462,16 +6480,16 @@ export const datas = [
       '몸무게 : 40 ~ 44kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : XS',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -6492,16 +6510,16 @@ export const datas = [
       '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : XS',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -6522,16 +6540,16 @@ export const datas = [
       '몸무게 : 65 ~ 69kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 하의 사이즈 : 30',
     reviewSize: [
       {
-        txt: '정사이즈에요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '정사이즈에요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '적당해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '적당해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],
@@ -6552,16 +6570,16 @@ export const datas = [
       '몸무게 : 65 ~ 69kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 175 ~ 179cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : M',
     reviewSize: [
       {
-        txt: '작아요',
-        title: '사이즈는 어떤가요?',
+        sizeTxt: '작아요',
+        sizeTitle: '사이즈는 어떤가요?',
       },
       {
-        txt: '화면과 같아요',
-        title: '색상은 어떤가요?',
+        colorTxt: '화면과 같아요',
+        colorTitle: '색상은 어떤가요?',
       },
       {
-        txt: '슬림해요',
-        title: '핏은 어떤가요?',
+        fitTxt: '슬림해요',
+        fitTitle: '핏은 어떤가요?',
       },
     ],
     comments: [],

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { initReviewData, getReviewSortRecent } from '../state/reducers/actionType';
+import { getReviewSortRecent } from '../state/reducers/actionType';
 import List from '../components/List';
 import Grid from '../components/Grid';
 import ListMenu from '../components/ListMenu';
@@ -21,7 +21,7 @@ const Main = () => {
   
   useEffect(() => {
     dispatch(getReviewSortRecent());
-  }, []);
+  }, [dispatch]);
 
   return (
     <>

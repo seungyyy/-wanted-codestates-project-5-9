@@ -1,5 +1,5 @@
 import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import styled from 'styled-components';
 import {
   getReviewSortRecent,
@@ -10,7 +10,6 @@ import {
 
 const Modal = (props) => {
   const dispatch = useDispatch();
-  const state = useSelector((state) => state.register.data);
 
   const sortList = [
     {
@@ -37,12 +36,7 @@ const Modal = (props) => {
 
   const handleClickChoice = (e) => {
     if (e.target.matches('.recent')) {
-      if (state.length === 69) {
-
-      } else { 
-        dispatch(getReviewSortRecent());
-      }
-      console.log(dispatch(getReviewSortRecent()));
+      dispatch(getReviewSortRecent());
     } else if (e.target.matches('.random')) {
       dispatch(getReviewSortRandom())
     } else if (e.target.matches('.like')) {
@@ -55,26 +49,37 @@ const Modal = (props) => {
   };
 
   return (
-    <ModalContent>
-      {sortList.map((item) => (
-        <li
-          key={item.id}
-          className={`${props.name === item.content ? 'active ' + item.name : item.name}`}
-          onClick={handleClickChoice}
-        >
-          {item.content}
-        </li>
-      ))}
-    </ModalContent>
+    <ModalBg onClick={() => {props.open(false)}}>
+      <ModalContent>
+        {sortList.map((item) => (
+          <li
+            key={item.id}
+            className={`${props.name === item.content ? 'active ' + item.name : item.name}`}
+            onClick={handleClickChoice}
+          >
+            {item.content}
+          </li>
+        ))}
+      </ModalContent>
+    </ModalBg>
   );
 }
+const ModalBg = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+`;
 
 const ModalContent = styled.ul`
   position: absolute;
   padding: 1rem;
   font-size: 16px;
   line-height: 34px;
-  top: 80px;
+  top: 200px;
+  left: 300px;
   border: 1px solid #ddd;
   background-color: #fff;
   z-index: 20;

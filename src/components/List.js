@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getReviewData, toggleLikeData } from '../state/reducers/actionType';
 import { TailSpin } from 'react-loader-spinner';
 import Comments from './Comments';
+import ShareModal from './ShareModal';
 
 const defaultOption = {
   root: null,
@@ -15,6 +16,7 @@ const List = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [ref, setRef] = useState(null);
   const [isLike, setIsLike] = useState(false);
+  const [isShare, setIsShare] = useState(false);
 
   const dispatch = useDispatch();
   const { data, length } = useSelector((state) => ({
@@ -49,9 +51,14 @@ const List = () => {
     dispatch(toggleLikeData(id));
     setIsLike(!isLike);
   }
-  
+
+  const handleShareUrl = () => { 
+    setIsShare(!isShare);
+  }
+
   return (
     <ListContainter>
+      {isShare && <ShareModal open={setIsShare} />}
       <ul className="list-ul">
         {data.slice(0, length).map((item) => (
           <li key={item.id}>
@@ -88,7 +95,7 @@ const List = () => {
                   </button>
                 </li>
                 <li>
-                  <button className="share-btn">
+                  <button className="share-btn" onClick={handleShareUrl}>
                     <img
                       src="https://static.balaan.co.kr/mobile/img/view/share.png?v=2"
                       alt="공유하기버튼"

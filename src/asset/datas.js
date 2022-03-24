@@ -5142,7 +5142,6 @@ export const datas = [
     regdt: '2021-12-01 10:28:55',
     cdt: 1638322135,
     nickname: 'choamlee',
-    regdt: '2021-12-01 10:28:55',
     open: 'best',
     memberSize:
       '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 245',
@@ -5185,7 +5184,6 @@ export const datas = [
     cdt: 1638262787,
     nickname: 'sottoyoung',
     open: 'best',
-    regdt: '2021-11-30 17:59:47',
     memberSize: '키 : 165 ~ 169cm',
     reviewSize: [
       {

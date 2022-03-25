@@ -56,6 +56,10 @@ img {
   width: 100%;
   vertical-align: top;
 }
+textarea {
+  color: #222;
+  font-family: 'Lato', sans-serif;
+}
 `;
 
 

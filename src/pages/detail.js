@@ -1,11 +1,11 @@
 import React from 'react';
 import DetailReview from '../components/DetailReview';
-import DetailHeader from '../components/DetailHeader';
+import DetailHeader from '../components/common/DetailHeader';
 
 const Detail = () => {
   return (
     <>
-      <DetailHeader />
+      <DetailHeader detail titleTxt="리뷰 상세보기"/>
       <DetailReview />
     </>
   )

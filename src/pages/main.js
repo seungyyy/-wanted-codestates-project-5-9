@@ -6,7 +6,7 @@ import Grid from '../components/Grid';
 import ListMenu from '../components/ListMenu';
 import SortFilter from '../components/SortFilter';
 import Header from '../components/Header';
-
+import TopButton from '../components/TopButton';
 
 const Main = () => {
   const [list, setList] = useState('grid');
@@ -29,6 +29,7 @@ const Main = () => {
       <Header />
       <SortFilter />
       <ListMenu feature={handleChange} active={list} />
+      <TopButton />
       {list === 'grid' ? <Grid /> : <List />}
     </>
   );

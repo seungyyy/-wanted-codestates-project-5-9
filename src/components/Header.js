@@ -64,7 +64,6 @@ const MainHeader = styled.header`
 `;
 
 const Navbar = styled.nav`
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 20px -20px;
   .nav {
     display: flex;
     .nav-btn {
@@ -72,6 +71,7 @@ const Navbar = styled.nav`
       padding: 1rem 1.3rem 0.5rem;
       font-size: 1.2rem;
       font-weight: 700;
+      box-sizing: border-box;
       color: #555;
       cursor: pointer;
     }

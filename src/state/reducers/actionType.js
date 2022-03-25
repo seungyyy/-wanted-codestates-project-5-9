@@ -34,15 +34,10 @@ export const getReviewDetaillFailure = (data) => {
   }
 };
 
-export const postReview = (id, point, contents, regdt, cdt, thumbnail) => {
+export const postReview = (data) => {
   return {
     type: POST_REVIEW,
-    id,
-    point,
-    contents,
-    regdt,
-    cdt,
-    thumbnail,
+    data,
   };
 };
 

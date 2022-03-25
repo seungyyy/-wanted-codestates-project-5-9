@@ -2776,42 +2776,6 @@ export const datas = [
     comments: [],
   },
   {
-    id: 65703,
-    point: 5,
-    contents: '생각보단 조금 작았지만 충분히 수납력 좋고 너무 시크해여 ㅎㅎㅎ넘 예뻐요! 배송도 엄청 빨랐어요',
-    thumbnail: '3497e0b682a8e63cdd9b7c82c3ac7b71-t.jpeg',
-    isLike: false,
-    hashtags: ['데일리', '출근룩', '시크', '럭셔리'],
-    like: 819,
-    opt: 'UNI / 393953 BOW02 1000',
-    open: '',
-    regdt: '2021-10-03 11:44:47',
-    cdt: 1633229087,
-    nickname: 'imborisister',
-    memberSize: '몸무게 : 40 ~ 44kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 150 ~ 154cm',
-    reviewSize: [
-      {
-        sizeTxt: '작아요',
-        sizeTitle: '사이즈는 어떤가요?',
-      },
-      {
-        colorTxt: '화면과 같아요',
-        colorTitle: '색상은 어떤가요?',
-      },
-    ],
-    comments: [
-      {
-        id: 2772,
-        target_id: null,
-        depth: 0,
-        nickname: 'admin',
-        regdt: '2021-10-05T01:36:39.000Z',
-        dt: '23주',
-        contents: '금주의 베스트 리뷰로 선정되어 상품권 10,000원이 발급 되었습니다!',
-      },
-    ],
-  },
-  {
     id: 72124,
     point: 5,
     contents: '미니 미니해요 \n이쁩니다!!\n이번 주말에 놀러갈때 사용 해보겠습니다',

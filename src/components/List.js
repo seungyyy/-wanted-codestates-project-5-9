@@ -56,6 +56,10 @@ const List = () => {
     setIsShare(!isShare);
   }
 
+  const handleClickSaveReview = () => {
+    alert('로그인하셔야 본 서비스를 이용하실 수 있습니다');
+  }
+
   return (
     <ListContainter>
       {isShare && <ShareModal open={setIsShare} />}
@@ -67,7 +71,15 @@ const List = () => {
               <p className="review-date">{item.regdt.split(' ').slice(0, 1)}</p>
               <button className="report-icon"></button>
             </div>
-            <img src={'https://i.balaan.io/review/' + item.thumbnail} alt="리뷰이미지" className="review-thumb" />
+            <img
+              src={
+                item.thumbnail.includes('data:image') === false
+                  ? 'https://i.balaan.io/review/' + item.thumbnail
+                  : item.thumbnail
+              }
+              alt="리뷰이미지"
+              className="review-thumb"
+            />
             <DetailContent>
               <ul className="detail-icon">
                 <li>
@@ -104,7 +116,7 @@ const List = () => {
                   </button>
                 </li>
                 <li className="save-btn-list">
-                  <button className="save-btn">
+                  <button className="save-btn" onClick={handleClickSaveReview}>
                     <img
                       src="https://static.balaan.co.kr/mobile/img/icon/ic-new-heart-normal.png"
                       alt="저장하기버튼"
@@ -164,14 +176,20 @@ const List = () => {
               <p className="review-txt">{item.contents}</p>
             </DetailContent>
             <ReviewSize>
-              <li>
-                <span className="reviewSize-Tit">{item.reviewSize[0].sizeTitle && item.reviewSize[0].sizeTitle}</span>
-                <span className="reviewSize-Txt">{item.reviewSize[0].sizeTxt && item.reviewSize[0].sizeTxt}</span>
-              </li>
-              <li>
-                <span className="reviewSize-Tit">{item.reviewSize[1].colorTitle && item.reviewSize[1].colorTitle}</span>
-                <span className="reviewSize-Txt">{item.reviewSize[1].colorTxt && item.reviewSize[1].colorTxt}</span>
-              </li>
+              {item.reviewSize[0] && (
+                <li>
+                  <span className="reviewSize-Tit">{item.reviewSize[0].sizeTitle && item.reviewSize[0].sizeTitle}</span>
+                  <span className="reviewSize-Txt">{item.reviewSize[0].sizeTxt && item.reviewSize[0].sizeTxt}</span>
+                </li>
+              )}
+              {item.reviewSize[1] && (
+                <li>
+                  <span className="reviewSize-Tit">
+                    {item.reviewSize[1].colorTitle && item.reviewSize[1].colorTitle}
+                  </span>
+                  <span className="reviewSize-Txt">{item.reviewSize[1].colorTxt && item.reviewSize[1].colorTxt}</span>
+                </li>
+              )}
               {item.reviewSize[2] && (
                 <li>
                   <span className="reviewSize-Tit">{item.reviewSize[2]?.footTitle || item.reviewSize.footTitle}</span>

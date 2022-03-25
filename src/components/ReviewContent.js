@@ -4,6 +4,7 @@ import { FaRegFileImage, FaRegWindowClose } from 'react-icons/fa';
 import ReviewCont from './common/ReviewCont';
 import { postReview } from '../state/reducers/actionType';
 import { useDispatch } from 'react-redux'; 
+import { useNavigate } from 'react-router';
 
 const ReviewContent = () => {
   const [files, setFiles] = useState('');
@@ -12,7 +13,8 @@ const ReviewContent = () => {
   const dispatch = useDispatch();
   const refInp = useRef();
   const refTxt = useRef();
-
+  const navigate = useNavigate();
+  
   const onLoadFile = (e) => {
     let reader = new FileReader();
     if (e.target.files[0]) {
@@ -37,11 +39,6 @@ const ReviewContent = () => {
   }
 
   const handleSubmit = () => { 
-    const id = Math.floor(Math.random() * (900000 - 50000) + 100000)
-    const point = points;
-    const regdt = new Date().toLocaleString();
-    const cdt = new Date().getTime();
-    const thumbnail = files;
     if (refInp.current.value.length < 1) {
       refInp.current.focus();
       return;
@@ -53,7 +50,24 @@ const ReviewContent = () => {
     if (!files) {
       return;
     }
-    dispatch(postReview(id, point, regdt, cdt, thumbnail));
+    const addData = {
+      like: 0,
+      opt: '',
+      open: '',
+      comments: [],
+      memberSize: '',
+      reviewSize: [],
+      isLike: false,
+      point: points,
+      regdt: new Date().toLocaleString(),
+      thumbnail: files,
+      contents: refTxt.current.value,
+      nickname: 'testUser' + toString(Math.floor(Math.random() * (900 - 100) + 100)),
+      id: Math.floor(Math.random() * (900000 - 50000) + 100000),
+    };
+
+    dispatch(postReview(addData));
+    navigate('/');
   }
   
 

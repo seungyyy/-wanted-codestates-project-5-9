@@ -70,7 +70,7 @@ const ModalBg = styled.div`
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 10;
+  z-index: 50;
 `;
 
 const ModalContent = styled.ul`
@@ -78,11 +78,14 @@ const ModalContent = styled.ul`
   padding: 1rem;
   font-size: 16px;
   line-height: 34px;
-  top: 200px;
-  left: 300px;
+  top: calc(100% / 3);
+  left: calc(100% / 500);
+  transform: translate(450%, -65%);
+  width: 130px;
+  box-sizing: border-box;
   border: 1px solid #ddd;
   background-color: #fff;
-  z-index: 20;
+  z-index: 100;
   .random,
   .like,
   .best,

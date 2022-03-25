@@ -6,7 +6,6 @@ import {
   GET_REVIEW_SORT_LIKE,
   GET_REVIEW_SORT_BEST,
   GET_REVIEW_SORT_RANDOM,
-  POST_REVIEW,
   ADD_COMMIT_DATA,
   TOGGLE_LIKE_DATA,
 } from './actionType';
@@ -91,12 +90,6 @@ export const registerReducer = (state = initialState, action) => {
         };
       }
     }
-    case POST_REVIEW: {
-      return {
-        ...state,
-        data: action.payload,
-      };
-    }
     case ADD_COMMIT_DATA: {
       const comment = state.data.map((item) => {
         if (item.id === action.id) {
@@ -123,8 +116,8 @@ export const registerReducer = (state = initialState, action) => {
         data: comment,
       };
     }
-    case TOGGLE_LIKE_DATA: { 
-      const likes = state.data.map((item) => { 
+    case TOGGLE_LIKE_DATA: {
+      const likes = state.data.map((item) => {
         if (item.id === action.id) {
           if (item.isLike === false) {
             return {
@@ -139,10 +132,10 @@ export const registerReducer = (state = initialState, action) => {
               isLike: false,
             };
           }
-        } else { 
+        } else {
           return item;
         }
-      })
+      });
       return {
         ...state,
         data: likes,

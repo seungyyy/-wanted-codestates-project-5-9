@@ -25,133 +25,158 @@ const DetailReview = () => {
     setIsShare(!isShare);
   };
 
+  const handleClickSaveReview = () => {
+    alert('로그인하셔야 본 서비스를 이용하실 수 있습니다');
+  };
+
   return (
     <ListContainter>
       {isShare && <ShareModal open={setIsShare} />}
       <ul className="list-ul">
-        {data.map((item) =>  item.nickname === reviewNick &&
-          <li key={item.id}>
-            <div className="item-header">
-              <strong>{item.nickname}</strong>
-              <p className="review-date">{item.regdt.split(' ').slice(0, 1)}</p>
-              <button className="report-icon"></button>
-            </div>
-            <img src={'https://i.balaan.io/review/' + item.thumbnail} alt="리뷰이미지" className="review-thumb" />
-            <DetailContent>
-              <ul className="detail-icon">
-                <li>
-                  <button
-                    onClick={() => {
-                      handleToggleLike(item.id);
-                    }}
-                    className="like-btn"
-                  >
-                    {isLike === false && (
-                      <img
-                        src="https://static.balaan.co.kr/mobile/img/icon/like_hand.png"
-                        alt="좋아요버튼"
-                        className="like-img"
-                      />
-                    )}
-                    {isLike === true && (
-                      <img
-                        src="https://static.balaan.co.kr/mobile/img/review/like-hand-fill.png?v4"
-                        alt="좋아요버튼"
-                        className="like-img"
-                      />
-                    )}
-                    <span className="like-btn-txt">{item.like}</span>
-                  </button>
-                </li>
-                <li>
-                  <button className="share-btn" onClick={handleShareUrl}>
-                    <img
-                      src="https://static.balaan.co.kr/mobile/img/view/share.png?v=2"
-                      alt="공유하기버튼"
-                      className="share-img"
-                    />
-                  </button>
-                </li>
-                <li className="save-btn-list">
-                  <button className="save-btn">
-                    <img
-                      src="https://static.balaan.co.kr/mobile/img/icon/ic-new-heart-normal.png"
-                      alt="저장하기버튼"
-                      className="save-img"
-                    />
-                  </button>
-                </li>
-              </ul>
-              {item.point === 1 && (
-                <div className="star-container">
-                  <span className="star-on star"></span>
-                  <span className="star-off star"></span>
-                  <span className="star-off star"></span>
-                  <span className="star-off star"></span>
-                  <span className="star-off star"></span>
+        {data.map(
+          (item) =>
+            item.nickname === reviewNick && (
+              <li key={item.id}>
+                <div className="item-header">
+                  <strong>{item.nickname}</strong>
+                  <p className="review-date">{item.regdt.split(' ').slice(0, 1)}</p>
+                  <button className="report-icon"></button>
                 </div>
-              )}
-              {item.point === 2 && (
-                <div className="star-container">
-                  <span className="star-on star"></span>
-                  <span className="star-on star"></span>
-                  <span className="star-off star"></span>
-                  <span className="star-off star"></span>
-                  <span className="star-off star"></span>
-                </div>
-              )}
-              {item.point === 3 && (
-                <div className="star-container">
-                  <span className="star-on star"></span>
-                  <span className="star-on star"></span>
-                  <span className="star-on star"></span>
-                  <span className="star-off star"></span>
-                  <span className="star-off star"></span>
-                </div>
-              )}
-              {item.point === 4 && (
-                <div className="star-container">
-                  <span className="star-on star"></span>
-                  <span className="star-on star"></span>
-                  <span className="star-on star"></span>
-                  <span className="star-on star"></span>
-                  <span className="star-off star"></span>
-                </div>
-              )}
-              {item.point === 5 && (
-                <div className="star-container">
-                  <span className="star-on star"></span>
-                  <span className="star-on star"></span>
-                  <span className="star-on star"></span>
-                  <span className="star-on star"></span>
-                  <span className="star-on star"></span>
-                </div>
-              )}
-              <p className="member-size">
-                구매옵션명:{item.opt.replace('옵션 /', '')} / {item.memberSize.replace('/', ' / ').split('&nbsp;')}
-              </p>
-              <p className="review-txt">{item.contents}</p>
-            </DetailContent>
-            <ReviewSize>
-              <li>
-                <span className="reviewSize-Tit">{item.reviewSize[0].sizeTitle && item.reviewSize[0].sizeTitle}</span>
-                <span className="reviewSize-Txt">{item.reviewSize[0].sizeTxt && item.reviewSize[0].sizeTxt}</span>
+                <img
+                  src={
+                    item.thumbnail.includes('data:image') === false
+                      ? 'https://i.balaan.io/review/' + item.thumbnail
+                      : item.thumbnail
+                  }
+                  alt="리뷰이미지"
+                  className="review-thumb"
+                />
+                <DetailContent>
+                  <ul className="detail-icon">
+                    <li>
+                      <button
+                        onClick={() => {
+                          handleToggleLike(item.id);
+                        }}
+                        className="like-btn"
+                      >
+                        {isLike === false && (
+                          <img
+                            src="https://static.balaan.co.kr/mobile/img/icon/like_hand.png"
+                            alt="좋아요버튼"
+                            className="like-img"
+                          />
+                        )}
+                        {isLike === true && (
+                          <img
+                            src="https://static.balaan.co.kr/mobile/img/review/like-hand-fill.png?v4"
+                            alt="좋아요버튼"
+                            className="like-img"
+                          />
+                        )}
+                        <span className="like-btn-txt">{item.like}</span>
+                      </button>
+                    </li>
+                    <li>
+                      <button className="share-btn" onClick={handleShareUrl}>
+                        <img
+                          src="https://static.balaan.co.kr/mobile/img/view/share.png?v=2"
+                          alt="공유하기버튼"
+                          className="share-img"
+                        />
+                      </button>
+                    </li>
+                    <li className="save-btn-list" onClick={handleClickSaveReview}>
+                      <button className="save-btn">
+                        <img
+                          src="https://static.balaan.co.kr/mobile/img/icon/ic-new-heart-normal.png"
+                          alt="저장하기버튼"
+                          className="save-img"
+                        />
+                      </button>
+                    </li>
+                  </ul>
+                  {item.point === 1 && (
+                    <div className="star-container">
+                      <span className="star-on star"></span>
+                      <span className="star-off star"></span>
+                      <span className="star-off star"></span>
+                      <span className="star-off star"></span>
+                      <span className="star-off star"></span>
+                    </div>
+                  )}
+                  {item.point === 2 && (
+                    <div className="star-container">
+                      <span className="star-on star"></span>
+                      <span className="star-on star"></span>
+                      <span className="star-off star"></span>
+                      <span className="star-off star"></span>
+                      <span className="star-off star"></span>
+                    </div>
+                  )}
+                  {item.point === 3 && (
+                    <div className="star-container">
+                      <span className="star-on star"></span>
+                      <span className="star-on star"></span>
+                      <span className="star-on star"></span>
+                      <span className="star-off star"></span>
+                      <span className="star-off star"></span>
+                    </div>
+                  )}
+                  {item.point === 4 && (
+                    <div className="star-container">
+                      <span className="star-on star"></span>
+                      <span className="star-on star"></span>
+                      <span className="star-on star"></span>
+                      <span className="star-on star"></span>
+                      <span className="star-off star"></span>
+                    </div>
+                  )}
+                  {item.point === 5 && (
+                    <div className="star-container">
+                      <span className="star-on star"></span>
+                      <span className="star-on star"></span>
+                      <span className="star-on star"></span>
+                      <span className="star-on star"></span>
+                      <span className="star-on star"></span>
+                    </div>
+                  )}
+                  <p className="member-size">
+                    구매옵션명:{item.opt.replace('옵션 /', '')} / {item.memberSize.replace('/', ' / ').split('&nbsp;')}
+                  </p>
+                  <p className="review-txt">{item.contents}</p>
+                </DetailContent>
+                <ReviewSize>
+                  {item.reviewSize[0] &&
+                    <li>
+                      <span className="reviewSize-Tit">
+                        {item.reviewSize[0].sizeTitle && item.reviewSize[0].sizeTitle}
+                      </span>
+                      <span className="reviewSize-Txt">{item.reviewSize[0].sizeTxt && item.reviewSize[0].sizeTxt}</span>
+                    </li>
+                  }
+                  {item.reviewSize[1] &&
+                    <li>
+                      <span className="reviewSize-Tit">
+                        {item.reviewSize[1].colorTitle && item.reviewSize[1].colorTitle}
+                      </span>
+                      <span className="reviewSize-Txt">{item.reviewSize[1].colorTxt && item.reviewSize[1].colorTxt}</span>
+                    </li>
+                  }
+                  {item.reviewSize[2] && (
+                    <li>
+                      <span className="reviewSize-Tit">
+                        {item.reviewSize[2]?.footTitle || item.reviewSize.footTitle}
+                      </span>
+                      <span className="reviewSize-Txt">{item.reviewSize[2]?.fooTxt || item.reviewSize.fooTxt}</span>
+                      <span className="reviewSize-Tit">{item.reviewSize[2]?.fitTitle || item.reviewSize.fitTitle}</span>
+                      <span className="reviewSize-Txt">{item.reviewSize[2]?.fitTxt || item.reviewSize.fitTxt}</span>
+                    </li>
+                  )}
+                </ReviewSize>
+                <Comments data={item.id} />
               </li>
-              <li>
-                <span className="reviewSize-Tit">{item.reviewSize[1].colorTitle && item.reviewSize[1].colorTitle}</span>
-                <span className="reviewSize-Txt">{item.reviewSize[1].colorTxt && item.reviewSize[1].colorTxt}</span>
-              </li>
-              {item.reviewSize[2] && (
-                <li>
-                  <span className="reviewSize-Tit">{item.reviewSize[2]?.footTitle || item.reviewSize.footTitle}</span>
-                  <span className="reviewSize-Txt">{item.reviewSize[2]?.fooTxt || item.reviewSize.fooTxt}</span>
-                  <span className="reviewSize-Tit">{item.reviewSize[2]?.fitTitle || item.reviewSize.fitTitle}</span>
-                  <span className="reviewSize-Txt">{item.reviewSize[2]?.fitTxt || item.reviewSize.fitTxt}</span>
-                </li>
-              )}
-            </ReviewSize>
-            <Comments data={item.id} />
-          </li>
+            )
         )}
       </ul>
     </ListContainter>

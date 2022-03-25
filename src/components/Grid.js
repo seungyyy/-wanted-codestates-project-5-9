@@ -59,7 +59,7 @@ const Grid = () => {
         {data.slice(0, length).map((item) => {
           return (
             <li key={item.id} className="grid-list" onClick={() => handleClickMovePage(item.nickname)}>
-              <img src={'https://i.balaan.io/review/' + item.thumbnail} alt="리뷰이미지" />
+              <img src={item.thumbnail.includes('data:image') === false ? 'https://i.balaan.io/review/' + item.thumbnail : item.thumbnail} alt="리뷰이미지" />
             </li>
           );
         })}

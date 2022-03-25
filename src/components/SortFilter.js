@@ -47,7 +47,7 @@ const Container = styled.div`
     line-height: 43px;
     font-size: 16px;
     font-weight: 600;
-    margin-left: .7rem;
+    margin-left: 0.7rem;
     border-radius: 25px;
     color: #4348a2;
     background-color: #e7e8f9;
@@ -75,7 +75,8 @@ const Button = styled.button`
   background-size: 15px;
   background-position: right 15px center;
   span {
-    padding: 0 .5rem;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
   }
 `;
 

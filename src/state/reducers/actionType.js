@@ -1,4 +1,3 @@
-export const GET_REVIEW_DETAIL = 'GET_REVIEW_DETAIL';
 export const GET_REVIEW_DETAIL_FAILURE = 'GET_REVIEW_DETAIL_FAILURE';
 export const GET_REVIEW_DATA = 'GET_REVIEW_DATA';
 export const GET_REVIEW_SORT_RECENT = 'GET_REVIEW_SORT_RECENT';
@@ -8,13 +7,14 @@ export const GET_REVIEW_SORT_RANDOM = 'GET_REVIEW_SORT_RANDOM';
 export const POST_REVIEW = 'POST_REVIEW';
 export const ADD_REVIEW_DATA = 'ADD_REVIEW_DATA';
 export const ADD_COMMIT_DATA = 'ADD_COMMIT_DATA';
+export const TOGGLE_LIKE_DATA = 'TOGGLE_LIKE_DATA';
 
-export const getReviewDetail = (id) => {
+export const toggleLikeData = (id) => { 
   return {
-    type: GET_REVIEW_DETAIL,
+    type: TOGGLE_LIKE_DATA,
     id,
-  }
-};
+  };
+}
 
 export const AddCommitData = (id, commentsId, nickname, regdt, contents) => {
   return {
@@ -34,15 +34,10 @@ export const getReviewDetaillFailure = (data) => {
   }
 };
 
-export const postReview = (id, point, contents, opt, cdt, thumbnail) => {
+export const postReview = (data) => {
   return {
     type: POST_REVIEW,
-    id,
-    point,
-    contents,
-    opt,
-    cdt,
-    thumbnail,
+    data,
   };
 };
 

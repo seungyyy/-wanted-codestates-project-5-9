@@ -9,6 +9,7 @@ export const datas = [
     regdt: '2022-03-21 18:08:56',
     cdt: 1647853736,
     thumbnail: '23109ad925a49a571913ea9b301d8027-t.jpeg',
+    isLike: false,
     nickname: 'sghbaby',
     memberSize: '몸무게 : 75 ~ 79kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm',
     reviewSize: [
@@ -33,6 +34,7 @@ export const datas = [
     regdt: '2022-03-21 17:59:24',
     cdt: 1647853164,
     thumbnail: '2e6cd0c3ab67b7cdccd338070953e633-t.png',
+    isLike: false,
     nickname: 'rlrud4528',
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
@@ -57,6 +59,7 @@ export const datas = [
     regdt: '2022-03-21 17:53:47',
     cdt: 1647852827,
     thumbnail: '8f232cf1b2e08f3a28ce4603abe24573-t.jpeg',
+    isLike: false,
     nickname: 'sh1004._.',
     memberSize:
       '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 235',
@@ -86,6 +89,7 @@ export const datas = [
     regdt: '2022-03-21 17:53:21',
     cdt: 1647852801,
     thumbnail: 'f6bb8eff1332b0dcf0fea91043d05a90-t.jpeg',
+    isLike: false,
     nickname: 'heedubu',
     memberSize:
       '몸무게 : 60 ~ 64kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : L',
@@ -116,6 +120,7 @@ export const datas = [
     regdt: '2022-03-21 17:53:18',
     cdt: 1647852798,
     thumbnail: '5f61403492558521dc6a8553a7f4615b-t.jpeg',
+    isLike: false,
     nickname: 'xyeoni_.',
     memberSize: '키 : 165 ~ 169cm',
     reviewSize: [
@@ -141,6 +146,7 @@ export const datas = [
     regdt: '2022-03-21 17:46:00',
     cdt: 1647852360,
     thumbnail: '2aee7096fb6a34600b7204de6b61e2be-t.jpeg',
+    isLike: false,
     nickname: 'hzzl',
     memberSize: '',
     reviewSize: [
@@ -165,6 +171,7 @@ export const datas = [
     regdt: '2022-03-21 17:45:36',
     cdt: 1647852336,
     thumbnail: 'f63292b2fce55c66751d7b9ec06ea5a5-t.jpeg',
+    isLike: false,
     nickname: 'soso23',
     memberSize:
       '몸무게 : 80 ~ 84kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 175 ~ 179cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : XL',
@@ -194,6 +201,7 @@ export const datas = [
     regdt: '2022-03-21 17:45:10',
     cdt: 1647852310,
     thumbnail: '19a2501c2531b340dc69a070b11a31fe-t.jpeg',
+    isLike: false,
     nickname: 'dhfkspw12',
     memberSize:
       '몸무게 : 70 ~ 74kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : XL',
@@ -223,6 +231,7 @@ export const datas = [
     regdt: '2022-03-21 17:41:35',
     cdt: 1647852095,
     thumbnail: 'd55385c564b36cba5a499f34f6864b2e-t.jpeg',
+    isLike: false,
     nickname: 'boolboo',
     memberSize: '',
     reviewSize: [
@@ -252,6 +261,7 @@ export const datas = [
     regdt: '2022-03-21 17:41:23',
     cdt: 1647852083,
     thumbnail: 'a40affe6cd74d0ee5494e2c1479605eb-t.jpg',
+    isLike: false,
     nickname: 'rudxoda',
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
@@ -277,6 +287,7 @@ export const datas = [
     regdt: '2022-03-21 17:40:30',
     cdt: 1647852030,
     thumbnail: '30b2626e2037d2273becc72119c13a82-t.jpeg',
+    isLike: false,
     nickname: 'gangmingooo',
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
@@ -301,6 +312,7 @@ export const datas = [
     regdt: '2022-03-21 17:40:22',
     cdt: 1647852022,
     thumbnail: '90508fe2db6f25076e3288aa70fdb98a-t.jpg',
+    isLike: false,
     nickname: '',
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
@@ -325,6 +337,7 @@ export const datas = [
     regdt: '2022-03-21 17:39:54',
     cdt: 1647851994,
     thumbnail: '1910435b2142e2c34f0dbeb638a9e66b-t.jpeg',
+    isLike: false,
     nickname: 'gms813',
     memberSize:
       '몸무게 : 65 ~ 69kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 180 ~ 184cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 270',
@@ -354,6 +367,7 @@ export const datas = [
     regdt: '2022-03-21 17:39:11',
     cdt: 1647851951,
     thumbnail: '71d88d4da2ff6705d71189a6cddbfde8-t.jpeg',
+    isLike: false,
     nickname: 'bona0503',
     memberSize: '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
@@ -378,6 +392,7 @@ export const datas = [
     regdt: '2022-03-21 17:38:41',
     cdt: 1647851921,
     thumbnail: 'd17866f94bf46505bc5c21cc1e1a15c8-t.jpeg',
+    isLike: false,
     nickname: 'ruby0616',
     memberSize:
       '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : S',
@@ -407,6 +422,7 @@ export const datas = [
     regdt: '2022-03-21 17:37:32',
     cdt: 1647851852,
     thumbnail: '300f9c7617c60314cfd55e80b8ac951c-t.jpeg',
+    isLike: false,
     nickname: 'bona0503',
     memberSize: '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
@@ -431,6 +447,7 @@ export const datas = [
     regdt: '2022-03-21 17:33:36',
     cdt: 1647851616,
     thumbnail: '08524f03b81034371436eebd8a324a6a-t.jpg',
+    isLike: false,
     nickname: 'gkcksdud_.',
     memberSize:
       '몸무게 : 65 ~ 69kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 265',
@@ -461,6 +478,7 @@ export const datas = [
     regdt: '2022-03-21 17:32:41',
     cdt: 1647851561,
     thumbnail: '6a48c94d8f54a3b29e041ee703b8d234-t.jpeg',
+    isLike: false,
     nickname: 'kshqqwe',
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
@@ -485,6 +503,7 @@ export const datas = [
     regdt: '2022-03-21 17:31:31',
     cdt: 1647851491,
     thumbnail: '452651c40c6b0da23a9ccc6098dd9e88-t.jpeg',
+    isLike: false,
     nickname: 'nxm_0103',
     memberSize: '',
     reviewSize: [
@@ -513,6 +532,7 @@ export const datas = [
     regdt: '2022-03-21 17:26:31',
     cdt: 1647851191,
     thumbnail: 'e4c3fc97483f09f41cb5212e112aa8c4-t.jpg',
+    isLike: false,
     nickname: 'whdrl62',
     memberSize: '',
     reviewSize: [
@@ -537,6 +557,7 @@ export const datas = [
     regdt: '2022-03-21 17:21:21',
     cdt: 1647850881,
     thumbnail: '0bccc85c323cd58f27a51ee420d0af34-t.jpeg',
+    isLike: false,
     nickname: 'zii96.',
     memberSize:
       '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 240',
@@ -566,6 +587,7 @@ export const datas = [
     regdt: '2022-03-21 17:19:56',
     cdt: 1647850796,
     thumbnail: 'bd76b3210d09d95e3d34963067b0aa4a-t.jpeg',
+    isLike: false,
     nickname: 'chlrhjh',
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
@@ -590,6 +612,7 @@ export const datas = [
     regdt: '2022-03-21 17:18:43',
     cdt: 1647850723,
     thumbnail: 'd1ef5e21e0a73289f410989550cf8b87-t.jpg',
+    isLike: false,
     nickname: 'yuneyang1234',
     memberSize:
       '몸무게 : 65 ~ 69kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 하의 사이즈 : 29',
@@ -619,6 +642,7 @@ export const datas = [
     regdt: '2022-03-21 16:52:59',
     cdt: 1647849179,
     thumbnail: 'f7d499178f67e24a8cd9ef095a9db9fb-t.jpg',
+    isLike: false,
     nickname: 'zxcv123499',
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
@@ -643,6 +667,7 @@ export const datas = [
     regdt: '2022-03-21 16:51:50',
     cdt: 1647849110,
     thumbnail: '894ee235d33228d0dfbdf1a1670c0cf5-t.jpg',
+    isLike: false,
     nickname: 'gentleman69',
     memberSize:
       '몸무게 : 65 ~ 69kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : M',
@@ -672,6 +697,7 @@ export const datas = [
     regdt: '2022-03-21 16:49:43',
     cdt: 1647848983,
     thumbnail: 'd1bd363eac3bdbdea139a3b285a359ac-t.jpg',
+    isLike: false,
     nickname: 'arigo34',
     memberSize: '',
     reviewSize: [
@@ -697,6 +723,7 @@ export const datas = [
     regdt: '2022-03-21 16:39:44',
     cdt: 1647848384,
     thumbnail: '1b8fffdcca007f273451ca1b15d2fd6a-t.jpeg',
+    isLike: false,
     nickname: 'wsj08',
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
@@ -721,6 +748,7 @@ export const datas = [
     regdt: '2022-03-21 16:37:41',
     cdt: 1647848261,
     thumbnail: 'b17a4bcf9779fbef534f94e339350786-t.jpg',
+    isLike: false,
     nickname: 'juyeon0728',
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
@@ -745,6 +773,7 @@ export const datas = [
     regdt: '2022-03-21 16:37:37',
     cdt: 1647848257,
     thumbnail: 'a24cc1e5e095f07569095d8a7b7b123d-t.png',
+    isLike: false,
     nickname: 'lynn0806',
     memberSize: '몸무게 : 90 ~ 94kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 175 ~ 179cm',
     reviewSize: [
@@ -769,6 +798,7 @@ export const datas = [
     regdt: '2022-03-21 16:34:19',
     cdt: 1647848059,
     thumbnail: 'be5aa8df772e696940e50b51f3d870b5-t.jpeg',
+    isLike: false,
     nickname: 'ahnnauma',
     memberSize:
       '몸무게 : 70 ~ 74kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 240',
@@ -798,6 +828,7 @@ export const datas = [
     regdt: '2022-03-21 16:32:30',
     cdt: 1647847950,
     thumbnail: 'e9d3a498c6b611af15cfd8d7ef4924f3-t.jpeg',
+    isLike: false,
     nickname: 'sin_cerely',
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
     reviewSize: [
@@ -823,6 +854,7 @@ export const datas = [
     regdt: '2022-03-21 16:30:38',
     cdt: 1647847838,
     thumbnail: '2e56a1085a8c70fe2269709bf8833a66-t.jpeg',
+    isLike: false,
     nickname: 'jueunq',
     memberSize:
       '몸무게 : 40 ~ 44kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : XS',
@@ -852,6 +884,7 @@ export const datas = [
     regdt: '2022-03-21 16:28:22',
     cdt: 1647847702,
     thumbnail: 'edb49dd7295f58d4d51a26c87b4c21fc-t.jpg',
+    isLike: false,
     nickname: 'hangchi',
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
@@ -876,6 +909,7 @@ export const datas = [
     regdt: '2022-03-21 16:28:09',
     cdt: 1647847689,
     thumbnail: 'b806df2697f182551a00a3d070eca96a-t.jpg',
+    isLike: false,
     nickname: 'lucky4416',
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
     reviewSize: [
@@ -900,6 +934,7 @@ export const datas = [
     regdt: '2022-03-21 16:27:14',
     cdt: 1647847634,
     thumbnail: '05e9c5003bbb66c62d9030575f67412f-t.jpeg',
+    isLike: false,
     nickname: 'good5945',
     memberSize:
       '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 260',
@@ -929,6 +964,7 @@ export const datas = [
     regdt: '2022-03-21 16:25:57',
     cdt: 1647847557,
     thumbnail: '9712588c840bf3f6e4b1b694a8632520-t.jpg',
+    isLike: false,
     nickname: 'hyosik20029',
     memberSize:
       '몸무게 : 65 ~ 69kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 265',
@@ -958,6 +994,7 @@ export const datas = [
     regdt: '2022-03-21 16:23:00',
     cdt: 1647847380,
     thumbnail: '947d8a1992c0965d1e406394c273d755-t.jpg',
+    isLike: false,
     nickname: 'junsik77',
     memberSize:
       '몸무게 : 60 ~ 64kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 280',
@@ -988,6 +1025,7 @@ export const datas = [
     regdt: '2022-03-21 16:21:10',
     cdt: 1647847270,
     thumbnail: 'bc3213cc4d1248e7f56b70f1245bd36b-t.jpeg',
+    isLike: false,
     nickname: 'shinmihye',
     memberSize:
       '몸무게 : 35 ~ 39kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 240',
@@ -1017,6 +1055,7 @@ export const datas = [
     regdt: '2022-03-21 16:21:02',
     cdt: 1647847262,
     thumbnail: '2838bd1546da92b802e18cc85534a2dd-t.jpg',
+    isLike: false,
     nickname: 'hj61',
     memberSize:
       '몸무게 : 85 ~ 89kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : XL',
@@ -1047,6 +1086,7 @@ export const datas = [
     regdt: '2022-03-21 16:17:44',
     cdt: 1647847064,
     thumbnail: '5b4e06e8370e85730d8dac90b05d3e9b-t.jpg',
+    isLike: false,
     nickname: 'bobo324',
     memberSize:
       '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : M',
@@ -1076,6 +1116,7 @@ export const datas = [
     regdt: '2022-03-21 16:16:56',
     cdt: 1647847016,
     thumbnail: '31dd36c943a99e56366c5ca5fca886d0-t.jpeg',
+    isLike: false,
     nickname: 'kyliezen',
     memberSize: '몸무게 : 70 ~ 74kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 180 ~ 184cm',
     reviewSize: [
@@ -1101,6 +1142,7 @@ export const datas = [
     regdt: '2022-03-21 16:13:47',
     cdt: 1647846827,
     thumbnail: '1ba1fa3813f31b1e769b43da984cb130-t.jpg',
+    isLike: false,
     nickname: 'nam0908.',
     memberSize: '',
     reviewSize: [
@@ -1125,6 +1167,7 @@ export const datas = [
     regdt: '2022-03-21 16:07:35',
     cdt: 1647846455,
     thumbnail: '6f6831f4ca89e844786f44681145ca12-t.jpeg',
+    isLike: false,
     nickname: 'kiimyujiin',
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
@@ -1149,6 +1192,7 @@ export const datas = [
     regdt: '2022-03-21 16:06:16',
     cdt: 1647846376,
     thumbnail: '93a20f972da9e5a6f0d89cacce2fa1b1-t.jpg',
+    isLike: false,
     nickname: 'ssy5546',
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 155 ~ 159cm',
     reviewSize: [
@@ -1173,6 +1217,7 @@ export const datas = [
     regdt: '2022-03-21 16:03:59',
     cdt: 1647846239,
     thumbnail: '683924acda67bac31aeda347fbeee9c9-t.jpg',
+    isLike: false,
     nickname: 'sunflare',
     memberSize: '몸무게 : 75 ~ 79kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 180 ~ 184cm',
     reviewSize: [
@@ -1197,6 +1242,7 @@ export const datas = [
     regdt: '2022-03-21 16:03:31',
     cdt: 1647846211,
     thumbnail: '13c72fd73d1c2f24e2f1bd269deb37e7-t.jpg',
+    isLike: false,
     nickname: 'jungis79',
     memberSize: '',
     reviewSize: [
@@ -1226,6 +1272,7 @@ export const datas = [
     regdt: '2022-03-21 16:03:29',
     cdt: 1647846209,
     thumbnail: '63b000e01a28cf6567e81482eb4ec9f5-t.jpg',
+    isLike: false,
     nickname: 'nowayout21',
     memberSize:
       '몸무게 : 65 ~ 69kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : M',
@@ -1255,6 +1302,7 @@ export const datas = [
     regdt: '2022-03-21 16:01:43',
     cdt: 1647846103,
     thumbnail: '73ad7e8c1b73f51d16ddddc2d3b42263-t.jpg',
+    isLike: false,
     nickname: 'jungis79',
     memberSize: '',
     reviewSize: [
@@ -1279,6 +1327,7 @@ export const datas = [
     regdt: '2022-03-21 16:00:07',
     cdt: 1647846007,
     thumbnail: '5662514440c6bf4e5e3007d72aaf6afb-t.jpeg',
+    isLike: false,
     nickname: 'yeminem',
     memberSize: '키 : 170 ~ 174cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 245',
     reviewSize: [
@@ -1307,6 +1356,7 @@ export const datas = [
     regdt: '2022-03-21 15:59:42',
     cdt: 1647845982,
     thumbnail: '540f6e60a9de729a7bda80eea9a8d0f2-t.jpeg',
+    isLike: false,
     nickname: 'jak120547',
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
@@ -1331,6 +1381,7 @@ export const datas = [
     regdt: '2022-03-21 15:57:41',
     cdt: 1647845861,
     thumbnail: '828f75bf9d379eaff059d5fe81cfb236-t.png',
+    isLike: false,
     nickname: 'cbh213',
     memberSize:
       '몸무게 : 80 ~ 84kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 175 ~ 179cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 270',
@@ -1360,6 +1411,7 @@ export const datas = [
     regdt: '2022-03-21 15:57:23',
     cdt: 1647845843,
     thumbnail: '8d1ff858fc22a687c3755ed4c2b7b332-t.jpeg',
+    isLike: false,
     nickname: 'siyun000000',
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
@@ -1384,6 +1436,7 @@ export const datas = [
     regdt: '2022-03-21 15:56:35',
     cdt: 1647845795,
     thumbnail: '7d9cb15d714314295f9e1842e6ba2e7b-t.jpeg',
+    isLike: false,
     nickname: 'siyun000000',
     memberSize: '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm',
     reviewSize: [
@@ -1408,6 +1461,7 @@ export const datas = [
     regdt: '2022-03-21 15:56:31',
     cdt: 1647845791,
     thumbnail: 'f1ebff741b5d58389ba320ef2a60e524-t.jpg',
+    isLike: false,
     nickname: 'bonge8875',
     memberSize: '몸무게 : 60 ~ 64kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm',
     reviewSize: [
@@ -1432,6 +1486,7 @@ export const datas = [
     regdt: '2022-03-21 15:56:10',
     cdt: 1647845770,
     thumbnail: '933f2e6b08d00ea2b180cb65fbd87c25-t.jpg',
+    isLike: false,
     nickname: 'sjlove2020',
     memberSize: '',
     reviewSize: [
@@ -1460,6 +1515,7 @@ export const datas = [
     regdt: '2022-03-21 15:55:26',
     cdt: 1647845726,
     thumbnail: '61eabcfd9ee23e56d5caa2be0783c3e0-t.jpeg',
+    isLike: false,
     nickname: 'siyun000000',
     memberSize:
       '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 245',
@@ -1489,6 +1545,7 @@ export const datas = [
     regdt: '2022-03-21 15:55:21',
     cdt: 1647845721,
     thumbnail: '3f0aa99bc81bb97e912933f0486dcb9e.jpg',
+    isLike: false,
     nickname: 'sangyuno',
     memberSize:
       '몸무게 : 80 ~ 84kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : L',
@@ -1518,6 +1575,7 @@ export const datas = [
     regdt: '2022-03-21 15:54:33',
     cdt: 1647845673,
     thumbnail: '0c517ff0974679780010ddd1ec1e866d-t.jpeg',
+    isLike: false,
     nickname: 'siyun000000',
     memberSize:
       '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 245',
@@ -1547,6 +1605,7 @@ export const datas = [
     regdt: '2022-03-21 15:53:42',
     cdt: 1647845622,
     thumbnail: '99b70492601afbf07e3d20752f5f0735-t.jpg',
+    isLike: false,
     nickname: 'sinsangchul',
     memberSize: '평소 신발 사이즈 : 275',
     reviewSize: [
@@ -1575,6 +1634,7 @@ export const datas = [
     regdt: '2022-03-21 15:51:38',
     cdt: 1647845498,
     thumbnail: '9920628a4d0ae7c178382d4dae8b997d-t.jpeg',
+    isLike: false,
     nickname: 'chaeni371',
     memberSize: '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
@@ -1599,6 +1659,7 @@ export const datas = [
     regdt: '2022-03-21 15:50:58',
     cdt: 1647845458,
     thumbnail: '7e0497674e6e203a4f0b9191139818fd-t.jpg',
+    isLike: false,
     nickname: 'dbs09231',
     memberSize: '',
     reviewSize: [
@@ -1628,6 +1689,7 @@ export const datas = [
     regdt: '2022-03-21 15:49:37',
     cdt: 1647845377,
     thumbnail: '3c6f86060ac820f5e4b2c7c61f509aa7-t.jpg',
+    isLike: false,
     nickname: 'moon755_',
     memberSize: '몸무게 : 55 ~ 59kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm',
     reviewSize: [
@@ -1652,6 +1714,7 @@ export const datas = [
     regdt: '2022-03-21 15:47:56',
     cdt: 1647845276,
     thumbnail: '5b25a962bafa6053e416a25eff609d9c-t.jpeg',
+    isLike: false,
     nickname: 'yujin1214',
     memberSize: '',
     reviewSize: [
@@ -1676,6 +1739,7 @@ export const datas = [
     regdt: '2022-03-21 15:45:52',
     cdt: 1647845152,
     thumbnail: 'd9db53eac2b4020a1426c07465eb87af-t.jpeg',
+    isLike: false,
     nickname: 'ayjin0706',
     memberSize:
       '몸무게 : 50 ~ 54kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 상의 사이즈 : M',
@@ -1705,6 +1769,7 @@ export const datas = [
     regdt: '2022-03-21 15:43:37',
     cdt: 1647845017,
     thumbnail: '44a60ab5187e80e5f363f665a9dca775-t.jpg',
+    isLike: false,
     nickname: 'tjdrb229',
     memberSize:
       '몸무게 : 70 ~ 74kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 170 ~ 174cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 255',
@@ -1734,6 +1799,7 @@ export const datas = [
     regdt: '2022-03-21 15:40:11',
     cdt: 1647844811,
     thumbnail: '76f99aa21ebd5fa56a80bc67c2b952a1-t.jpeg',
+    isLike: false,
     nickname: 'djdhd',
     memberSize:
       '몸무게 : 40 ~ 44kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 165 ~ 169cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 240',
@@ -1763,6 +1829,7 @@ export const datas = [
     regdt: '2022-03-21 15:37:23',
     cdt: 1647844643,
     thumbnail: '7b10bdc3fc21527ee5b4af1316fbeaf9-t.jpeg',
+    isLike: false,
     nickname: 'ssancho',
     memberSize: '',
     reviewSize: [
@@ -1787,6 +1854,7 @@ export const datas = [
     regdt: '2022-03-21 15:33:26',
     cdt: 1647844406,
     thumbnail: 'b83f1846e9e16a644611000bf5c6cc27-t.jpeg',
+    isLike: false,
     nickname: 'lovelyun.',
     memberSize: '',
     reviewSize: [
@@ -1806,6 +1874,7 @@ export const datas = [
     point: 5,
     contents: '생각햇던데로 작고귀여워요\n어떤의상과도 잘어울리게 잘들어질거같네요',
     thumbnail: 'RV0000015866-1.jpg',
+    isLike: false,
     hashtags: ['데일리', '데이트', '선물', '럭셔리'],
     like: 2144,
     opt: 'UNIQUE',
@@ -1841,6 +1910,7 @@ export const datas = [
     point: 5,
     contents: '할인이벤트를 잘 이용해 구입했는데 만족스럽네요',
     thumbnail: 'RV0000021341-1-t.jpeg',
+    isLike: false,
     hashtags: ['럭셔리'],
     like: 1917,
     opt: '단일사이즈',
@@ -2067,6 +2137,7 @@ export const datas = [
     contents:
       '#구매리뷰\n생일날 클러치를 버스에서 잃어버린 나레기....\n\n주변에서 톰브라운이나 생로랑 추천 많이 하길래, 좀 더 캐주얼하게 들고 다닐 수 있는 디자인의 톰브를 선택!!\n\n#발란 이 파정(파워정품)이라길래, 레플리카 걱정 없는 발란에서 주문했음.\n\n배송도 월욜에 결제했는데, 태풍이 겹쳐도 금요일에 와서 넘나좋은것♡\n\n모델은 20FW MAC020L 00198 001입니당.\n\n역시 사진보다 실물이 더 예쁘네 히히\n(사놓고 애끼지 않고 막쓸건 햄줭)\n\n#톰브라운#톰브라운클러치#남자클러치#존예#지름#텅장#그래도#행복##오오티디#thombrowne#clutch#instadaily#dailygram#instagood#casualstyle#l4l#likeforlikes',
     thumbnail: 'RV0000009901-1',
+    isLike: false,
     hashtags: [
       '데일리',
       '트렌디',
@@ -2164,6 +2235,7 @@ export const datas = [
     point: 4,
     contents: '체인 줄이 너무너무길아요ㅜㅜㅜ구래서 저는 가방 안으로 한번 감았습니다 ',
     thumbnail: 'RV0000021689-1-t.jpg',
+    isLike: false,
     hashtags: ['데일리', '트렌디', '선물', '캐주얼', '베이직', '러블리', '섹시', '로맨틱', '럭셔리', '컨템포러리'],
     like: 1422,
     opt: '블랙/실버 / ONE SIZE',
@@ -2190,6 +2262,7 @@ export const datas = [
     contents:
       '명품은 백화점에서만 구입했었는데 난생처음 구매대행을 이용해서 구입했어요\n\n결과는 대만족이네요\n백화점에서 입어보고 구입해서 \n사이즈는 정확합니다\n나이 50대,  키165,  몸무게 57 \n사이즈 2는 팔이 끼고 사이즈 3이 이쁘고 편한 사이즈에요. \n백화점에서 구하기 힘든 사이즈를 편하게 구입하고 저렴하니 좋습니다 \n배송 기간은 예상보다 빨랐고 포장은 꼼꼼히 너무 잘되어있네요\n출퇴근 데일리로 입으려 합니다.\n겨울이 기다려지네요~~',
     thumbnail: 'a3c2bc0fb8fcbc17a92a34d1e8ac8626-t.jpg',
+    isLike: false,
     hashtags: ['데일리'],
     like: 1256,
     opt: '3 / size',
@@ -2220,6 +2293,7 @@ export const datas = [
     contents:
       '정말 마르신 분만 아니면 정사이즈에서 1업해주세요 제발 ㅠㅠ 진짜 세미오버핏으로 정말 예쁘게 입을수잇어요!!',
     thumbnail: 'RV0000011139-1',
+    isLike: false,
     hashtags: ['데일리', '캐주얼', '스트릿'],
     like: 1161,
     opt: 'XL',
@@ -2288,6 +2362,7 @@ export const datas = [
     contents:
       '그냥 너무 예뻐요!!! 좀 작은가 싶지만 딱 메는 순간 그런 생각 다 사라져요 ㅋㅋㅋ 어떤 룩에도 다 잘어울리고 요즘 최애 백입니다!! ',
     thumbnail: 'efa4693595f36f30b0cba980bafb9b41-t.jpeg',
+    isLike: false,
     hashtags: [
       '데일리',
       '데이트',
@@ -2325,6 +2400,7 @@ export const datas = [
     contents:
       '173cm-58kg   평소 66반에서 77사이즈라 \n2 사이즈와 3사이즈 고민 하다 3으로 구매.  \n2사이즈면  안에  가볍게 입어야  핏이 나올듯~니트 입기는  좀...\n저는 3사이즈라  니트입고  걸치기 딱인거  같아요.\n모델핏은 보는거로 만족. 겨울이라 사이즈 약간 여유있는게  좋긴하네요\n11월 4일 현지에서 바잉  어려워  늦을 수도  있다고  연락주시고\n중간중간에 꼼꼼히  체크해주시면서 연락주셔서 너무 놀랬고 감사했어요~^^\n11월20일 토요일에  받자마자 입어보고 ㅎ대 만족!  맘  훈훈한  주말 보냈습니다ㅋ\n~~~~~~~헤이썬! ~~~~~~~번창하세요~ 👍 \n\n',
     thumbnail: 'ba67a8a7460e53ae3dce4e61a1ce8946-t.jpg',
+    isLike: false,
     hashtags: ['추운날씨'],
     like: 1059,
     opt: '3 / size',
@@ -2355,6 +2431,7 @@ export const datas = [
     contents:
       '며느리 선물로  주문했는데  무척 좋아해줘서  선물한 나도 기뻤습니다\n가방자체도 완볘하지만  역시 샤넬답게  포장도 완벽하고  배송도 빨라  더 없이 만족스럽습니다',
     thumbnail: '3cc2db569ff3c070acf5acd610765280-t.jpg',
+    isLike: false,
     hashtags: ['선물'],
     like: 1039,
     opt: '블랙은장 / 미듐',
@@ -2462,6 +2539,7 @@ export const datas = [
     point: 5,
     contents: '사진이랑 똑같고 작지만 들어갈건 다 들어가요 \n넘 이뻐용 ~~~',
     thumbnail: '38ae344138bbc9a9991c28f357a066dc-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '휴양지', '캐주얼'],
     like: 958,
     opt: '블랙 / 22*17*6',
@@ -2487,6 +2565,7 @@ export const datas = [
     point: 5,
     contents: '품질 자수 하자있는거 하나도 없고 좋았어요',
     thumbnail: 'RV0000009564-1',
+    isLike: false,
     hashtags: ['시크'],
     like: 955,
     opt: 'M (SIZE 2)',
@@ -2537,6 +2616,7 @@ export const datas = [
     contents:
       '너무 예뻐요.딸이 갖고 싶어해서 구입했는데 가격이 너무 많이 올라서 여기저기 찾다가 발란광고 보고 바로 구입했어요.잘 쓰겠습니다^^\n\n\n\n',
     thumbnail: 'dfb85be9e583c3e5c687ac5df9417223-t.jpg',
+    isLike: false,
     hashtags: ['트렌디'],
     like: 947,
     opt: 'UNIQUE',
@@ -2562,6 +2642,7 @@ export const datas = [
     point: 5,
     contents: '연차 저하\n-\n#경주',
     thumbnail: 'RV0000009589-1',
+    isLike: false,
     hashtags: ['데일리', '데이트', '결혼식', '캐주얼', '베이직', '빈티지', '클래식', '경주'],
     like: 918,
     opt: 'U',
@@ -2615,6 +2696,7 @@ export const datas = [
     point: 5,
     contents: '좋은 옷 잘입겠습니다',
     thumbnail: 'db91b392884a15817adc21e6b203aded-t.jpg',
+    isLike: false,
     hashtags: ['시크'],
     like: 846,
     opt: '2 / size',
@@ -2645,6 +2727,7 @@ export const datas = [
     contents:
       '굽신굽신 안해도 뽀뽀 안해줘도 가방 사주신단 말 저 흘려듣지 않았습니다. 감사해요. 다음은 호보백 #샤넬보이백미듐',
     thumbnail: 'RV0000016477-1-t.jpg',
+    isLike: false,
     hashtags: ['빈티지', '클래식', '샤넬보이백미듐'],
     like: 834,
     opt: '금장 / ONE SIZE',
@@ -2671,6 +2754,7 @@ export const datas = [
     contents:
       '이건 뭐 언박싱을 해봤어야알지 \nㅋㅋㅋㅋㅋㅋㅋㅋ\n한손으로 낑낑 ㅋㅋㅋㅋㅋㅋㅋ후반부는 생략ㅋㅋㅋ\n\n보름이나 일찍도착해서 \n내생일을 축하해주는 떤물님\n\n#능력자#생일플렉스#',
     thumbnail: 'RV0000019769-1-t.jpg',
+    isLike: false,
     hashtags: ['트렌디', '선물', '능력자', '생일플렉스', ''],
     like: 822,
     opt: '로즈 클레르  M44840',
@@ -2692,45 +2776,11 @@ export const datas = [
     comments: [],
   },
   {
-    id: 65703,
-    point: 5,
-    contents: '생각보단 조금 작았지만 충분히 수납력 좋고 너무 시크해여 ㅎㅎㅎ넘 예뻐요! 배송도 엄청 빨랐어요',
-    thumbnail: '3497e0b682a8e63cdd9b7c82c3ac7b71-t.jpeg',
-    hashtags: ['데일리', '출근룩', '시크', '럭셔리'],
-    like: 819,
-    opt: 'UNI / 393953 BOW02 1000',
-    open: '',
-    regdt: '2021-10-03 11:44:47',
-    cdt: 1633229087,
-    nickname: 'imborisister',
-    memberSize: '몸무게 : 40 ~ 44kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 150 ~ 154cm',
-    reviewSize: [
-      {
-        sizeTxt: '작아요',
-        sizeTitle: '사이즈는 어떤가요?',
-      },
-      {
-        colorTxt: '화면과 같아요',
-        colorTitle: '색상은 어떤가요?',
-      },
-    ],
-    comments: [
-      {
-        id: 2772,
-        target_id: null,
-        depth: 0,
-        nickname: 'admin',
-        regdt: '2021-10-05T01:36:39.000Z',
-        dt: '23주',
-        contents: '금주의 베스트 리뷰로 선정되어 상품권 10,000원이 발급 되었습니다!',
-      },
-    ],
-  },
-  {
     id: 72124,
     point: 5,
     contents: '미니 미니해요 \n이쁩니다!!\n이번 주말에 놀러갈때 사용 해보겠습니다',
     thumbnail: 'a0b95fd9fb9517f1de1a6425ca0dfae7-t.jpeg',
+    isLike: false,
     hashtags: ['데이트', '러블리'],
     like: 809,
     opt: 'UNIQUE',
@@ -2756,6 +2806,7 @@ export const datas = [
     point: 5,
     contents: '슬림하고 이뻐요 가볍고 좋아요 이너는 아주 가볍게입어도\n될것같아요',
     thumbnail: 'e02e4277a527a18f8aa612d5983fd3fc-t.jpg',
+    isLike: false,
     hashtags: ['트렌디', '추운날씨', '시크', '베이직', '럭셔리', '클래식'],
     like: 804,
     opt: '3 / size',
@@ -2786,6 +2837,7 @@ export const datas = [
     contents:
       '정~말정말 많이 고민하다 구매하게 되었어요 화면에는 크게 보이던데..  실제로는 적당하고 더 예뻐요 \n명품가방답게 고급스러워요~~\n배송도 예정된 날보다 더 빨리와서  기분이 좋았어요\n\n\n',
     thumbnail: 'a21faa2bc142b4d9e2c5db056e7b1463-t.png',
+    isLike: false,
     hashtags: ['출근룩'],
     like: 785,
     opt: '브라운 / UNIQUE',
@@ -2811,6 +2863,7 @@ export const datas = [
     point: 5,
     contents: '#데일리 #신랑이사준선물 #디올가방 #귀욥다 #만족 #잘들고다닐게요',
     thumbnail: 'RV0000018722-1-t.jpg',
+    isLike: false,
     hashtags: ['데일리', '출근룩', '신랑이사준선물', '디올가방', '귀욥다', '만족', '잘들고다닐게요'],
     like: 757,
     opt: 'UNIQUE',
@@ -2836,6 +2889,7 @@ export const datas = [
     point: 5,
     contents: '배송도 빨랐고 일단 상품이 마음에\n들어요!',
     thumbnail: 'b5861fd13c6c9b3a74110a70584a7445-t.jpeg',
+    isLike: false,
     hashtags: ['트렌디', '선물', '시크'],
     like: 748,
     opt: 'ONE SIZE',
@@ -2862,6 +2916,7 @@ export const datas = [
     contents:
       '스톤 매니아라 그동안 2xl만 즐겨입다가 패딩 종류는 3xl로 하는데 역시 최고네요. 3xl 구하기 쉽지 않았는데 감사합니다!!\n스펙은 188/87입니다 ',
     thumbnail: 'RV0000013499-1',
+    isLike: false,
     hashtags: ['데일리', '밤낮바뀜'],
     like: 738,
     opt: '4.다크그린 / XXX-Large(110)',
@@ -2892,6 +2947,7 @@ export const datas = [
     point: 5,
     contents: '너무 귀여워요 ㅎㅎ 반사이즈 업해서 샀는데 정사이즈 사면 될고 ㅈ같아요 ~',
     thumbnail: 'RV0000014125-1',
+    isLike: false,
     hashtags: ['데일리', '러블리', '유니크'],
     like: 726,
     opt: '235',
@@ -2922,6 +2978,7 @@ export const datas = [
     contents:
       '판매자님이 정말 우주최고 친절합니다. 직구로 사면 언제올지 잘 오고 있을지 국제미아되진 않았을지 걱정 투성이인데 단계마다 알려주시고 정말 저세상 친절입니다…(감동)\n배송은 일주일 조금 넘게 걸렸어요 매번 카톡으로 알려주셔서 종종거리면서 기다리지 않았습니다\n패키지는 정말 미쳤어요 근사한 선물 받은 기분입니다. \n핏은 널널하게 입으려고 크게 샀다고 생각했는데 생각보다 크지 않았어요.  두꺼운옷 입고는 예쁜핏이 안나올것 같아요(156cm 53kg)\n몽클레어 패딩사려고 많이들 보고 계실텐데 고민하지말고 지금 여기서 구매하세요!!! \n',
     thumbnail: '39a29b3baa3a9ee045c6879e717d9056-t.jpeg',
+    isLike: false,
     hashtags: ['트렌디', '시크', '베이직', '러블리', '유니크', '미니멀리즘', '컨템포러리'],
     like: 713,
     opt: '2 / size',
@@ -2951,6 +3008,7 @@ export const datas = [
     point: 5,
     contents: '생각보다 길어서 한치수 작게 샀으면 좋았을 것 같아요. 원단은 고급스럽고, 배송도 빨랐어요!',
     thumbnail: 'RV0000014826-1-t.jpg',
+    isLike: false,
     hashtags: ['데일리', '데이트'],
     like: 700,
     opt: '42 (S)',
@@ -2981,6 +3039,7 @@ export const datas = [
     contents:
       '일단 판매자분이 엄청 친절해요. 결제하니까 전화하셔서 다시 확인하셨고 상품 검수하는 것도 동영상으로 보내주시고 그 뒤로도 몇 번이나 전화하셔서 잘 받았는지 확인하셨어요. 작은 가방이지만 수납은 은근 뛰어납니다. 핸드폰 2개 반지갑. 손거울. 핸드크림까지 들어가요. 정장부터 데일리 스타일까지 모두 어울려서 만족합니다.',
     thumbnail: 'b3b76141ca762f74cd2e62e4b6e8d7ad-t.jpg',
+    isLike: false,
     hashtags: ['트렌디', '캐주얼', '러블리'],
     like: 699,
     opt: 'UNIQUE',
@@ -3006,6 +3065,7 @@ export const datas = [
     point: 5,
     contents: '진짜 너무 예뻐요 솔직히 쵸큼 작기는 하지만.. 그래두 너무 만족합니당! 귀여워용 🖤',
     thumbnail: '9e0ebb23d81a474e67302384c0658566-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '데이트', '결혼식', '파티'],
     like: 676,
     opt: '블랙 / UNIQUE',
@@ -3032,6 +3092,7 @@ export const datas = [
     contents:
       '거의 장지갑? 크기인거 같아서 조금 아쉽지만\n디자인이고 색상이고 고급지고 이뻐요\n 가까운 카페나 나들이 갈때 딱인거같아요♥ ',
     thumbnail: 'RV0000011348-1',
+    isLike: false,
     hashtags: ['데이트', '트렌디', '유니크', '클래식'],
     like: 675,
     opt: 'UNIQUE',
@@ -3057,6 +3118,7 @@ export const datas = [
     point: 5,
     contents: '매장가보다 130만원 저렴하게 샀어요~~~^^\n넘 예쁘기까지하네요~~^^',
     thumbnail: 'RV0000011043-1',
+    isLike: false,
     hashtags: ['추운날씨', '럭셔리', '따뜻'],
     like: 671,
     opt: 'I',
@@ -3086,6 +3148,7 @@ export const datas = [
     point: 5,
     contents: '귀엽고 앙증맛고 마누라가 좋아해요~',
     thumbnail: 'RV0000022113-1-t.jpg',
+    isLike: false,
     hashtags: ['데일리', '럭셔리', '미니멀리즘'],
     like: 661,
     opt: 'UNIQUE',
@@ -3112,6 +3175,7 @@ export const datas = [
     contents:
       '어디에든 편하게 매치 가능한 니트입니다. 색깔은 주관적인 생각보다 약간 밝은 편, 두께감은 좀 얇은 편이고 참고로 소매는 긴 편입니다.',
     thumbnail: 'RV0000013609-1',
+    isLike: false,
     hashtags: ['데일리', '데이트', '럭셔리', '컨템포러리'],
     like: 658,
     opt: '그레이 / 2(100)',
@@ -3143,6 +3207,7 @@ export const datas = [
     contents:
       '와이프선물로 몰래 주문했는데 좋아하네요 \n정품등록까지 가능하고 \n판매자님 진행상황 잘 알려줘서 안심하고 기다렸어요\n물건 상태도 넘 만족스럽네요',
     thumbnail: '77b61184584c331eb3fdc8cb2a425c96-t.jpeg',
+    isLike: false,
     hashtags: ['데일리'],
     like: 650,
     opt: '3 / size',
@@ -3173,6 +3238,7 @@ export const datas = [
     contents:
       '해외브랜드 38입는데 톰브라운 옷은 항상 슬림하게 나와서 40사이즈 했더니 딱 좋아요\n흔하지 않은 디자인이라 좋고, 소재 도톰해서 오래 입을 것 같아요! 근데 좀 따가워서 반팔에는 못 입을 것 같아요',
     thumbnail: 'RV0000011090-1',
+    isLike: false,
     hashtags: ['데일리'],
     like: 618,
     opt: '40',
@@ -3203,6 +3269,7 @@ export const datas = [
     contents:
       '158cm/ 58kg\n프라다 38사이즈  다른 모델 입어보고 구입했어요. \n속안에 가디건이나 자켓 입어도 답답하지 않을 정도로 넉넉 하고 좋아요! ',
     thumbnail: 'f7dfe95f090fcfc071d3748a02443d85-t.jpeg',
+    isLike: false,
     hashtags: ['추운날씨'],
     like: 611,
     opt: '38 / 사이즈',
@@ -3232,6 +3299,7 @@ export const datas = [
     point: 5,
     contents: '원하던 상품을 저렴하게 구입해서 좋아요',
     thumbnail: 'RV0000017107-1-t.jpeg',
+    isLike: false,
     hashtags: ['데이트', '결혼식', '파티', '선물', '럭셔리', '클래식'],
     like: 604,
     opt: '화이트/골드 / ONE SIZE',
@@ -3258,6 +3326,7 @@ export const datas = [
     contents:
       '생각보다 정말 조금 들어가네요. 자동차키.핸드폰 . 립스틱 들어가면 남는공간 없어요.ㅠ 많이 슬프네요.ㅠ워낙 부드러운 재질도 아닌 루이비통이라.......발란에서 사면 왜 항상 후회를 하는지.ㅠㅠ 다음번에 잘 골라봐야겠어요.깜찍하긴 하네요',
     thumbnail: 'bb7971c2d317de6ec9d9ead6368c4c25-t.jpg',
+    isLike: false,
     hashtags: ['데일리'],
     like: 602,
     opt: 'UNIQUE',
@@ -3284,6 +3353,7 @@ export const datas = [
     contents:
       '구매 후 배달 확정까지 좀 기다리긴 했지만 그래도 약속한 날짜에 잘 배달되어 왔습니다.\n사이즈도 1,2 고민했는데 평소55사이즈에 갈수록 살이 붙어 고민인데 핏하게 입는게 예쁠것 같아 사이즈1  구매했습니다.\n안에 두꺼운거 입고 입기에는 팔이나 허리가 좀 불편할것 같고, 얇은 폴라에 입기에는 사이즈1이 딱 맞는거같아요.\n사이즈2였으면 어깨랑 소매길이 등이 좀 컸을듯 하네요.\n올겨울 잘 입을게요~',
     thumbnail: 'fc548d4069eeb3ac9f9ac993139a71a5-t.jpg',
+    isLike: false,
     hashtags: ['데일리', '추운날씨'],
     like: 598,
     opt: '1. / size',
@@ -3313,6 +3383,7 @@ export const datas = [
     point: 5,
     contents: '따뜻하고 가벼워서 좋아요',
     thumbnail: 'RV0000012966-1',
+    isLike: false,
     hashtags: ['캐주얼', '포근한날씨', '베이직'],
     like: 585,
     opt: 'XL',
@@ -3343,6 +3414,7 @@ export const datas = [
     contents:
       '가방은 장지갑이라생각하면되는사이즈예요.작지만 귀엽고 예뻐요.캐주얼한 의상도 원피스에도 찰떡이네요.아기가있어 크로스가편해선택했는데 맘에들어요 ',
     thumbnail: 'RV0000017598-1-t.jpg',
+    isLike: false,
     hashtags: ['데일리', '출근룩', '데이트', '결혼식', '트렌디', '선물', '휴양지', '캐주얼', '미니멀리즘'],
     like: 583,
     opt: 'UNIQUE',
@@ -3369,6 +3441,7 @@ export const datas = [
     contents:
       '막스마라 라인이 너무 많아서 이게 진짜인지 살짝 의구심은 드나 발란이니 맞겠거니하고 겨울 잘입고 다녔어요~ 고급져보이고 편해여 출근룩으로 어디든 잘어울려요',
     thumbnail: 'RV0000003542-1',
+    isLike: false,
     hashtags: ['결혼식', '베이직'],
     like: 576,
     opt: '40',
@@ -3398,6 +3471,7 @@ export const datas = [
     point: 5,
     contents: '이쁩니다 ㅋㅋ가방이 귀엽네요',
     thumbnail: '50e403187950b86d92932f506856e924-t.jpeg',
+    isLike: false,
     hashtags: ['비오는날'],
     like: 574,
     opt: 'TU',
@@ -3424,6 +3498,7 @@ export const datas = [
     contents:
       '구입후 실물 영접까지 단.하루~ 이건 혁명입니다, 금요일 주문 토요일 수령 ..저녁약속부터 ~행복한주말~~ 올 한해 수고한 나에게 주는 선물입니다.  힘들었던일 다 잊고 행복한 기억으로 마무리~',
     thumbnail: '0a58e6b0db64a4779ba3c0cb8eba27fe-t.jpg',
+    isLike: false,
     hashtags: ['선물'],
     like: 570,
     opt: '루이비통 / 추가금액없음',
@@ -3450,6 +3525,7 @@ export const datas = [
     contents:
       '미니 가방 좋아해서 찾아보던중 꽂혀서 찾아보다가\n가품이 많다고 하길래 조금 돈 더주고 안전하게 정품사야지 생각하고 발란에서 주문했어요!\n초록창에 가품 구별하는거 검색해서 비교해봤더니\n진품인것같아요!\n예뻐요!!',
     thumbnail: '5f0dafbf16814cf8e4573ffd08343012-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '베이직'],
     like: 566,
     opt: 'Small / (긴끈)Cream',
@@ -3476,6 +3552,7 @@ export const datas = [
     contents:
       '애셋엄마 주희힐링 여행인데 내가 힐링하는중  #해피초원목장  주희랑결혼한지 7년만에 단둘이 데이트는 처음이라항상 감사한 친구 오늘 너 많이 즐거워 보였는데 이유는 비밀로 할께',
     thumbnail: 'RV0000014399-1',
+    isLike: false,
     hashtags: ['데일리', '해피초원목장'],
     like: 563,
     opt: '블랙',
@@ -3502,6 +3579,7 @@ export const datas = [
     contents:
       '제 와이프가 155정도 되는데 사이즈가 딱 적당한것 같다고 \n좋아하네요 스트랩이 있어서 편하게 수 있어서 좋은것 같습니다^^',
     thumbnail: '956c7dc6eb3121eff6b4ac2cd2171863-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '포근한날씨'],
     like: 562,
     opt: 'UNIQUE',
@@ -3527,6 +3605,7 @@ export const datas = [
     point: 1,
     contents: '이게 정품 ...? 보증서도 없고 .. 이게 뭐죠 ..',
     thumbnail: 'e9bcdee9c1e397a35518fb7509dc143e-t.jpeg',
+    isLike: false,
     hashtags: ['데일리'],
     like: 561,
     opt: 'UNIQUE',
@@ -3552,6 +3631,7 @@ export const datas = [
     point: 5,
     contents: '좋습니다!! \n생각보다 크지않고 좋아요!!',
     thumbnail: 'cd5ee93b4b22a02c8a14984059a17348-t.jpg',
+    isLike: false,
     hashtags: ['럭셔리', '샤넬', '가방', '캐비어은장'],
     like: 559,
     opt: '블랙은장 / 미듐',
@@ -3578,6 +3658,7 @@ export const datas = [
     contents:
       '키168정도이니 사이즈참고하세요^^\n손큰여자에요 사이즈참고 하시고요 ㅋㅋ\n깔끔한배송 빠른배송왔구요 구매영수증 동봉해주신듯하고요.. 발란믿고 구매했어요~\n사이즈는 미니할까 스몰할까 하다가 스몰로 구매했더니 제키에.나쁘지않아요~ 워낙 작은백을 좋아하는데 폰이 노트라 너무작은거엔. 폰이랑.립넣음 땡이라.. \n요거 폰,립,차키,작은지갑, 물티슈 넉넉하게.들어가네요^^ 아코디언으로 쭉 늘어나서 물건들 넣고 뺄때. 입구가 생각보다 편해요!! 체인 아주 부드럽고요~ \n가죽에 눌린? 자국이있어서 이거 교환해야하나.망설였는데 이게.긁혔다고도..눌렸다고도.. .. \n아무튼 가방은 너무 예뻐요^^ 케주얼에도 정장에도 다 좋을듯하고요~ 아주 베이직한데 포인트는 금장로고와 체인이 충분히.해주니 망설이시는분들은 고고~~\n여기저기 좋은날 즐거운날 쭉 함께해야겠어요 ㅎㅎ\n여친, 마눌님 선물로 강추강추드려요 ㅋㅋㅋㅋ \n\n',
     thumbnail: 'e743cd0cc277a0ba0e3facac13c4cb51-t.jpg',
+    isLike: false,
     hashtags: ['출근룩', '결혼식', '선물', '캐주얼', '베이직', '클래식', '미니멀리즘'],
     like: 554,
     opt: '옵션 / 블랙',
@@ -3603,6 +3684,7 @@ export const datas = [
     point: 5,
     contents: '배송은 좀 늦었지만, 데일리로 좋아여',
     thumbnail: '49352ee26ed9ecb95e1a5c8293f1cdd2-t.jpeg',
+    isLike: false,
     hashtags: ['캐주얼'],
     like: 553,
     opt: 'One color / -',
@@ -3628,6 +3710,7 @@ export const datas = [
     point: 5,
     contents: '데일리로 매기 너무 좋은 백  #구찌수프림메신저백 #발란\n',
     thumbnail: 'RV0000008593-1',
+    isLike: false,
     hashtags: ['데일리', '트렌디', '유니크', '빈티지', '클래식', '구찌수프림메신저백', '발란'],
     like: 541,
     opt: 'U',
@@ -3653,6 +3736,7 @@ export const datas = [
     point: 5,
     contents: '많이 기대했는데 기대만큼 예쁘구요! 가볍게 매고 다니기도 좋고 결혼식 같은 곳에 매고다녀도 좋아여~',
     thumbnail: 'f67d8c3cb579d9e7d7590944baf90c33-t.png',
+    isLike: false,
     hashtags: ['데일리', '데이트', '결혼식'],
     like: 534,
     opt: '블랙 / One Size',
@@ -3679,6 +3763,7 @@ export const datas = [
     contents:
       ' 조막만한게 ㅋ ㅋ  너무 귀엽고 앙증맞아요~\n체인이 살짝 무게감 있어서 착용시 안정감있어요.\n제품 포장이 고급스럽고. 이렇게 정성들어간 포장은 처음이네요. 나름 대접받는 느낌이었습니다.\n당장이라도 착용하고 외출하고 싶어집니다 ~^^\n',
     thumbnail: '04a9ebfd3a2998a6c6f72e2982589410-t.jpg',
+    isLike: false,
     hashtags: ['선물'],
     like: 534,
     opt: 'UNIQUE',
@@ -3705,6 +3790,7 @@ export const datas = [
     contents:
       '체인줄이 조금 길고 생각보다 많이 작아요!\n지갑 안넣고 팩트랑 틴트랑 립밤 이렇게 들어가면 끝나요ㅎㅎ\n근데 예뻐요~',
     thumbnail: '7e80ac6261237238d98100abe525b558-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '캐주얼'],
     like: 531,
     opt: '블랙/골드 / ONE SIZE',
@@ -3731,6 +3817,7 @@ export const datas = [
     contents:
       '주문하고 몇일 안되 바로 받았어요:) 다른 사이트와 다르게 실시간 여유재고를 파악할 수 있다는 점이 정말 큰 메리트인 것 같아요! 앞으로 자주 구매하겠습니당!!',
     thumbnail: 'RV0000014383-1',
+    isLike: false,
     hashtags: ['데일리', '트렌디', '시크'],
     like: 522,
     opt: '캐비어 금장',
@@ -3756,6 +3843,7 @@ export const datas = [
     point: 5,
     contents: '원단이 따뜻해서 겨울에 잘 입고 다니고 기본 스타일이라 실증이 안날것 같아요.',
     thumbnail: 'c2e7da2cbbac7b2f8ff5679bd15340b5-t.jpg',
+    isLike: false,
     hashtags: ['베이직', '클래식', '우아함'],
     like: 521,
     opt: 'Camel-brown  / IT 40',
@@ -3786,6 +3874,7 @@ export const datas = [
     contents:
       '사이즈가 생각했더 딱 그 사이즈예요.\n괜히 고민했어요, 진작 살걸 ㅋ ㅋ ㅋ\n휘뚤마뚤 여기저기 잘 어울리는 디자인입니다.',
     thumbnail: '59e51712bd7e66ab75c55edc1d73d291-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '클래식'],
     like: 518,
     opt: '블랙/브라운 / .',
@@ -3811,6 +3900,7 @@ export const datas = [
     point: 5,
     contents: '일단 색감이 너무 예쁘고\n롱한 기장감에 편하게 입을 수 있어서 좋아요',
     thumbnail: 'RV0000009850-1',
+    isLike: false,
     hashtags: ['데일리', '러블리', '유니크', '로맨틱', '일요일'],
     like: 516,
     opt: 'M',
@@ -3841,6 +3931,7 @@ export const datas = [
     point: 5,
     contents: '배송현황 업데이트도 빠르고 검수영상도 직접 볼수있어 믿음직스럽 습니당 상품도 멀쩡히잘왔어용',
     thumbnail: 'RV0000008851-1',
+    isLike: false,
     hashtags: ['데일리', '비오는날'],
     like: 502,
     opt: 'TU',
@@ -3867,6 +3958,7 @@ export const datas = [
     contents:
       '클러치백중에  심플하고 럭셔리하고 이뻐요 \nm사이즈를 구메했는데 l로 구매할걸 하는 아쉬움이 좀 있네요\n넉넉히 넣어 다니실분들은 한사이즈 큰걸로',
     thumbnail: 'RV0000009217-1',
+    isLike: false,
     hashtags: ['선물', '시크', '러블리', '로맨틱', '럭셔리', '클래식'],
     like: 499,
     opt: 'M',
@@ -3893,6 +3985,7 @@ export const datas = [
     contents:
       '키가 160이라 그런지 체인이 너무 긴 것 같아요 크로스로 해도 좀 길어서 아쉬워요ㅠㅠ 그리고 가방 전체적인 모양이 찌그러진 느낌이라서ㅠㅠ원래 그런거지만 생각보다 좀 신경쓰였어요\n그래도 예쁘고 고급스럽긴 합니당',
     thumbnail: '609a3d26bd7931cfda4f22259672bf28-t.jpg',
+    isLike: false,
     hashtags: ['데일리', '출근룩', '데이트', '캐주얼', '럭셔리', '클래식'],
     like: 498,
     opt: '블랙/금장',
@@ -3919,6 +4012,7 @@ export const datas = [
     contents:
       '집사람이 가지고 싶어하던 녀석이라 비상금 털어서 샀습니다 잘모르는 제가 봐도 디자인이 심플하면서 이쁘더라구요 좋아하는 집사람 얼굴보구 제가 더 기쁘네요 좋은제품 감사합니다',
     thumbnail: 'RV0000018792-1-t.jpg',
+    isLike: false,
     hashtags: ['선물', '러블리', '럭셔리'],
     like: 495,
     opt: 'UNIQUE',
@@ -3945,6 +4039,7 @@ export const datas = [
     contents:
       '국내 가격이 너무 비싸서 발란에서 핫딜떠서 구매했어요.\n샌드색 너무 고급지고 이쁘구요\n가볍고 폭닥해서 데일리로 짱입니당\n\n배송도 단계별 다 연락주시고 동영상 패킹은 감동\n앞으로 자주 애용하려구요.\n감사합니다',
     thumbnail: 'RV0000014999-1-t.jpeg',
+    isLike: false,
     hashtags: ['데일리'],
     like: 491,
     opt: '40',
@@ -3975,6 +4070,7 @@ export const datas = [
     contents:
       '무엇보다  정품이라고 해서 구매합니다.  지방이라  백화점 멀고, 가도 바로 살수없다니 ㅠㅠ.  그래도  이곳에서 살수 있어 좋네요. 상품은 깨끗하게 포장 잘 되어 안심 배송되었습니다^^',
     thumbnail: 'd0b7235feebdfe62bb4de123fa0ab780-t.jpg',
+    isLike: false,
     hashtags: ['트렌디', '럭셔리'],
     like: 487,
     opt: '블랙은장 / 미듐',
@@ -4001,6 +4097,7 @@ export const datas = [
     contents:
       '생각보다 너무 작아서 놀래고. 저사이즈에 저금액이라니 역시샤넬인가 싶네요. 암튼 국내배송이라 빨리서좋네요.핸드폰이랑 카드지갑하나들가면 끝이네요ㅜㅜ',
     thumbnail: 'eff6601f0f70ee4aa7aa01a99f6ae7de-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '데이트', '결혼식', '러블리'],
     like: 479,
     opt: '색상 / 블랙금장',
@@ -4026,6 +4123,7 @@ export const datas = [
     point: 5,
     contents: '색상은 다른게 왔지만 흔치않은 컬러라 예뻐서 그냥 들려고요.  언제 어디에나 예쁜 레이디 디올^^',
     thumbnail: 'dfd706ef0706da86d070f46cf8afb2ee-t.jpeg',
+    isLike: false,
     hashtags: ['데이트', '결혼식', '파티', '캐주얼', '시크', '유니크', '로맨틱', '럭셔리', '클래식'],
     like: 475,
     opt: '00',
@@ -4052,6 +4150,7 @@ export const datas = [
     contents:
       '배송도 빠르도 쇼핑백도 동봉되서 선물하기도 좋을것 같아요!\n블랙와펜 너무 영롱하네요ㅎㅎ\n#꼼데가르송 #꼼데가르송가디건 #commedesgarcons',
     thumbnail: 'RV0000020304-1-t.jpg',
+    isLike: false,
     hashtags: ['꼼데가르송', '꼼데가르송가디건', 'commedesgarcons'],
     like: 472,
     opt: '블랙 블랙와펜 가디건 / L',
@@ -4083,6 +4182,7 @@ export const datas = [
     contents:
       '블랙을 주문했는데 다크블루가 왔지만 밝지 않아서 괜찮네요. 각진 쉐입이 고급스럽고 마음에 들어요. 캐주얼룩에도 잘 어울리고 차려입어야 하는 자리에서도 좋을 것 같아요. 데일리로 자주 손이 가겠네요. ',
     thumbnail: 'RV0000017647-1-t.jpg',
+    isLike: false,
     hashtags: ['데일리', '데이트', '트렌디', '캐주얼', '시크', '럭셔리'],
     like: 468,
     opt: '54',
@@ -4108,6 +4208,7 @@ export const datas = [
     point: 5,
     contents: ' 예뻐요 어디에나 잘어울려요',
     thumbnail: 'RV0000016424-1-t.jpg',
+    isLike: false,
     hashtags: ['선물', '캐주얼', '추운날씨', '럭셔리'],
     like: 466,
     opt: 'UNI',
@@ -4133,6 +4234,7 @@ export const datas = [
     point: 5,
     contents: '입어본 아우터중에 최고의 퀄리티입니다',
     thumbnail: 'dbd3a6fc75f4495763aa607e991afc7d-t.jpeg',
+    isLike: false,
     hashtags: ['데일리'],
     like: 465,
     opt: '50 / SIZE',
@@ -4164,6 +4266,7 @@ export const datas = [
     contents:
       '너무 특이한 골지 니트에요.\n시크하게 입기에 딱 좋고, 스키니와 와이드 팬츠 둘 다 너무 잘어울려서 애용하고 있습니다!',
     thumbnail: '44cbea94e62dc80fbc4ecfed4b73e29a-t.jpeg',
+    isLike: false,
     like: 107,
     opt: '34',
     open: 'best',
@@ -4230,6 +4333,7 @@ export const datas = [
     point: 5,
     contents: '웨딩 촬영때 입으려고 샀는데, 깔끔하고 이뻐요.',
     thumbnail: '563a821ec7f3026eb25371978f2529ee-t.jpeg',
+    isLike: false,
     like: 176,
     opt: '48',
     regdt: '2022-02-21 14:01:04',
@@ -4269,6 +4373,7 @@ export const datas = [
     point: 5,
     contents: '바프촬영에 입게됐는데 너무예뻐요ㅎㅎ 몸매보정은 안되지만 예쁩니다',
     thumbnail: '86d5b3f8ecfcbe1900ae232c564a34c0-t.jpeg',
+    isLike: false,
     like: 126,
     opt: '40',
     cdt: 1644723450,
@@ -4308,6 +4413,7 @@ export const datas = [
     point: 4,
     contents: '신어보니  착화감도좋고 요즘 스타일링과 잘매칭되서 너무 좋아요^^',
     thumbnail: '27caab05df2248e7cc98fcfa981305e9-t.jpeg',
+    isLike: false,
     like: 15,
     opt: '240',
     cdt: 1644723250,
@@ -4347,6 +4453,7 @@ export const datas = [
     point: 5,
     contents: '저렴하게 구입 했어요^^ 특별한 날에 신기 좋을 것 같아요~!\n245평소에 신어요~!',
     thumbnail: '4066071f34895d65d2f219a24461e5ec-t.jpeg',
+    isLike: false,
     like: 120,
     opt: '38½',
     cdt: 1644194782,
@@ -4395,6 +4502,7 @@ export const datas = [
     point: 5,
     contents: '웨딩슈즈용으로 구입하였습니다. \n사진과 동일하게 착용했을때 예쁩니다. \n잘착용하겠습니다.^^',
     thumbnail: '235d9471490e485b16c4100ceeab47a9-t.jpeg',
+    isLike: false,
     like: 148,
     opt: '36.5',
     cdt: 1643875869,
@@ -4435,6 +4543,7 @@ export const datas = [
     contents:
       '남자친구랑 커플로 맞췄어요~~\n그레이색이라 어디든 잘어울려요!!\n길이도 길어서 따뜻하구 예뻐서!!  넘넘 추천입니당',
     thumbnail: 'b6e467fc30915029434c7b6c4cd207b9-t.jpg',
+    isLike: false,
     hashtags: ['데일리', '데이트', '선물', '캐주얼', '로맨틱'],
     like: 93,
     opt: '그레이멜란지(당일발송) / UNIQUE',
@@ -4470,6 +4579,7 @@ export const datas = [
     point: 5,
     contents: '모든 옷에 완벽하게 신을수있네요',
     thumbnail: 'fc0aa58658e685a7afa57ae57db38b03-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '트렌디', '캐주얼'],
     like: 131,
     opt: '42',
@@ -4520,6 +4630,7 @@ export const datas = [
     contents:
       '폴로 랄프로렌 걸즈 케이블 니트 가디건.^^\n일명 꽈배기 가디건 네이비 구매했다가 \n화이트 L 하나 더 구매했어요~ \n한사이즈 크게 했더니 팔이 좀 길지만 너무 이뿌네요~ \n올해 11살이된 딸램 너무 좋아하구~\n매일 매일 네이비랑 번갈아가며 요것 만 입어요 ㅋ \n교복처럼 입어서 저도 좀 입으려는데 몰래 입고 나갈 수가 없어요 ㅋㅋ\n저에게는 기장이 좀 짧은감이 있지만 \n성인들도 핏하게 가능하니 추천합니다^^',
     thumbnail: 'da6e8ecd5d4d60120204ec02fc7440ad-t.jpeg',
+    isLike: false,
     hashtags: [
       '데일리',
       '출근룩',
@@ -4594,6 +4705,7 @@ export const datas = [
     point: 5,
     contents: '핏 예술! 이에요 ',
     thumbnail: '0fd2b4020ba0234c43e87c7b1620e22b-t.jpeg',
+    isLike: false,
     hashtags: ['트렌디', '캐주얼', '유니크'],
     like: 156,
     opt: '블랙 / s',
@@ -4634,6 +4746,7 @@ export const datas = [
     point: 5,
     contents: '매장에서 구매하는 가격보다 훨씬 저렴히 구매해서 기분 짱 좋습니다!!!! 발란짱♥️',
     thumbnail: '400b29e5a9623cfdded730700db22015-t.jpg',
+    isLike: false,
     hashtags: ['데일리'],
     like: 325,
     opt: 'One Color/S',
@@ -4673,6 +4786,7 @@ export const datas = [
     point: 5,
     contents: '너무 이뻐요! 청바지에 입으면 이쁘더라구요',
     thumbnail: 'e61dde0dcdba2786d43becef709658c5-t.jpeg',
+    isLike: false,
     hashtags: ['데일리'],
     like: 133,
     opt: 'S / 사이즈',
@@ -4713,6 +4827,7 @@ export const datas = [
     point: 5,
     contents: '옷이 생각보다 박시하지만 이뻐요 사진과 같아요',
     thumbnail: 'a26ec99a2ca7ce76a27709590522752e-t.jpeg',
+    isLike: false,
     hashtags: ['시크'],
     like: 166,
     opt: '50',
@@ -4753,6 +4868,7 @@ export const datas = [
     point: 5,
     contents: '테디자켓이 유행인 요즘 테디자켓의 원조 생로랑으로!\n역시 원조 답게 핏이 아주 좋습니다',
     thumbnail: 'f6157016784926c07e77824ef6badcdb-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '트렌디', '캐주얼'],
     like: 172,
     opt: '52',
@@ -4794,6 +4910,7 @@ export const datas = [
     contents:
       '배송기간이 좀 걸리긴했지만 미리통화로 안내를해주셔서 인내심을가지고 기다릴수있었습니당 ^^  가방 넘 이쁘구 잘맬께용❤',
     thumbnail: '67901adb5bd1d7e905a55fc9ba9c0100-t.jpg',
+    isLike: false,
     hashtags: ['데이트', '결혼식'],
     like: 621,
     opt: 'Black  / mini',
@@ -4830,6 +4947,7 @@ export const datas = [
     contents:
       '뮬은 원래 원래 사이즈보다 크게 주문해야 예뻐서 일부러 반 사이즈 크게 주문했는데 한사이즈 크게 주문했어도 괜찮았을 것 같아요! 그래도 예뻐요~\n겨울이라 지금은 데일리하게 신기에는 조금 춥긴 하지만, 너무 캐주얼해보이지도 않으면서 편하게 신을 수 있어 좋습니당',
     thumbnail: '268df01483f36b5964d9172eff720685-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '트렌디', '선물', '캐주얼', '시크', '베이직', '럭셔리'],
     like: 319,
     opt: '36.5',
@@ -4880,6 +4998,7 @@ export const datas = [
     contents:
       '폴로 랄프로렌 걸즈 꽈배기 가디건..\n10살 딸 M사이즈 딱!! 너무 이뿌네요~❤️\nMLB 짧은 체크스커트와 착장하니 패피 등극^^\n후기는 성인들이 훨씬 많지만 ㅎㅎㅎ\n걸즈에게 완벽한 폴로 가디건~\n\n가격도 저렴하게 사고 \n배송은 예정보다 빨리와서 감동^^\n발란 부띠끄 완전 애용할 듯~\n웜 화이트 하나 더 구매하러 갑니다~😘',
     thumbnail: '0e293fd33fc2150b53bf72adf28aadef-t.jpeg',
+    isLike: false,
     hashtags: [
       '데일리',
       '데이트',
@@ -4943,6 +5062,7 @@ export const datas = [
     point: 5,
     contents: '바캉스 외에도 초가을까진 휴양룩 혹은 캐쥬얼룩까지 다 잘 어울려요 :-)',
     thumbnail: 'f82e99bbb0d47db5a3a88f5f0807497f-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '데이트', '바캉스', '휴양지'],
     like: 364,
     opt: 'ONE SIZE',
@@ -4979,13 +5099,13 @@ export const datas = [
     contents:
       '발 진짜 따듯해서 좋고 캠핑갈때 신으면 너무 유용할것 같아서 구매,, 보테가의 시그니처 컬러가 너무 돋보여서 누가봐도 보테가 퍼들부츠로 보더라구요 뿌듯합니다',
     thumbnail: '5233853ad3e2406bff66b8587a845fe5-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '캐주얼', '추운날씨', '스트릿', '스포티'],
     like: 177,
     opt: '블랙 / EU 41',
     regdt: '2021-12-01 10:28:55',
     cdt: 1638322135,
     nickname: 'choamlee',
-    regdt: '2021-12-01 10:28:55',
     open: 'best',
     memberSize:
       '몸무게 : 45 ~ 49kg&nbsp;&nbsp;/&nbsp;&nbsp;키 : 160 ~ 164cm&nbsp;&nbsp;/&nbsp;&nbsp;평소 신발 사이즈 : 245',
@@ -5020,6 +5140,7 @@ export const datas = [
     point: 5,
     contents: '제가 생각했던 것 처럼 너무 예뻤고, 어디에나 잘 어울렸어요 ',
     thumbnail: '4d52800fe81b637106556b58940cc80c-t.jpeg',
+    isLike: false,
     hashtags: ['데이트', '결혼식', '로맨틱'],
     like: 598,
     opt: '네이비 블루 실크 트윌 / 무료배송',
@@ -5027,7 +5148,6 @@ export const datas = [
     cdt: 1638262787,
     nickname: 'sottoyoung',
     open: 'best',
-    regdt: '2021-11-30 17:59:47',
     memberSize: '키 : 165 ~ 169cm',
     reviewSize: [
       {
@@ -5057,6 +5177,7 @@ export const datas = [
     contents:
       '컬러감이나 디자인이 유니크해서 아이템 하나로 포인트주기 제격~! 요즘 미니백 유행인거 아시죠? 트렌디함이 뿜뿜라는 미니 미니멀 백!  그리고 이탈리아 브랜드를 위풍당당하게 표현한 플래그 디자인&컬러감&재치있는 슬로건까지 하트뿅뿅!! 가방 양면의 슬로건이 달라서 방향 바꿔서 그날의 무드에따라 바꿔 코디해도 very nice~~!! 지금같은 계절에는 두께감있는 코트나 패딩에 매칭해서 디자인 그대로 쇼핑백처럼 손에 들어도 예쁘고 저의 착용샷처럼 레더 혹은 니트에 크로스 해도 제격이에요! 물론 러블리한 원피스나 스커트에도 모두 오케잇!!😌 가방 색상과 디자인만보고 난 소화 못할거야 하는 분들도 생각보다 정말 쉽게 데일리로 함께할 수 있을 것 같아요!(참고로 전 화려한 비비드 컬러를 좋아하는 1인이라 제품 보자마자 바로 get한건 안비밀!!)',
     thumbnail: '7492708908822601d6b9ed38ed0a744d-t.jpeg',
+    isLike: false,
     hashtags: [
       '데일리',
       '출근룩',
@@ -5104,6 +5225,7 @@ export const datas = [
     point: 5,
     contents: '36사이즈 구매했어요.\n완전 오버핏으로 엉덩이 다 덮혀요.\n만셀로고 색상 너무너무 맘에 드네용🤍',
     thumbnail: '67dc98a54863fea37c18883856fcc8a5-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '데이트', '트렌디', '캐주얼', '베이직', '유니크', '스포티'],
     like: 244,
     opt: '36',
@@ -5144,6 +5266,7 @@ export const datas = [
     point: 5,
     contents: '핏은 슬림한거 같아요 전 안에 셔츠 같은 것도 입을 생각으로 좀 더 큰 사이즈로 구매했는데 딱 좋아요',
     thumbnail: 'dfde472191cc5c7314a80e0faf994c5b-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '출근룩', '데이트', '결혼식', '캐주얼', '시크', '베이직', '럭셔리', '클래식'],
     like: 293,
     opt: '40 / ONE',
@@ -5193,6 +5316,7 @@ export const datas = [
     point: 5,
     contents: '배송도 너무 깔끔하게 왔고 상품도 마음에 들어욘 ',
     thumbnail: 'c1f9057eafb0cce62a48c7e1c092bb1f-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '캐주얼', '포근한날씨'],
     like: 124,
     opt: 'M',
@@ -5233,6 +5357,7 @@ export const datas = [
     point: 5,
     contents: '남자친구가 좋아해요~ ㅋㅋㅋ',
     thumbnail: '464857e8d3e99aa55d55a2565533cd4e-t.jpg',
+    isLike: false,
     hashtags: ['캐주얼', '미니멀리즘'],
     like: 85,
     opt: '10',
@@ -5264,6 +5389,7 @@ export const datas = [
     contents:
       '엄청 오래기다렸어요ㅠ 제가 발볼이 좁은편이라 문제 없지만 좀 좁은신발인듯!? 40-45사이즈 신는데 45 넉넉히 잘 신고있어요\n일단 이 신발은 이쁜게 메리트!! 이뻐요',
     thumbnail: '43703a5dea2a608851c84c528557d7a0-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '유니크'],
     like: 346,
     opt: '서밋화이트AO3189-100 / 245',
@@ -5293,6 +5419,7 @@ export const datas = [
     point: 5,
     contents: '사이즈가 좀 작게나왓지만 신어보면 착화감이 너무 좋아요',
     thumbnail: 'dfc464b33164321e03c1fa949b4647f6-t.jpeg',
+    isLike: false,
     hashtags: ['데일리'],
     like: 326,
     opt: '시카고  / 235',
@@ -5323,6 +5450,7 @@ export const datas = [
     point: 5,
     contents: '생각보다 좀 크긴한데 베레모라 그냥 잘 쓰면 별 상관 없어요! 컬러 오묘하니 예쁩니당 ㅎㅎ',
     thumbnail: '7e77eafc26e022a3030e8a6f82a227c7-t.jpg',
+    isLike: false,
     hashtags: ['데일리', '출근룩', '선물', '베이직', '러블리'],
     like: 382,
     opt: '브라운 / UNIQUE',
@@ -5348,6 +5476,7 @@ export const datas = [
     point: 5,
     contents: '생각보다 많이들어가고 색이 너무예뻐요',
     thumbnail: '8e5c715e0c5e92efc65f985d73a6ea2f-t.jpeg',
+    isLike: false,
     hashtags: ['데이트', '바캉스', '선물', '휴양지'],
     like: 297,
     opt: 'OS',
@@ -5373,6 +5502,7 @@ export const datas = [
     point: 5,
     contents: '새신발 신고 단풍구경 다녀왔어요!',
     thumbnail: 'd656df12a560bd3180671389796b6b9f-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '캐주얼', '베이직', '빈티지'],
     like: 103,
     opt: 'UK6(245)',
@@ -5403,6 +5533,7 @@ export const datas = [
     point: 5,
     contents: '뒤의 스티치가 완전 필살기이고 위쪽에 조금남는 롱비니 디자인이 귀여운거같아요',
     thumbnail: 'e10558db6bfb4ba6666a88e5688f0764-t.jpg',
+    isLike: false,
     hashtags: ['데일리', '트렌디', '휴양지', '미니멀리즘'],
     like: 170,
     opt: 'ONE COLOR / M',
@@ -5429,6 +5560,7 @@ export const datas = [
     contents:
       '아무옷에나 잘어울리구 젤 자주신는 신발인데 신발 혓바닥이넘딱딱해서 첨에 발목 앞에 썰릴뻔했어용..ㅠ.ㅠ 구래듀 이뻐오',
     thumbnail: '2444815ff57d7e5d7ed8a6cb788e668c-t.jpg',
+    isLike: false,
     hashtags: ['데일리'],
     like: 248,
     opt: '37.5',
@@ -5459,6 +5591,7 @@ export const datas = [
     point: 5,
     contents: '38 / 40 사이즈 고민하다가 38사이즈 구매했는데 아주 딱맞고 좋습니다 ㅎㅎ 175/ 79 스펙입니다!!\n',
     thumbnail: 'ca3905555012ec37994e80b5d4294b99-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '출근룩', '데이트', '트렌디', '클래식'],
     like: 282,
     opt: '블랙 / 38',
@@ -5489,6 +5622,7 @@ export const datas = [
     point: 5,
     contents: '빠르게 왔고 너무 예쁘고 구하기 힘든 사이즈였는데 좋았습니당',
     thumbnail: '602fecb60deae8e3c98223512f1760ca-t.jpeg',
+    isLike: false,
     hashtags: ['데일리'],
     like: 281,
     opt: 'NATURAL&TAN; / 가로 37 세로 39.5',
@@ -5514,6 +5648,7 @@ export const datas = [
     point: 5,
     contents: '여자친구 선물로 샀는데 너무 좋아하네요! 배송도 일찍와서 생일 날에 줄수 있어 다행이었습니다. 👍👍',
     thumbnail: 'e0923ee60bb6b2dc677912f31b25075d-t.jpg',
+    isLike: false,
     hashtags: ['캐주얼', '스트릿', '댄스'],
     like: 273,
     opt: '브론즈이클립스 / 240',
@@ -5544,6 +5679,7 @@ export const datas = [
     point: 5,
     contents: '생각보다 두꺼운니트라요즘 날씨에 딱이예요',
     thumbnail: '6823c6117162c74400ef5fd962750b23-t.jpg',
+    isLike: false,
     hashtags: ['캐주얼'],
     like: 194,
     opt: 'XXL',
@@ -5574,6 +5710,7 @@ export const datas = [
     point: 5,
     contents: '생각보다 조금 무거워서 당황했지만 그만큼 튼튼해보이고 이뻐요!',
     thumbnail: 'a7481282b39f18cceeedc02d6429773f-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '선물'],
     like: 294,
     opt: 'UNIQUE',
@@ -5599,6 +5736,7 @@ export const datas = [
     point: 5,
     contents: '좋아하는 가오리핏 맨투맨 밑위가짧아서 레이어드 해서입기 좋아요',
     thumbnail: '1c6a25add76f61265348ed9876d0dd1a-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '캐주얼'],
     like: 184,
     opt: 'S',
@@ -5629,6 +5767,7 @@ export const datas = [
     point: 5,
     contents: '데일리로 쓰기 좋아요~\n모양잡힌캡인줄알았는데 아니네요',
     thumbnail: '1232f52be1190016b175ef86bb78d7e7-t.jpg',
+    isLike: false,
     hashtags: ['데일리'],
     like: 243,
     opt: 'UNI',
@@ -5654,6 +5793,7 @@ export const datas = [
     point: 5,
     contents: '너모너모 예쁘구 싸게 잘 구매햇어용 구하기 힘들다고 하더라고요',
     thumbnail: '17f877667b4ea5f8bc1d7662a99bbdf3-t.png',
+    isLike: false,
     hashtags: ['섹시'],
     like: 274,
     opt: '블랙 / UK5(235)',
@@ -5683,6 +5823,7 @@ export const datas = [
     point: 5,
     contents: '사진이랑 똑같고 정사이즈로 시켰는데 조금 컸어요. 꽉끈하니 맞아서 만족합니다!',
     thumbnail: '13517284582ce714c478febcc357d48a-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '출근룩', '트렌디', '베이직'],
     like: 271,
     opt: 'SIZE / 37',
@@ -5713,6 +5854,7 @@ export const datas = [
     point: 5,
     contents: '생각보단 조금 작았지만 충분히 수납력 좋고 너무 시크해여 ㅎㅎㅎ넘 예뻐요! 배송도 엄청 빨랐어요',
     thumbnail: '3497e0b682a8e63cdd9b7c82c3ac7b71-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '출근룩', '시크', '럭셔리'],
     like: 819,
     opt: 'UNI / 393953 BOW02 1000',
@@ -5748,6 +5890,7 @@ export const datas = [
     point: 5,
     contents: '작고 귀여움 . 스트랩이 두꺼워서 맘에 들고 , 포인트로 매고 다니기 딱 좋아요',
     thumbnail: 'a357358b65a5045524ceecc80fb2bed2-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '트렌디', '유니크', '미니멀리즘'],
     like: 298,
     opt: '블랙',
@@ -5773,6 +5916,7 @@ export const datas = [
     point: 5,
     contents: '가방보다는 지갑느낌이 더 강해요 레이어드해서 매면 예쁠듯해요',
     thumbnail: '9d4bdb3b69f899ea56f50f9f09c9eb53-t.jpeg',
+    isLike: false,
     hashtags: ['미니멀리즘'],
     like: 213,
     opt: '블랙 / 블랙 / OS',
@@ -5798,6 +5942,7 @@ export const datas = [
     point: 5,
     contents: '너무 잘 포장해주시구 남편 선물로 사줬는데 너무 편하게 잘입어요!\n정사이즈구요 오래 입을 것 같아요',
     thumbnail: '45143879d12d5c41e1e6a0d2fc540b48-t.jpeg',
+    isLike: false,
     hashtags: ['데일리'],
     like: 227,
     opt: 'XL',
@@ -5828,6 +5973,7 @@ export const datas = [
     point: 5,
     contents: '컬러가 핑크지만 너무 과하지않고 디자인이 깔끔해서 어느 복장에도 어울려요^^',
     thumbnail: '508282f0b37e0c4dc3bddaa1a52af5cc-t.jpeg',
+    isLike: false,
     hashtags: ['시크'],
     like: 246,
     opt: '59',
@@ -5853,6 +5999,7 @@ export const datas = [
     point: 5,
     contents: '의류중 첫 명품인데 후회 없이 잘 산것같다고 생각하네요 !\n180cm 65kg 인데 L사이즈 딱 좋은것같아요',
     thumbnail: 'aa8b0f78bff00763f9db2b6ec47b2bc4-t.jpeg',
+    isLike: false,
     hashtags: ['데일리'],
     like: 295,
     opt: '앤트러사이트 (V0163) / L',
@@ -5883,6 +6030,7 @@ export const datas = [
     point: 5,
     contents: '시즌 상관없이 매치하기 좋아여',
     thumbnail: '2d0db500747e01057555adac305be310-t.png',
+    isLike: false,
     hashtags: ['데일리', '비오는날', '캐주얼', '시크', '베이직', '컨템포러리', '스트릿', '스포티'],
     like: 188,
     opt: 'One Size',
@@ -5908,6 +6056,7 @@ export const datas = [
     point: 5,
     contents: '진짜 어느옷에도 잘어울리고 유광인데도 흠집 잘 안나고 \n왜 다들 안사세요? \n유광 사세요 여러분😭',
     thumbnail: '1f6a57ee5c82c30d557001dd58fafba8-t.jpeg',
+    isLike: false,
     hashtags: ['데일리'],
     like: 239,
     opt: 'ONESIZE',
@@ -5933,6 +6082,7 @@ export const datas = [
     point: 5,
     contents: '기존에 팬츠에 맡춰입으려고 구매했는데 언제나 그렇듯 잘 맞습니다. 잘 입고 있어요',
     thumbnail: '28cf7155f749a76765e99c7a47b656ed-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '럭셔리', '컨템포러리'],
     like: 245,
     opt: '블랙 / 3',
@@ -5963,6 +6113,7 @@ export const datas = [
     point: 5,
     contents: '슬림한 부츠컷은 셀린 말고 대체제가 없네요.. 너무 만족합니다',
     thumbnail: '5bc285b5143bc1411b89aa26a0335308-t.jpeg',
+    isLike: false,
     hashtags: ['미니멀리즘'],
     like: 188,
     opt: '28',
@@ -5994,6 +6145,7 @@ export const datas = [
     contents:
       '전 메종키츠네가 너뮤 조아여 ㅠㅠ,, \nxs 사이즈로 블랙을 샀었는데ㅠ\n너무 만족스러워서 화이트도 같은 사이즈로 주문 했더니 품절이라 얼마나 차이나겟나 싶어 s 사이즈로 샀숩니당\n근데 차이가 꽤 있네용,,, 😢😢\n넣어입을 기장 정도 되구 어깨선이랑 품이 좀 많이 넉넉 합니당 ㅠㅠ',
     thumbnail: '6df473369c3876d9f6121c7cfe391785-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '캐주얼', '일교차가큰날씨', '베이직'],
     like: 255,
     opt: 'S(93) / free',
@@ -6024,6 +6176,7 @@ export const datas = [
     point: 5,
     contents: '오버핏이라 활동이 너무 편해요. ',
     thumbnail: 'ee0827776f7435d341bccabe9037e8f0-t.jpeg',
+    isLike: false,
     hashtags: ['세련'],
     like: 156,
     opt: 'XS',
@@ -6055,6 +6208,7 @@ export const datas = [
     contents:
       '딱 원하던 핏 원하던 느낌이예요!\n긴팔 원숭이인데 또 넉넉한 소매길이를 선호학고,\n옷 잘못입으면 어깨 떡벌어져 보여서 어깨핏에 상당히 신경을 쓰는 편이라 일부러 77사이즈를 포대자루처럼 입을때도 있어요.\n66인데 어깨 너어~무나 이쁘게 툭! 떨어지고 \n소매도 아주 넉넉합니다.\n라펠도 커서 소두인간 만들어주네요.\n하나 더! 포켓 사이즈가 엄청 커서 장갑 착용하고도 손 쑥넣을 수 있겠어요. \n안감이 없는 디자인인게 아쉽지만 그만큼 몸에 무심하게 걸쳐지는 핏이 나오는 것 같아요.\n무게감도 적당해요.\n딱히 유행타는 스타일이 아니라 마르고 닳도록 한동안은 겨울마다 손이 많이 갈 듯합니다.\n결론은, 역시 좋은 선택이었다!👍🏻',
     thumbnail: '74fe23b3327b47e25f1ee3fa8a964bf8-t.jpeg',
+    isLike: false,
     hashtags: ['시크', '베이직', '럭셔리', '클래식'],
     like: 194,
     opt: '38',
@@ -6080,6 +6234,7 @@ export const datas = [
     point: 5,
     contents: '슬림핏과 튼튼한 소재',
     thumbnail: '9f9ac8de0caf784884bef2d798c01b02-t.jpeg',
+    isLike: false,
     hashtags: ['미니멀리즘', '컨템포러리'],
     like: 278,
     opt: '틱 / S',
@@ -6110,6 +6265,7 @@ export const datas = [
     point: 5,
     contents: '가방 사진이랑 똑같아요 ㅎㅎ\n데일리로 무난히 잘 매고 있습니당',
     thumbnail: 'c836c897ce27f22497d14d8e9f461ece-t.jpeg',
+    isLike: false,
     hashtags: ['데일리'],
     like: 245,
     opt: '블랙 / U',
@@ -6136,6 +6292,7 @@ export const datas = [
     contents:
       '배송 받자 마자 열어 봤는데 신발이 너무 예뻤어요. 색감도 예쁘고 스타일도 예쁘고 마음에 들었어요. 신발 착용감도 좋고 불편하지 않고,, 어떤 스타일에도 다 잘 어울려서 데일리로 많이 신고 있습니다. ',
     thumbnail: '5851684ec747793e68b3da673e9cf672-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '패션', '데일리룩'],
     like: 233,
     opt: '41',
@@ -6166,6 +6323,7 @@ export const datas = [
     point: 5,
     contents: '친구 생일선물 줬는데 편하게 입기 좋은가 봐요\n심플하고 예뻐요 추천해요!',
     thumbnail: '16413e3109b1eb39e9604010005d122e-t.jpeg',
+    isLike: false,
     hashtags: ['데일리'],
     like: 135,
     opt: '화이트 / 여성 S',
@@ -6196,6 +6354,7 @@ export const datas = [
     point: 5,
     contents: '어떤 옷에 입어도 정말 잘어울이는 신발😍',
     thumbnail: 'd662ac23038ca66a088c83e0c18e6a81-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '캐주얼'],
     like: 145,
     opt: '36',
@@ -6227,6 +6386,7 @@ export const datas = [
     contents:
       '한 번 눈에 들어오면 구매해야만 벗어날 수 있다는 포켓백병에서 탈출했어요~! \n발란위크에서 저렴히 구매했고 배송도 빨랐습니다 영업일 기준 받아보기까지 “3일” 걸렸어요\n구성품 누락이나 기스 같은 하자도 하나도 없었습니다\n토트백으로만 어울리겠지? 생각하고 구매했는데 크로스백으로 훨씬 많이 잘 매고 다녀요 사진은 토트백으로 들었지만 크로스백으로 아주! 잘 어울립니다\n크기도 부담스럽지 않은데 지갑 핸드폰 에어팟 립스틱 넣고도 자리가 많이 남아요 수납 좋아요\n\n결론 : 대만족',
     thumbnail: 'a06ad06439d37847de24c0d35f00984e-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '클래식'],
     like: 82,
     opt: 'One size(OS)',
@@ -6252,6 +6412,7 @@ export const datas = [
     point: 5,
     contents: '재질도 좋고 핏도 너무 좋아서 티 한장만 입거나 이너로 충분히 예쁘게 코디가능해요 ㅎ',
     thumbnail: 'b584b9099bb5f8900a7240f5ee9fdebf-t.jpeg',
+    isLike: false,
     hashtags: ['데일리'],
     like: 183,
     opt: 'X-Large',
@@ -6282,6 +6443,7 @@ export const datas = [
     point: 5,
     contents: '너무 예쁘고 안 삿으면 후회할 뻔 했습니다 ^^',
     thumbnail: '0a0a640eea525f5cadce87d7648cac9c-t.jpeg',
+    isLike: false,
     hashtags: ['트렌디'],
     like: 205,
     opt: 'UNI',
@@ -6307,6 +6469,7 @@ export const datas = [
     point: 5,
     contents: '빠른배송도 좋았고 가격도 저렴하게 잘구매했습니다. \n',
     thumbnail: '3f20cd28c61c2607b4976a1828b7b3f5-t.jpeg',
+    isLike: false,
     hashtags: ['미니멀리즘'],
     like: 144,
     opt: '41',
@@ -6338,6 +6501,7 @@ export const datas = [
     contents:
       '체인이 있어 두손 가볍게 다닐 수 있는 것이 큰 장점!\n차키도 들어가요bb\n저처럼 키가 작으신 분들은 체인을 한번 감아서\n사용하시면 길이가 딱이에요!! ㅎㅎ\n너무 귀여워요~~ 맘에 들어요♡♡',
     thumbnail: '6a120423e87acd36e6ab60c065a85e6a-t.jpg',
+    isLike: false,
     hashtags: ['데일리', '트렌디'],
     like: 207,
     opt: 'UNI',
@@ -6364,6 +6528,7 @@ export const datas = [
     contents:
       '너무 이쁘고 가볍고 좋아요.ㅠ 가격이 유난히 저렴해서 좀 불안했는데 받아보니 다 잊고 그저 이쁘단 생각뿐.ㅠ',
     thumbnail: 'de93e43dffafc5a85d0ecf134d5cdbb7-t.jpg',
+    isLike: false,
     hashtags: ['시크'],
     like: 125,
     opt: '설명참조 / free',
@@ -6389,6 +6554,7 @@ export const datas = [
     point: 5,
     contents: 'ㅎㅎㅎ진짜 예뻐요!!! 두루두루 실용성이 좋아서 자주 매고 다녀요!!',
     thumbnail: '73459bf13863c3bab3bfa93efdbc9c48-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '캐주얼'],
     like: 267,
     opt: 'S56WG0081 P0396 H7736',
@@ -6414,6 +6580,7 @@ export const datas = [
     point: 5,
     contents: '길이감은 좀 기ㄹ지만 소재좋고 딱 기본이에요',
     thumbnail: 'c66cc825afd3b98be75873beafc34eaa-t.jpeg',
+    isLike: false,
     hashtags: ['데일리', '데이트', '결혼식', '베이직', '클래식'],
     like: 89,
     opt: '40',
@@ -6444,6 +6611,7 @@ export const datas = [
     point: 5,
     contents: '두컬러로 사용이 가능해서 너무 좋아요^^ 사이즈는 크네요ㅠ',
     thumbnail: 'c66c23848d310feda30ae7af01a4be57-t.jpg',
+    isLike: false,
     hashtags: ['데일리', '빈티지', '클래식'],
     like: 101,
     opt: 'M/Leather',
@@ -6469,6 +6637,7 @@ export const datas = [
     point: 5,
     contents: '길이가 적당합니다 ! 제 키가 155인데 배꼽까지오네요 타이트했으면 더 좋았겠지만.. ! 넉넉합니다 ',
     thumbnail: 'ce30cff190f372b2d17e2a2fe3594523-t.jpg',
+    isLike: false,
     hashtags: ['운동', '트렌디', '캐주얼', '유니크', '스트릿'],
     like: 58,
     opt: 'XS',
@@ -6499,6 +6668,7 @@ export const datas = [
     point: 5,
     contents: '너무 이뻐요 사진도 딱 잘나와용',
     thumbnail: '05cc3dcd675e40d70b5983f57306a828-t.jpeg',
+    isLike: false,
     hashtags: ['데일리'],
     like: 185,
     opt: 'S',
@@ -6529,6 +6699,7 @@ export const datas = [
     point: 5,
     contents: '여름에 물놀이나 가볍게 입기 좋네요  바지가 무난해서 모든옷ㅇㅔ 잘어울립니다',
     thumbnail: 'c2057766a39e510629d14d26a565861b-t.jpeg',
+    isLike: false,
     hashtags: ['휴양지'],
     like: 37,
     opt: 'M',
@@ -6559,6 +6730,7 @@ export const datas = [
     point: 5,
     contents: '슬림해서 이뻐요 ❤️❤️❤️',
     thumbnail: 'd67b2dd61911c407dcf17059c0145968-t.jpeg',
+    isLike: false,
     hashtags: ['미니멀리즘'],
     like: 214,
     opt: '40',

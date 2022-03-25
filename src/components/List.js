@@ -1,9 +1,10 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import styled from 'styled-components';
 import { useDispatch, useSelector } from 'react-redux';
-import { getReviewData } from '../state/reducers/actionType';
+import { getReviewData, toggleLikeData } from '../state/reducers/actionType';
 import { TailSpin } from 'react-loader-spinner';
 import Comments from './Comments';
+import ShareModal from './ShareModal';
 
 const defaultOption = {
   root: null,
@@ -14,6 +15,8 @@ const defaultOption = {
 const List = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [ref, setRef] = useState(null);
+  const [isLike, setIsLike] = useState(false);
+  const [isShare, setIsShare] = useState(false);
 
   const dispatch = useDispatch();
   const { data, length } = useSelector((state) => ({
@@ -42,9 +45,24 @@ const List = () => {
       observer.observe(ref);
     }
     return () => observer && observer.disconnect();
-  },[ref, onIntersect])
+  }, [ref, onIntersect])
+  
+  const handleToggleLike = (id) => { 
+    dispatch(toggleLikeData(id));
+    setIsLike(!isLike);
+  }
+
+  const handleShareUrl = () => { 
+    setIsShare(!isShare);
+  }
+
+  const handleClickSaveReview = () => {
+    alert('로그인하셔야 본 서비스를 이용하실 수 있습니다');
+  }
+
   return (
     <ListContainter>
+      {isShare && <ShareModal open={setIsShare} />}
       <ul className="list-ul">
         {data.slice(0, length).map((item) => (
           <li key={item.id}>
@@ -53,34 +71,56 @@ const List = () => {
               <p className="review-date">{item.regdt.split(' ').slice(0, 1)}</p>
               <button className="report-icon"></button>
             </div>
-            <img src={'https://i.balaan.io/review/' + item.thumbnail} alt="리뷰이미지" className="review-thumb" />
+            <img
+              src={
+                item.thumbnail.includes('data:image') === false
+                  ? 'https://i.balaan.io/review/' + item.thumbnail
+                  : item.thumbnail
+              }
+              alt="리뷰이미지"
+              className="review-thumb"
+            />
             <DetailContent>
               <ul className="detail-icon">
                 <li>
-                  <button>
-                    <img
-                      src="https://static.balaan.co.kr/mobile/img/icon/like_hand.png"
-                      alt="좋아요버튼"
-                      className="like-btn"
-                    />
+                  <button
+                    onClick={() => {
+                      handleToggleLike(item.id);
+                    }}
+                    className="like-btn"
+                  >
+                    {isLike === false && (
+                      <img
+                        src="https://static.balaan.co.kr/mobile/img/icon/like_hand.png"
+                        alt="좋아요버튼"
+                        className="like-img"
+                      />
+                    )}
+                    {isLike === true && (
+                      <img
+                        src="https://static.balaan.co.kr/mobile/img/review/like-hand-fill.png?v4"
+                        alt="좋아요버튼"
+                        className="like-img"
+                      />
+                    )}
                     <span className="like-btn-txt">{item.like}</span>
                   </button>
                 </li>
                 <li>
-                  <button>
+                  <button className="share-btn" onClick={handleShareUrl}>
                     <img
                       src="https://static.balaan.co.kr/mobile/img/view/share.png?v=2"
                       alt="공유하기버튼"
-                      className="share-btn"
+                      className="share-img"
                     />
                   </button>
                 </li>
                 <li className="save-btn-list">
-                  <button>
+                  <button className="save-btn" onClick={handleClickSaveReview}>
                     <img
                       src="https://static.balaan.co.kr/mobile/img/icon/ic-new-heart-normal.png"
                       alt="저장하기버튼"
-                      className="save-btn"
+                      className="save-img"
                     />
                   </button>
                 </li>
@@ -136,14 +176,20 @@ const List = () => {
               <p className="review-txt">{item.contents}</p>
             </DetailContent>
             <ReviewSize>
-              <li>
-                <span className="reviewSize-Tit">{item.reviewSize[0].sizeTitle && item.reviewSize[0].sizeTitle}</span>
-                <span className="reviewSize-Txt">{item.reviewSize[0].sizeTxt && item.reviewSize[0].sizeTxt}</span>
-              </li>
-              <li>
-                <span className="reviewSize-Tit">{item.reviewSize[1].colorTitle && item.reviewSize[1].colorTitle}</span>
-                <span className="reviewSize-Txt">{item.reviewSize[1].colorTxt && item.reviewSize[1].colorTxt}</span>
-              </li>
+              {item.reviewSize[0] && (
+                <li>
+                  <span className="reviewSize-Tit">{item.reviewSize[0].sizeTitle && item.reviewSize[0].sizeTitle}</span>
+                  <span className="reviewSize-Txt">{item.reviewSize[0].sizeTxt && item.reviewSize[0].sizeTxt}</span>
+                </li>
+              )}
+              {item.reviewSize[1] && (
+                <li>
+                  <span className="reviewSize-Tit">
+                    {item.reviewSize[1].colorTitle && item.reviewSize[1].colorTitle}
+                  </span>
+                  <span className="reviewSize-Txt">{item.reviewSize[1].colorTxt && item.reviewSize[1].colorTxt}</span>
+                </li>
+              )}
               {item.reviewSize[2] && (
                 <li>
                   <span className="reviewSize-Tit">{item.reviewSize[2]?.footTitle || item.reviewSize.footTitle}</span>
@@ -204,13 +250,18 @@ const DetailContent = styled.div`
   .detail-icon {
     display: flex;
     align-items: center;
+    .like-btn,
+    .save-btn,
+    .share-btn {
+      cursor: pointer;
+    }
     .save-btn-list {
       flex: none;
       margin-left: auto;
     }
-    .like-btn,
-    .share-btn,
-    .save-btn {
+    .like-img,
+    .share-img,
+    .save-img {
       width: 31px;
       object-fit: contain;
     }

@@ -1,11 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import { useNavigate } from 'react-router';
 
 const Header = () => {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => { 
+    navigate('/review');
+  }
+
   return (
     <MainHeader>
-      <img src="https://i.balaan.io/mobile/img/icon/ico_logo.png" alt="발란 로고" className="logo" />
+      <div className="main-header">
+        <img src="https://i.balaan.io/mobile/img/icon/ico_logo.png" alt="발란 로고" className="logo" />
+        <button type="button" onClick={handleNavigate} className="review-btn">리뷰 등록</button>
+      </div>
       <Navbar>
         <ul className="nav">
           <li>
@@ -30,12 +39,27 @@ const Header = () => {
 }
 
 const MainHeader = styled.header`
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 20px -20px;
-  .logo {
+  .main-header {
+    display: flex;
+    justify-content: space-between;
     padding: 1.3rem;
-    width: 164px;
-    text-align: center;
-    object-fit: cover;
+    box-sizing: border-box;
+    align-items: center;
+    .logo {
+      width: 164px;
+      text-align: center;
+      object-fit: cover;
+    }
+    .review-btn {
+      padding: 0.7rem 1.3rem;
+      box-sizing: border-box;
+      background-color: #e7e8f9;
+      color: #4348a2;
+      border-radius: 30px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+    }
   }
 `;
 
@@ -47,11 +71,12 @@ const Navbar = styled.nav`
       padding: 1rem 1.3rem 0.5rem;
       font-size: 1.2rem;
       font-weight: 700;
+      box-sizing: border-box;
       color: #555;
       cursor: pointer;
     }
     .nav-review {
-      border-bottom: 3px solid #555;
+      border-bottom: 3px solid #4348a2;
     }
   }
 `;

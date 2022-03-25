@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import DetailReview from '../components/DetailReview';
+import DetailHeader from '../components/common/DetailHeader';
 
-const detail = () => {
+const Detail = () => {
   return (
-    <div>detail</div>
+    <>
+      <DetailHeader detail titleTxt="리뷰 상세보기"/>
+      <DetailReview />
+    </>
   )
 }
 
-export default detail;
+export default Detail;

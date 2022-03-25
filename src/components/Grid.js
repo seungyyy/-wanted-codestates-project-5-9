@@ -17,14 +17,13 @@ const Grid = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const { data, length } = useSelector((state) => ({
-    length: state.register.length,
     data: state.register.data,
   }));
   useEffect(() => {
-    if (length === 225 || data.length < length) {
+    if (data.length > 225 ) {
       setIsLoaded(false);
     } 
-  }, [length, data.length]);
+  }, [data.length]);
 
   const onIntersect = useCallback(
     ([entry], observer) => {

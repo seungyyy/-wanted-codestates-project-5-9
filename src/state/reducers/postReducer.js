@@ -1,10 +1,14 @@
 import { datas } from '../../asset/datas';
 import { POST_REVIEW } from './actionType';
 
-export const postReducer = (state = datas, action) => {
+const initialState = {
+  data: datas,
+};
+
+export const postReducer = (state = initialState, action) => {
   switch (action.type) {
     case POST_REVIEW: {
-      return state.push(action.data);
+      return state.data.push(action.data);
     }
     default:
       return state;

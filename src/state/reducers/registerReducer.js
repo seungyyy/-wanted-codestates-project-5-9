@@ -8,6 +8,7 @@ import {
   GET_REVIEW_SORT_RANDOM,
   ADD_COMMIT_DATA,
   TOGGLE_LIKE_DATA,
+  POST_REVIEW,
 } from './actionType';
 
 const initialState = {

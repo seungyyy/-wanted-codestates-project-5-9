@@ -43,7 +43,7 @@ const ReviewContent = () => {
       refInp.current.focus();
       return;
     }
-    if (refTxt.current.value.length < 10) {
+    if (refTxt.current.value.length < 7) {
       refTxt.current.focus();
       return;
     }

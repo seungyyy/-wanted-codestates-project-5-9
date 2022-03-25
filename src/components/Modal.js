@@ -79,8 +79,8 @@ const ModalContent = styled.ul`
   font-size: 16px;
   line-height: 34px;
   top: calc(100% / 3);
-  left: calc(100% / 500);
-  transform: translate(450%, -65%);
+  left: calc(100% / 5);
+  transform: translate(260%, -65%);
   width: 130px;
   box-sizing: border-box;
   border: 1px solid #ddd;

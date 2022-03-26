@@ -59,17 +59,17 @@ const ReviewContent = () => {
       reviewSize: [],
       isLike: false,
       point: points,
+      cdt: new Date().getTime(),
       regdt: new Date().toLocaleString(),
       thumbnail: files,
       contents: refTxt.current.value,
-      nickname: 'testUser' + toString(Math.floor(Math.random() * (900 - 100) + 100)),
+      nickname: 'testUser' + Math.floor(Math.random() * (900 - 100) + 100).toString(),
       id: Math.floor(Math.random() * (900000 - 50000) + 100000),
     };
 
     dispatch(postReview(addData));
     navigate('/');
   }
-  
 
   return (
     <Container>

@@ -24,6 +24,11 @@ export const registerReducer = (state = initialState, action) => {
         length: state.length + 15,
       };
     }
+    case POST_REVIEW: {
+      return Object.assign({}, state, {
+        data: state.data.concat(action.data),
+      });
+    }
     case GET_REVIEW_DETAIL_FAILURE: {
       return {
         ...state,

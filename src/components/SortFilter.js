@@ -16,6 +16,7 @@ const SortFilter = () => {
 
   const handleChangeRefresh = () => { 
     dispatch(getReviewSortRecent());
+    setBtnTxt('최신순');
   }
 
   return (

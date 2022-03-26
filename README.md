@@ -9,7 +9,7 @@
   
 # 배포 링크
 
-https://wanted-codestates-project-9-79jrym9nl-seungyyy.vercel.app/
+https://wanted-codestates-project-9-seungyyy.vercel.app/
 ## Usage(자세한 실행 방법)
 
 1. git clone
